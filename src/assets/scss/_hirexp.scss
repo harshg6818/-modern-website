@@ -1,0 +1,511 @@
+.main {
+    font-family: proxima-nova, helvetica, arial, sans-serif;
+}
+
+.nav-wrap {
+    background: linear-gradient(120deg, rgba(52, 43, 126, 1) 0%, rgba(84, 72, 189, 1) 33%, rgba(143, 72, 189, 1) 66%, rgba(197, 36, 55, 1) 100%);
+    color: #e8dff6;
+    .hirexp-nav {
+        justify-content: flex-end;
+        .hirexp-nav-item a {
+            color: #ffffff;
+            font-size: 1.3rem;
+            font-weight: 600;
+            &:hover {
+                color: #342B7E;
+                backface-visibility: hidden;
+                cursor: pointer;
+                transition: .5s ease;
+            }
+        }
+    }
+}
+
+.header-background-section {
+    .leftandin {
+        width: 100%;
+        .outer-left {
+            background: linear-gradient(120deg, rgba(52, 43, 126, 1) 0%, rgba(84, 72, 189, 1) 33%, rgba(143, 72, 189, 1) 66%, rgba(197, 36, 55, 1) 100%);
+            min-height: calc(100vh - 3.5rem);
+            width: 100%;
+            margin-left: -13.5%;
+            float: left;
+            position: absolute;
+        }
+        .inner {
+            border-top-left-radius: 50vh;
+            min-height: calc(100vh - 3.5rem);
+            box-shadow: inset 0 14px 5px rgba(0, 0, 0, 0.2), inset 0 14px 10px rgba(0, 0, 0, 0.5);
+            display: inline-block;
+            // height: 100%;
+            position: absolute;
+            right: 0;
+            width: 70%;
+        }
+        #inner1 {
+            background: url('~@/assets/images/thumbNew.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+.header-section {
+    font-family: proxima-nova, helvetica, arial, sans-serif;
+    // margin-bottom: 20rem;
+    .main-title {
+        margin-top: 15%;
+    }
+    .main-title-text {
+        line-height: 1.2;
+        font-size: 2.8rem;
+        font-weight: 700;
+        color: #ffffff;
+        text-align: left;
+        padding-left: 28%;
+    }
+    .main-sub-text {
+        line-height: 1.2;
+        font-size: 1.2rem;
+        color: #ffffff;
+        text-align: left;
+        padding-left: 28%;
+    }
+    .main-button {
+        margin-left: -45%;
+        margin-top: 8%;
+        .cta {
+            background: linear-gradient(120deg, rgba(213, 113, 24, 1) 0%, rgba(214, 0, 59, 1) 72%);
+            border: none;
+            border-radius: 30px;
+            box-shadow: -1px 2px 7px rgba(213, 78, 24, .4), 1px -1px 7px rgba(7, 6, 25, .4);
+            color: #e8dff6;
+            font-size: 1.3em;
+            letter-spacing: 1px;
+            padding: .6rem 3rem;
+            position: absolute;
+            text-shadow: 0px 0px 3px rgba(200, 200, 200, .4);
+            transition: background-size .9s ease-in;
+            z-index: 1;
+            p {
+                padding: 0;
+                margin: 0;
+            }
+            &:hover {
+                backface-visibility: hidden;
+                background-size: 150%;
+                box-shadow: 1px 2px 7px rgba(213, 78, 24, .3), 1px 1px 10px rgba(7, 6, 25, .3);
+                cursor: pointer;
+                text-shadow: 0px 0px 4px rgba(0, 0, 0, .4);
+                transition: background-size .9s ease-in;
+                transform: scale(0.98) !important;
+            }
+        }
+    }
+}
+
+.header-divider {
+    .margin20 {
+        margin: 24rem 0;
+    }
+}
+
+.hirexp-stats {
+    background-color: #ffffff;
+    margin: 2rem 0;
+    color: #342B7E;
+    .hirexp-stats-num {
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+    .hirexp-stats-sub {
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+}
+
+.hirexp-join {
+    padding: 4rem 0;
+    .hirexp-join-content-wrap {
+        text-align: left;
+        padding: 0 5rem;
+        margin-top: 8rem;
+        .hirexp-join-heading {
+            padding-right: 8rem;
+            font-size: 2.5rem;
+            line-height: 2.5rem;
+            color: #342B7E;
+            font-weight: 600;
+        }
+        .hirexp-join-heading-sub {
+            font-size: 1.3rem;
+            // color: #e8dff6;
+            line-height: 2.5rem;
+            font-weight: 600;
+        }
+    }
+    .hirexp-join-cards-row-first,
+    .hirexp-join-cards-row-second {
+        justify-content: space-evenly;
+    }
+    .hirexp-join-cards-row-second {
+        padding: 1rem 0;
+    }
+    .flip-card {
+        background-color: transparent;
+        width: 250px;
+        height: 250px;
+        perspective: 1000px;
+    }
+    .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+    }
+    .flip-card-front,
+    .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+    .flip-card-front {
+        background-color: #bbb;
+        color: black;
+    }
+    .flip-card-back {
+        background-color: #2980b9;
+        color: white;
+        transform: rotateY(180deg);
+    }
+}
+
+.hirexp-core-values {
+    .core-values-heading {
+        text-align: center;
+        // padding: 4rem 0 0 0;
+        font-size: 2.8rem;
+        font-weight: 700;
+        color: #342B7E;
+    }
+    .core-value-sub {
+        margin: 3rem 0;
+        width: 75%;
+        text-align: center;
+        // margin-left: -1rem;
+    }
+    .cover-values-card-first-row,
+    .cover-values-card-second-row {
+        justify-content: space-evenly;
+    }
+    .cover-values-card-second-row {
+        padding: 1rem 0;
+    }
+    .flip-card {
+        background-color: transparent;
+        width: 250px;
+        height: 250px;
+        perspective: 1000px;
+    }
+    .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+    }
+    .flip-card-front,
+    .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+    .flip-card-front {
+        background-color: #bbb;
+        color: black;
+    }
+    .flip-card-back {
+        background-color: #2980b9;
+        color: white;
+        transform: rotateY(180deg);
+    }
+}
+
+.life-hirexp-wrap {
+    background-image: url('~@/assets/images/life/knowledge-1.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .life-hirexp {
+        padding: 5% 0%;
+        background: rgba(0, 0, 0, 0.6);
+        .life-hirexp-heading {
+            padding: 2% 0;
+            font-size: 2.8rem;
+            font-weight: 700;
+            color: #ffffff;
+        }
+        .life-hirexp-img {
+            padding: 0;
+            overflow: hidden;
+            img {
+                border-radius: 6px;
+                &:hover {
+                    -webkit-transition: 0.4s ease;
+                    transition: 0.4s ease;
+                    transform: scale(1.5);
+                }
+            }
+            &:hover {
+                -webkit-transition: 0.4s ease;
+                transition: 0.4s ease;
+            }
+        }
+    }
+}
+
+.core-values {
+    background-color: #e3e8eb;
+    padding-bottom: 1em;
+    .core-values-heading {
+        text-align: left;
+        padding: 4rem 0 0 0;
+        font-size: 2.8rem;
+        font-weight: 700;
+        color: #342B7E;
+    }
+    .core-value-sub {
+        text-align: left;
+        margin-left: -1rem;
+        margin-bottom: 6rem;
+    }
+    // core value one 
+    .core-values-wrap-one .core-values-one {
+        background-color: #ca99d7;
+        margin-bottom: 8rem;
+        padding-bottom: 5rem;
+        border-radius: .4rem;
+        .core-value-image-one {
+            img {
+                padding-top: 7em;
+                width: 400px;
+            }
+        }
+        .core-value-card-wrap {
+            padding-right: 9%;
+            margin-top: -3.2rem;
+            .core-value-card {
+                border-radius: 6px;
+                background-color: #ffffff;
+                color: #000000;
+                padding: 5.5rem 5.65rem 8.25rem;
+                text-align: left;
+                transition: opacity .6s, transform .6s;
+                transition-timing-function: cubic-bezier(.12, .845, .305, 1);
+                .card-heading {
+                    font-size: 2.8rem;
+                    line-height: 1.28;
+                    font-weight: 550;
+                    margin-bottom: 2rem;
+                }
+                .card-sub {
+                    letter-spacing: .08em;
+                }
+                .card-btn {
+                    border-radius: 30px;
+                    margin-top: 3.5rem;
+                    background-color: #fff;
+                    color: #282a2d;
+                    border: .3rem solid #f1f4f6;
+                    line-height: 4.2rem;
+                    padding: .5rem 3rem;
+                    &:hover {
+                        background-color: #ca99d7;
+                        color: #ffffff;
+                        text-decoration: none;
+                        transition: .5s ease;
+                    }
+                }
+            }
+        }
+    }
+    // core value two
+    .core-values-wrap-two .core-values-two {
+        background-color: #88cf8f;
+        margin-bottom: 8rem;
+        padding-bottom: 5rem;
+        border-radius: .4rem;
+        .core-value-image-two {
+            img {
+                padding-top: 7em;
+                width: 400px;
+            }
+        }
+        .core-value-card-wrap {
+            padding-left: 9%;
+            margin-top: -3.2rem;
+            .core-value-card {
+                border-radius: 6px;
+                background-color: #ffffff;
+                color: #000000;
+                padding: 5.5rem 5.65rem 8.25rem;
+                text-align: left;
+                transition: opacity .6s, transform .6s;
+                transition-timing-function: cubic-bezier(.12, .845, .305, 1);
+                .card-heading {
+                    font-size: 2.8rem;
+                    line-height: 1.28;
+                    font-weight: 550;
+                    margin-bottom: 2rem;
+                }
+                .card-sub {
+                    letter-spacing: .08em;
+                }
+                .card-btn {
+                    border-radius: 30px;
+                    margin-top: 3.5rem;
+                    background-color: #fff;
+                    color: #282a2d;
+                    border: .3rem solid #f1f4f6;
+                    line-height: 4.2rem;
+                    padding: .5rem 3rem;
+                    &:hover {
+                        background-color: #88cf8f;
+                        color: #ffffff;
+                        text-decoration: none;
+                        transition: .5s ease;
+                    }
+                }
+            }
+        }
+    }
+    // core value three
+    .core-values-wrap-three .core-values-three {
+        background-color: #f8ce6a;
+        margin-bottom: 2rem;
+        padding-bottom: 5rem;
+        border-radius: .4rem;
+        .core-value-image-three {
+            img {
+                padding-top: 7em;
+                width: 400px;
+            }
+        }
+        .core-value-card-wrap {
+            padding-right: 9%;
+            margin-top: -3.2rem;
+            .core-value-card {
+                border-radius: 6px;
+                background-color: #ffffff;
+                color: #000000;
+                padding: 5.5rem 5.65rem 8.25rem;
+                text-align: left;
+                transition: opacity .6s, transform .6s;
+                transition-timing-function: cubic-bezier(.12, .845, .305, 1);
+                .card-heading {
+                    font-size: 2.8rem;
+                    line-height: 1.28;
+                    font-weight: 550;
+                    margin-bottom: 2rem;
+                }
+                .card-sub {
+                    letter-spacing: .08em;
+                }
+                .card-btn {
+                    border-radius: 30px;
+                    margin-top: 3.5rem;
+                    background-color: #fff;
+                    color: #282a2d;
+                    border: .3rem solid #f1f4f6;
+                    line-height: 4.2rem;
+                    padding: .5rem 3rem;
+                    &:hover {
+                        background-color: #f8ce6a;
+                        color: #ffffff;
+                        text-decoration: none;
+                        transition: .5s ease;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.hirexp-peoples {
+    background-color: #e3e8eb;
+    .hirexp-peoples-tabs-wrap {}
+}
+
+.hirexp-perks-section {
+    background-color: #e3e8eb;
+    .hirexp-perks-head {
+        padding: 2em 0;
+        .hirexp-perks-heading {
+            font-size: 2.8rem;
+            font-weight: 700;
+            color: #342B7E;
+        }
+        .hirexp-perks-sub {
+            font-size: 1rem;
+            line-height: 2.2rem;
+        }
+    }
+    .perks-card {
+        .perks-card-icon {
+            text-align: left;
+            font-size: 1.5rem;
+            padding-bottom: .5rem;
+            color: #342B7E;
+        }
+        .perks-card-heading {
+            text-align: left;
+            font-weight: 700;
+        }
+        .perks-card-sub {
+            text-align: left;
+            font-size: 1rem;
+            line-height: 2.2rem;
+            font-weight: 400;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+.hirexp-openings-section {
+    background-color: #e3e8eb;
+    height: 80vh;
+    .hirexp-openings-heading {
+        font-size: 2.8rem;
+        font-weight: 700;
+        color: #342B7E;
+        padding-bottom: 2rem;
+    }
+    .hirexp-location {
+        img {
+            height: 150px;
+            &::hover {
+                fill: #342B7E;
+            }
+        }
+        &::hover {
+            fill: #342B7E;
+        }
+    }
+}
