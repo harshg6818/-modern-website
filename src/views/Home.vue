@@ -210,131 +210,144 @@
     </section>
 
     <section class="hirexp-core-values">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-5">
-            <h2 class="core-values-heading">Our values</h2>
-            <!-- <div class="col-xs-12 col-lg-5 col-md-5 col-sm-5"> -->
-            <p class="core-value-sub">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi,
-              possimus ex. Deserunt est reiciendis necessit atibus harum.
-            </p>
-          </div>
-          <!-- </div> -->
-          <div class="col-lg-7">
-            <div class="container-fluid">
-              <div class="row cover-values-card-first-row">
-                <div class="flip-card">
-                  <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                      <img
-                        src="../assets/img_avatar.png"
-                        alt="Avatar"
-                        style="width:250px;height:250px;"
-                      />
+      <b-container>
+        <b-row cols="1" cols-sm="2" cols-md="4" cols-lg="2">
+          <b-col>
+            <div class="hirexp-core-values-content-wrap">
+              <div class="core-values-icon">
+                <img src="../assets/values-icon.png" alt="values icon" />
+              </div>
+              <h2 class="core-values-heading">Our values</h2>
+              <div class="core-value-sub">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi,
+                possimus ex. Deserunt est reiciendis necessit atibus harum.
+              </div>
+            </div>
+          </b-col>
+          <b-col>
+            <b-row cols-lg="2">
+              <b-col class="p-0 m-0">
+                <div class="content">
+                  <a class="card" href="#!">
+                    <div
+                      class="front"
+                      style="background-image: url(https://images.unsplash.com/photo-1584910643800-540e9e31ce32?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=401&ixlib=rb-1.2.1&q=80&w=300);"
+                    >
+                      <p>Lorem ipsum dolor sit amet consectetur adipisi.</p>
                     </div>
-                    <div class="flip-card-back">
-                      <h1>John Doe</h1>
-                      <p>Architect & Engineer</p>
-                      <p>We love that guy</p>
+                    <div class="back">
+                      <div>
+                        <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                        <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
+                        <button class="button">Click Here</button>
+                      </div>
                     </div>
+                  </a>
+                </div>
+              </b-col>
+              <b-col class="p-0 m-0">
+                <div class="content">
+                  <a class="card" href="#!">
+                    <div
+                      class="front"
+                      style="background-image: url(https://images.unsplash.com/photo-1584910643800-540e9e31ce32?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=401&ixlib=rb-1.2.1&q=80&w=300);"
+                    >
+                      <p>Lorem ipsum dolor sit amet consectetur adipisi.</p>
+                    </div>
+                    <div class="back">
+                      <div>
+                        <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                        <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
+                        <button class="button">Click Here</button>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </b-col>
+            </b-row>
+          </b-col>
+        </b-row>
+      </b-container>
+      <b-container>
+        <b-row cols-lg="4">
+          <b-col class="p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div
+                  class="front"
+                  style="background-image: url(https://images.unsplash.com/photo-1584910643800-540e9e31ce32?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=401&ixlib=rb-1.2.1&q=80&w=300);"
+                >
+                  <p>Lorem ipsum dolor sit amet consectetur adipisi.</p>
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
+                    <button class="button">Click Here</button>
                   </div>
                 </div>
-                <div class="flip-card">
-                  <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                      <img
-                        src="../assets/img_avatar.png"
-                        alt="Avatar"
-                        style="width:250px;height:250px;"
-                      />
-                    </div>
-                    <div class="flip-card-back">
-                      <h1>John Doe</h1>
-                      <p>Architect & Engineer</p>
-                      <p>We love that guy</p>
-                    </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div
+                  class="front"
+                  style="background-image: url(https://images.unsplash.com/photo-1584910643800-540e9e31ce32?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=401&ixlib=rb-1.2.1&q=80&w=300);"
+                >
+                  <p>Lorem ipsum dolor sit amet consectetur adipisi.</p>
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
+                    <button class="button">Click Here</button>
                   </div>
                 </div>
-              </div>
+              </a>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row cover-values-card-second-row">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="../assets/img_avatar.png" alt="Avatar" style="width:250px;height:250px;" />
-              </div>
-              <div class="flip-card-back">
-                <h1>John Doe</h1>
-                <p>Architect & Engineer</p>
-                <p>We love that guy</p>
-              </div>
+          </b-col>
+          <b-col class="p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div
+                  class="front"
+                  style="background-image: url(https://images.unsplash.com/photo-1584910643800-540e9e31ce32?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=401&ixlib=rb-1.2.1&q=80&w=300);"
+                >
+                  <p>Lorem ipsum dolor sit amet consectetur adipisi.</p>
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
             </div>
-          </div>
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="../assets/img_avatar.png" alt="Avatar" style="width:250px;height:250px;" />
-              </div>
-              <div class="flip-card-back">
-                <h1>John Doe</h1>
-                <p>Architect & Engineer</p>
-                <p>We love that guy</p>
-              </div>
+          </b-col>
+          <b-col class="p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div
+                  class="front"
+                  style="background-image: url(https://images.unsplash.com/photo-1584910643800-540e9e31ce32?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=401&ixlib=rb-1.2.1&q=80&w=300);"
+                >
+                  <p>Lorem ipsum dolor sit amet consectetur adipisi.</p>
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
             </div>
-          </div>
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="../assets/img_avatar.png" alt="Avatar" style="width:250px;height:250px;" />
-              </div>
-              <div class="flip-card-back">
-                <h1>John Doe</h1>
-                <p>Architect & Engineer</p>
-                <p>We love that guy</p>
-              </div>
-            </div>
-          </div>
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="../assets/img_avatar.png" alt="Avatar" style="width:250px;height:250px;" />
-              </div>
-              <div class="flip-card-back">
-                <h1>John Doe</h1>
-                <p>Architect & Engineer</p>
-                <p>We love that guy</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="hirexp-section">
-      <div class="container">
-        <div class="content">
-          <a class="card" href="#!">
-            <div
-              class="front"
-              style="background-image: url(https://images.unsplash.com/photo-1584910643800-540e9e31ce32?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=401&ixlib=rb-1.2.1&q=80&w=300);"
-            >
-              <p>Lorem ipsum dolor sit amet consectetur adipisi.</p>
-            </div>
-            <div class="back">
-              <div>
-                <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
-                <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
-                <button class="button">Click Here</button>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
+          </b-col>
+        </b-row>
+      </b-container>
     </section>
 
     <section class="hirexp-peoples">
