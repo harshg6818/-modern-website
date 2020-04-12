@@ -350,6 +350,111 @@
       </b-container>
     </section>
 
+    <section class="hirexp-tech-stack">
+      <b-container>
+        <b-row>
+          <b-col>
+            <div class="tech-stach-icon">
+              <img src="../assets/stack.png" />
+            </div>
+            <div class="tech-stach-heading">Tech Stack At HireXP</div>
+          </b-col>
+        </b-row>
+      </b-container>
+      <b-container fluid>
+        <b-row cols-lg="6">
+          <b-col>
+            <div class="tech-stack-card-wrap">
+              <div class="tech-android">
+                <img src="../assets/images/tech/android.png" />
+              </div>
+            </div>
+          </b-col>
+          <b-col>
+            <div class="tech-stack-card-wrap">
+              <div class="tech-angular">
+                <img src="../assets/images/tech/angular.png" />
+              </div>
+            </div>
+          </b-col>
+          <b-col>
+            <div class="tech-stack-card-wrap">
+              <div class="tech-aws">
+                <img src="../assets/images/tech/aws.png" />
+              </div>
+            </div>
+          </b-col>
+          <b-col>
+            <div class="tech-stack-card-wrap">
+              <div class="tech-django">
+                <img src="../assets/images/tech/django.png" />
+              </div>
+            </div>
+          </b-col>
+          <b-col>
+            <div class="tech-stack-card-wrap">
+              <div class="tech-javascript">
+                <img src="../assets/images/tech/javascript.svg" />
+              </div>
+            </div>
+          </b-col>
+          <b-col>
+            <div class="tech-stack-card-wrap">
+              <div class="tech-mysql">
+                <img src="../assets/images/tech/mysql.jpg" />
+              </div>
+            </div>
+          </b-col>
+        </b-row>
+      </b-container>
+      <b-container fluid>
+        <b-row cols-lg="6">
+          <b-col>
+            <div class="tech-stack-card-wrap">
+              <div class="tech-android">
+                <img src="../assets/images/tech/postgres.png" />
+              </div>
+            </div>
+          </b-col>
+          <b-col>
+            <div class="tech-stack-card-wrap">
+              <div class="tech-angular">
+                <img src="../assets/images/tech/python.jpg" />
+              </div>
+            </div>
+          </b-col>
+          <b-col>
+            <div class="tech-stack-card-wrap">
+              <div class="tech-aws">
+                <img src="../assets/images/tech/redis.jpg" />
+              </div>
+            </div>
+          </b-col>
+          <b-col>
+            <div class="tech-stack-card-wrap">
+              <div class="tech-django">
+                <img src="../assets/images/tech/selenium.png" />
+              </div>
+            </div>
+          </b-col>
+          <b-col>
+            <div class="tech-stack-card-wrap">
+              <div class="tech-javascript">
+                <img src="../assets/images/tech/vuejs.png" />
+              </div>
+            </div>
+          </b-col>
+          <b-col>
+            <div class="tech-stack-card-wrap">
+              <div class="tech-mysql">
+                <img src="../assets/images/tech/webpack.png" />
+              </div>
+            </div>
+          </b-col>
+        </b-row>
+      </b-container>
+    </section>
+
     <section class="hirexp-peoples">
       <div class="container-fluid">
         <div class="hirexp-peoples-tabs-wrap">
