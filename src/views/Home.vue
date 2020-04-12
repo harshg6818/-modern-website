@@ -98,6 +98,7 @@
     <div class="container header-divider">
       <div class="margin20"></div>
     </div>
+
     <section class="hirexp-stats">
       <div class="container">
         <div class="row">
@@ -118,93 +119,94 @@
     </section>
 
     <section class="hirexp-join">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-5">
-            <div class="container">
-              <div class="hirexp-join-content-wrap">
-                <h1 class="hirexp-join-heading">Join the winning team</h1>
-                <div class="hirexp-join-heading-sub">
-                  If you wish to be a part of an energetic group relentlessly
-                  working to fast-forward into the future, in a transparent and
-                  holistic work environment, you are at the right place to realize
-                  your synergies.
-                </div>
+      <b-container>
+        <b-row cols="1" cols-sm="2" cols-md="4" cols-lg="2">
+          <b-col>
+            <div class="hirexp-join-content-wrap">
+              <div class="hirexp-join-icon">
+                <img src="../assets/images/join-icon.jpg" alt="join icon" />
+              </div>
+              <h1 class="hirexp-join-heading">Join the winning team</h1>
+              <div class="hirexp-join-heading-sub">
+                If you wish to be a part of an energetic group relentlessly
+                working to fast-forward into the future, in a transparent and
+                holistic work environment, you are at the right place to realize
+                your synergies.
               </div>
             </div>
-          </div>
-          <div class="col-lg-7">
-            <div class="row hirexp-join-cards-row-first">
-              <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <img
-                      src="../assets/img_avatar.png"
-                      alt="Avatar"
-                      style="width:250px;height:250px;"
-                    />
-                  </div>
-                  <div class="flip-card-back">
-                    <h1>John Doe</h1>
-                    <p>Architect & Engineer</p>
-                    <p>We love that guy</p>
-                  </div>
+          </b-col>
+          <b-col class="cards-bg">
+            <b-row cols-lg="2">
+              <b-col class="p-0 m-0">
+                <div class="content card-one">
+                  <a class="card" href="#!">
+                    <div class="front card-one-img">
+                      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                    </div>
+                    <div class="back">
+                      <div>
+                        <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                        <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
+                        <button class="button">Click Here</button>
+                      </div>
+                    </div>
+                  </a>
                 </div>
-              </div>
-              <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <img
-                      src="../assets/img_avatar.png"
-                      alt="Avatar"
-                      style="width:250px;height:250px;"
-                    />
-                  </div>
-                  <div class="flip-card-back">
-                    <h1>John Doe</h1>
-                    <p>Architect & Engineer</p>
-                    <p>We love that guy</p>
-                  </div>
+              </b-col>
+              <b-col class="p-0 m-0">
+                <div class="content card-two">
+                  <a class="card" href="#!">
+                    <div class="front card-two-img">
+                      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                    </div>
+                    <div class="back">
+                      <div>
+                        <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                        <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
+                        <button class="button">Click Here</button>
+                      </div>
+                    </div>
+                  </a>
                 </div>
-              </div>
-            </div>
-            <div class="row hirexp-join-cards-row-second">
-              <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <img
-                      src="../assets/img_avatar.png"
-                      alt="Avatar"
-                      style="width:250px;height:250px;"
-                    />
-                  </div>
-                  <div class="flip-card-back">
-                    <h1>John Doe</h1>
-                    <p>Architect & Engineer</p>
-                    <p>We love that guy</p>
-                  </div>
+              </b-col>
+            </b-row>
+            <b-row cols-lg="2">
+              <b-col class="p-0 m-0">
+                <div class="content card-three">
+                  <a class="card" href="#!">
+                    <div class="front card-three-img">
+                      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                    </div>
+                    <div class="back">
+                      <div>
+                        <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                        <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
+                        <button class="button">Click Here</button>
+                      </div>
+                    </div>
+                  </a>
                 </div>
-              </div>
-              <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <img
-                      src="../assets/img_avatar.png"
-                      alt="Avatar"
-                      style="width:250px;height:250px;"
-                    />
-                  </div>
-                  <div class="flip-card-back">
-                    <h1>John Doe</h1>
-                    <p>Architect & Engineer</p>
-                    <p>We love that guy</p>
-                  </div>
+              </b-col>
+              <b-col class="p-0 m-0">
+                <div class="content card-four">
+                  <a class="card" href="#!">
+                    <div class="front card-four-img">
+                      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                    </div>
+                    <div class="back">
+                      <div>
+                        <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                        <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
+                        <button class="button">Click Here</button>
+                      </div>
+                    </div>
+                  </a>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+              </b-col>
+            </b-row>
+          </b-col>
+        </b-row>
+      </b-container>
     </section>
 
     <section class="hirexp-core-values">
@@ -309,6 +311,28 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hirexp-section">
+      <div class="container">
+        <div class="content">
+          <a class="card" href="#!">
+            <div
+              class="front"
+              style="background-image: url(https://images.unsplash.com/photo-1584910643800-540e9e31ce32?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=401&ixlib=rb-1.2.1&q=80&w=300);"
+            >
+              <p>Lorem ipsum dolor sit amet consectetur adipisi.</p>
+            </div>
+            <div class="back">
+              <div>
+                <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
+                <button class="button">Click Here</button>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
     </section>

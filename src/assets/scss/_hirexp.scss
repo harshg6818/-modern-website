@@ -114,6 +114,7 @@
 .hirexp-stats {
     background-color: #ffffff;
     margin: 2rem 0;
+    padding-top: 1rem;
     color: #342B7E;
     .hirexp-stats-num {
         font-size: 2.5rem;
@@ -129,8 +130,17 @@
     padding: 4rem 0;
     .hirexp-join-content-wrap {
         text-align: left;
-        padding: 0 5rem;
-        margin-top: 8rem;
+        padding-right: 5rem;
+        margin-top: 4rem;
+        .hirexp-join-icon {
+            width: 12rem;
+            height: 10rem;
+            img {
+                margin-left: -2.3rem;
+                width: 12rem;
+                height: 12rem;
+            }
+        }
         .hirexp-join-heading {
             padding-right: 8rem;
             font-size: 2.5rem;
@@ -139,53 +149,161 @@
             font-weight: 600;
         }
         .hirexp-join-heading-sub {
-            font-size: 1.3rem;
-            // color: #e8dff6;
+            font-size: 1.5rem;
             line-height: 2.5rem;
-            font-weight: 600;
+            font-weight: 500;
         }
     }
-    .hirexp-join-cards-row-first,
-    .hirexp-join-cards-row-second {
-        justify-content: space-evenly;
+    .content {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 1000px;
+        .card {
+            color: inherit;
+            cursor: pointer;
+            width: 100%;
+            height: 260px;
+            min-height: 260px;
+            perspective: 1000px;
+            margin: 1rem;
+            position: relative;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            &:hover .front {
+                transform: rotateY(180deg);
+            }
+            &:hover .back {
+                transform: rotateY(0deg);
+            }
+            &:nth-child(even) .back .button {
+                background: linear-gradient(135deg, #e61a80, #e61a3c);
+            }
+            &:nth-child(even) .back .button:before {
+                box-shadow: 0 0 10px 10px rgba(230, 26, 60, 0.25);
+                background-color: rgba(230, 26, 60, 0.25);
+            }
+            .front,
+            .back {
+                display: flex;
+                border-radius: 6px;
+                background-position: center;
+                background-size: cover;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;
+                transform-style: preserve-3d;
+                transition: ease-in-out 600ms;
+            }
+            .front {
+                background-size: cover;
+                padding: 2rem;
+                font-size: 1.618rem;
+                font-weight: 600;
+                color: #fff;
+                overflow: hidden;
+                &:before {
+                    position: absolute;
+                    display: block;
+                    content: '';
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    // background: linear-gradient(135deg, #96D1F3, #96B2F3);
+                    opacity: 0.25;
+                    z-index: -1;
+                }
+                &.card-one-img {
+                    background-image: url('~@/assets/images/join/hirexp-join-1.jpg');
+                }
+                &.card-two-img {
+                    background-image: url('~@/assets/images/join/hirexp-join-2.jpg');
+                }
+                &.card-three-img {
+                    background-image: url('~@/assets/images/join/hirexp-join-3.jpg');
+                }
+                &.card-four-img {
+                    background-image: url('~@/assets/images/join/hirexp-join-4.jpg');
+                }
+            }
+            .back {
+                background: #ffffff;
+                color: #333;
+                transform: rotateY(-180deg);
+                padding: 0 2em;
+                .button {
+                    transform: translateZ(40px);
+                    cursor: pointer;
+                    -webkit-backface-visibility: hidden;
+                    backface-visibility: hidden;
+                    font-weight: bold;
+                    color: #fff;
+                    padding: 0.5em 1em;
+                    border-radius: 100px;
+                    border: none;
+                    position: relative;
+                    transform-style: preserve-3d;
+                    transition: 300ms ease;
+                    background: linear-gradient(135deg, #1a9be6, #1a57e6);
+                    &:before {
+                        transition: 300ms ease;
+                        position: absolute;
+                        display: block;
+                        content: '';
+                        transform: translateZ(-40px);
+                        -webkit-backface-visibility: hidden;
+                        backface-visibility: hidden;
+                        height: calc(100% - 20px);
+                        width: calc(100% - 20px);
+                        border-radius: 100px;
+                        left: 10px;
+                        top: 16px;
+                        box-shadow: 0 0 10px 10px rgba(26, 87, 230, 0.25);
+                        background-color: rgba(26, 87, 230, 0.25);
+                    }
+                    &:hover {
+                        transform: translateZ(55px);
+                    }
+                    &:hover:before {
+                        transform: translateZ(-55px);
+                    }
+                    &:active {
+                        transform: translateZ(20px);
+                    }
+                    &:active:before {
+                        transform: translateZ(-20px);
+                        top: 12px;
+                    }
+                }
+            }
+        }
+        &.card-two,
+        &.card-four {
+            margin-top: -3rem;
+        }
     }
-    .hirexp-join-cards-row-second {
-        padding: 1rem 0;
-    }
-    .flip-card {
-        background-color: transparent;
-        width: 250px;
-        height: 250px;
-        perspective: 1000px;
-    }
-    .flip-card-inner {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        text-align: center;
-        transition: transform 0.6s;
-        transform-style: preserve-3d;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    }
-    .flip-card:hover .flip-card-inner {
-        transform: rotateY(180deg);
-    }
-    .flip-card-front,
-    .flip-card-back {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
-    }
-    .flip-card-front {
-        background-color: #bbb;
-        color: black;
-    }
-    .flip-card-back {
-        background-color: #2980b9;
-        color: white;
-        transform: rotateY(180deg);
+    .cards-bg {
+        &:before {
+            content: "";
+            position: absolute;
+            top: 8rem;
+            left: 0;
+            margin-left: -4rem;
+            width: 51.3rem;
+            height: 18rem;
+            z-index: -1;
+            background: rgb(52, 43, 126);
+            background: linear-gradient(120deg, rgba(52, 43, 126, 1) 0%, rgba(84, 72, 189, 1) 33%, rgba(143, 72, 189, 1) 66%, rgba(197, 36, 55, 1) 100%);
+            // background-image: linear-gradient(120deg, #eaee44, #33d0ff);
+            opacity: .7;
+        }
     }
 }
 
@@ -296,151 +414,124 @@
         margin-left: -1rem;
         margin-bottom: 6rem;
     }
-    // core value one 
-    .core-values-wrap-one .core-values-one {
-        background-color: #ca99d7;
-        margin-bottom: 8rem;
-        padding-bottom: 5rem;
-        border-radius: .4rem;
-        .core-value-image-one {
-            img {
-                padding-top: 7em;
-                width: 400px;
+}
+
+.hirexp-section {
+    .content {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 1000px;
+        .card {
+            color: inherit;
+            cursor: pointer;
+            width: calc(33% - 2rem);
+            min-width: calc(33% - 2rem);
+            height: 400px;
+            min-height: 400px;
+            perspective: 1000px;
+            margin: 1rem;
+            position: relative;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            &:hover .front {
+                transform: rotateY(180deg);
             }
-        }
-        .core-value-card-wrap {
-            padding-right: 9%;
-            margin-top: -3.2rem;
-            .core-value-card {
+            &:hover .back {
+                transform: rotateY(0deg);
+            }
+            &:nth-child(even) .back .button {
+                background: linear-gradient(135deg, #e61a80, #e61a3c);
+            }
+            &:nth-child(even) .back .button:before {
+                box-shadow: 0 0 10px 10px rgba(230, 26, 60, 0.25);
+                background-color: rgba(230, 26, 60, 0.25);
+            }
+            .front,
+            .back {
+                display: flex;
                 border-radius: 6px;
-                background-color: #ffffff;
-                color: #000000;
-                padding: 5.5rem 5.65rem 8.25rem;
-                text-align: left;
-                transition: opacity .6s, transform .6s;
-                transition-timing-function: cubic-bezier(.12, .845, .305, 1);
-                .card-heading {
-                    font-size: 2.8rem;
-                    line-height: 1.28;
-                    font-weight: 550;
-                    margin-bottom: 2rem;
+                background-position: center;
+                background-size: cover;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;
+                transform-style: preserve-3d;
+                transition: ease-in-out 600ms;
+            }
+            .front {
+                background-size: cover;
+                padding: 2rem;
+                font-size: 1.618rem;
+                font-weight: 600;
+                color: #fff;
+                overflow: hidden;
+                &:before {
+                    position: absolute;
+                    display: block;
+                    content: '';
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    background: linear-gradient(135deg, #1a9be6, #1a57e6);
+                    opacity: 0.25;
+                    z-index: -1;
                 }
-                .card-sub {
-                    letter-spacing: .08em;
-                }
-                .card-btn {
-                    border-radius: 30px;
-                    margin-top: 3.5rem;
-                    background-color: #fff;
-                    color: #282a2d;
-                    border: .3rem solid #f1f4f6;
-                    line-height: 4.2rem;
-                    padding: .5rem 3rem;
-                    &:hover {
-                        background-color: #ca99d7;
-                        color: #ffffff;
-                        text-decoration: none;
-                        transition: .5s ease;
+            }
+            .back {
+                background: #ffffff;
+                color: #333;
+                transform: rotateY(-180deg);
+                padding: 0 2em;
+                .button {
+                    transform: translateZ(40px);
+                    cursor: pointer;
+                    -webkit-backface-visibility: hidden;
+                    backface-visibility: hidden;
+                    font-weight: bold;
+                    color: #fff;
+                    padding: 0.5em 1em;
+                    border-radius: 100px;
+                    border: none;
+                    position: relative;
+                    transform-style: preserve-3d;
+                    transition: 300ms ease;
+                    background: linear-gradient(135deg, #1a9be6, #1a57e6);
+                    &:before {
+                        transition: 300ms ease;
+                        position: absolute;
+                        display: block;
+                        content: '';
+                        transform: translateZ(-40px);
+                        -webkit-backface-visibility: hidden;
+                        backface-visibility: hidden;
+                        height: calc(100% - 20px);
+                        width: calc(100% - 20px);
+                        border-radius: 100px;
+                        left: 10px;
+                        top: 16px;
+                        box-shadow: 0 0 10px 10px rgba(26, 87, 230, 0.25);
+                        background-color: rgba(26, 87, 230, 0.25);
                     }
-                }
-            }
-        }
-    }
-    // core value two
-    .core-values-wrap-two .core-values-two {
-        background-color: #88cf8f;
-        margin-bottom: 8rem;
-        padding-bottom: 5rem;
-        border-radius: .4rem;
-        .core-value-image-two {
-            img {
-                padding-top: 7em;
-                width: 400px;
-            }
-        }
-        .core-value-card-wrap {
-            padding-left: 9%;
-            margin-top: -3.2rem;
-            .core-value-card {
-                border-radius: 6px;
-                background-color: #ffffff;
-                color: #000000;
-                padding: 5.5rem 5.65rem 8.25rem;
-                text-align: left;
-                transition: opacity .6s, transform .6s;
-                transition-timing-function: cubic-bezier(.12, .845, .305, 1);
-                .card-heading {
-                    font-size: 2.8rem;
-                    line-height: 1.28;
-                    font-weight: 550;
-                    margin-bottom: 2rem;
-                }
-                .card-sub {
-                    letter-spacing: .08em;
-                }
-                .card-btn {
-                    border-radius: 30px;
-                    margin-top: 3.5rem;
-                    background-color: #fff;
-                    color: #282a2d;
-                    border: .3rem solid #f1f4f6;
-                    line-height: 4.2rem;
-                    padding: .5rem 3rem;
                     &:hover {
-                        background-color: #88cf8f;
-                        color: #ffffff;
-                        text-decoration: none;
-                        transition: .5s ease;
+                        transform: translateZ(55px);
                     }
-                }
-            }
-        }
-    }
-    // core value three
-    .core-values-wrap-three .core-values-three {
-        background-color: #f8ce6a;
-        margin-bottom: 2rem;
-        padding-bottom: 5rem;
-        border-radius: .4rem;
-        .core-value-image-three {
-            img {
-                padding-top: 7em;
-                width: 400px;
-            }
-        }
-        .core-value-card-wrap {
-            padding-right: 9%;
-            margin-top: -3.2rem;
-            .core-value-card {
-                border-radius: 6px;
-                background-color: #ffffff;
-                color: #000000;
-                padding: 5.5rem 5.65rem 8.25rem;
-                text-align: left;
-                transition: opacity .6s, transform .6s;
-                transition-timing-function: cubic-bezier(.12, .845, .305, 1);
-                .card-heading {
-                    font-size: 2.8rem;
-                    line-height: 1.28;
-                    font-weight: 550;
-                    margin-bottom: 2rem;
-                }
-                .card-sub {
-                    letter-spacing: .08em;
-                }
-                .card-btn {
-                    border-radius: 30px;
-                    margin-top: 3.5rem;
-                    background-color: #fff;
-                    color: #282a2d;
-                    border: .3rem solid #f1f4f6;
-                    line-height: 4.2rem;
-                    padding: .5rem 3rem;
-                    &:hover {
-                        background-color: #f8ce6a;
-                        color: #ffffff;
-                        text-decoration: none;
-                        transition: .5s ease;
+                    &:hover:before {
+                        transform: translateZ(-55px);
+                    }
+                    &:active {
+                        transform: translateZ(20px);
+                    }
+                    &:active:before {
+                        transform: translateZ(-20px);
+                        top: 12px;
                     }
                 }
             }
