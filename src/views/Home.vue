@@ -21,32 +21,17 @@
       </div>
     </header>
 
-    <section class="header-background-section">
-      <div class="animated fadeIn">
-        <div class="body-overlay">
-          <div class="container">
-            <div class="leftandin animated" id="leftandin1">
-              <div class="outer-left fadeIn delay-06s"></div>
-              <div class="inner animated fadeIn" id="inner1"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <section class="header-section">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-xs-12 col-lg-5 col-md-5 col-sm-5 main-title">
-            <div class="container main-title-text animated fadeInLeft">
-              We are an architect of experience
+      <b-container fluid>
+        <b-row>
+          <b-col cols="5">
+            <b-container class="header-wrap">
+              <div class="main-title-text animated fadeInLeft">
+              We are an architect<br />of experience
             </div>
-            <!-- <div class="container main-sub-text">
-              If you wish to be a part of an energetic group relentlessly
-              working to fast-forward into the future, in a transparent and
-              holistic work environment, you are at the right place to realize
-              your synergies.
-            </div>-->
+            <div class="main-sub-text">
+              Come built with us
+            </div>
             <diV class="main-button">
               <a class="fadeIn">
                 <button class="cta animated pulse">
@@ -54,52 +39,16 @@
                 </button>
               </a>
             </diV>
-          </div>
-          <div class="col-xs-12 col-lg-7 col-md-7 col-sm-7">
-            <!-- <img src="../assets/careerPage.svg" /> -->
-          </div>
-        </div>
-      </div>
+            </b-container>
+          </b-col>
+          <b-col cols="7">
+            <div class="image-bg">
+              <div class="inner animated fadeIn" id="inner1"></div>
+            </div>
+          </b-col>
+        </b-row>
+      </b-container>
     </section>
-    <!-- <section class="life-hirexp-wrap">
-      <div class="life-hirexp">
-        <div class="container">
-          <h2 class="life-hirexp-heading">Life At HireXP</h2>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-lg-4 col-md-4 col-sm-4 life-hirexp-img">
-              <img src="../assets/images/life/1.jpg" alt="life 1" width="100%" />
-            </div>
-            <div class="col-xs-12 col-lg-4 col-md-4 col-sm-4 life-hirexp-img">
-              <img src="../assets/images/life/1.jpg" alt="life 1" width="100%" />
-            </div>
-            <div class="col-xs-12 col-lg-4 col-md-4 col-sm-4 life-hirexp-img">
-              <img src="../assets/images/life/1.jpg" alt="life 1" width="100%" />
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-lg-3 col-md-3 col-sm-3 life-hirexp-img">
-              <img src="../assets/images/life/1.jpg" alt="life 1" width="100%" />
-            </div>
-            <div class="col-xs-12 col-lg-3 col-md-3 col-sm-3 life-hirexp-img">
-              <img src="../assets/images/life/1.jpg" alt="life 1" width="100%" />
-            </div>
-            <div class="col-xs-12 col-lg-3 col-md-3 col-sm-3 life-hirexp-img">
-              <img src="../assets/images/life/1.jpg" alt="life 1" width="100%" />
-            </div>
-            <div class="col-xs-12 col-lg-3 col-md-3 col-sm-3 life-hirexp-img">
-              <img src="../assets/images/life/1.jpg" alt="life 1" width="100%" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>-->
-    <div class="container header-divider">
-      <div class="margin20"></div>
-    </div>
 
     <section class="hirexp-stats">
       <div class="container">
