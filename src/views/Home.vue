@@ -166,7 +166,7 @@
 
     <section class="hirexp-core-values">
       <b-container class="hirexp-core-values-container">
-        <b-row cols="1" cols-sm="2" cols-md="4" cols-lg="2">
+        <b-row cols-lg="1">
           <b-col>
             <div class="hirexp-core-values-content-wrap">
               <div class="core-values-icon">
@@ -849,6 +849,7 @@
     </section>
 
     <section class="hirexp-openings-section">
+      <b-container class="hirexp-opening-container"></b-container>
       <b-container>
         <b-row cols-lg="1">
           <b-col>
@@ -883,36 +884,8 @@
           </b-col>
         </b-row>
       </b-container>
-      <b-container class="hirexp-jobs" fluid>
-        <b-row cols-lg="5">
-          <b-col>
-            <a class="job-card-wrap" href="/">
-              <div class="job-card-container">
-                <div class="job-card">
-                  <div class="job-card-title">
-                    <h2>Product Manager</h2>
-                  </div>
-                  <div class="job-card-details">
-                    <p class="job-card-location">
-                      <i class="fas fa-map-marker-alt"></i>
-                      Gurgaon
-                    </p>
-                    <p class="job-card-stack">
-                      <i class="fas fa-users"></i>
-                      Tech
-                    </p>
-                    <p class="job-card-exp">
-                      <i class="fas fa-briefcase"></i>
-                      3 years
-                    </p>
-                  </div>
-                  <div class="job-card-button">
-                    <span>View job</span>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </b-col>
+      <b-container class="hirexp-jobs">
+        <b-row cols-lg="4">
           <b-col>
             <a class="job-card-wrap" href="/">
               <div class="job-card-container">

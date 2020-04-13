@@ -138,7 +138,7 @@
 .hirexp-join {
     .hirexp-join-container {
         .row {
-            margin: 0 -4rem;
+            margin: 0 -2rem;
         }
         .hirexp-join-content-wrap {
             margin-bottom: 2rem;
@@ -146,7 +146,7 @@
                 width: 12rem;
                 height: 10rem;
                 img {
-                    margin: 0px 33rem;
+                    margin: 0px 29.8rem;
                     width: 12rem;
                     height: 12rem;
                 }
@@ -314,15 +314,17 @@
 }
 
 .hirexp-core-values {
+    margin: 4rem 0;
     .hirexp-core-values-container {
         .row {
-            margin: 0 -4rem;
+            margin: 0 -2rem;
         }
         .hirexp-core-values-content-wrap {
             .core-values-icon {
-                display: flex;
-                justify-content: center;
+                width: 12rem;
+                height: 8rem;
                 img {
+                    margin: 0px 32rem;
                     width: 7rem;
                     height: 7rem;
                 }
@@ -803,6 +805,9 @@
         }
     }
     .hirexp-jobs {
+        .row {
+            margin: 0 -3rem;
+        }
         margin-bottom: 4rem;
         .job-card-wrap {
             display: flex;
