@@ -122,10 +122,9 @@
 }
 
 .hirexp-stats {
-    background-color: #ffffff;
-    margin: 2rem 0;
-    padding-top: 1rem;
-    color: #342b7e;
+    background: linear-gradient(90deg, #61245e, #42276f 90%);
+    padding: 1rem 0;
+    color: #ffffff;
     .hirexp-stats-num {
         font-size: 2.5rem;
         font-weight: 600;
@@ -137,325 +136,323 @@
 }
 
 .hirexp-join {
-    padding: 4rem 0;
-    .hirexp-join-content-wrap {
-        text-align: left;
-        padding-right: 5rem;
-        margin-top: 4rem;
-        .hirexp-join-icon {
-            width: 12rem;
-            height: 10rem;
-            img {
-                margin-left: -2.3rem;
+    .hirexp-join-container {
+        .row {
+            margin: 0 -4rem;
+        }
+        .hirexp-join-content-wrap {
+            margin-bottom: 2rem;
+            .hirexp-join-icon {
                 width: 12rem;
-                height: 12rem;
+                height: 10rem;
+                img {
+                    margin: 0px 33rem;
+                    width: 12rem;
+                    height: 12rem;
+                }
             }
-        }
-        .hirexp-join-heading {
-            padding-right: 8rem;
-            font-size: 2.5rem;
-            line-height: 2.5rem;
-            color: #342b7e;
-            font-weight: 600;
-        }
-        .hirexp-join-heading-sub {
-            font-size: 1.5rem;
-            line-height: 2.5rem;
-            font-weight: 500;
-        }
-    }
-    .content {
-        display: flex;
-        margin: 0 auto;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        max-width: 1000px;
-        .card {
-            color: inherit;
-            cursor: pointer;
-            width: 100%;
-            height: 260px;
-            min-height: 260px;
-            perspective: 1000px;
-            margin: 1rem;
-            position: relative;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-            &:hover .front {
-                transform: rotateY(180deg);
-            }
-            &:hover .back {
-                transform: rotateY(0deg);
-            }
-            &:nth-child(even) .back .button {
-                background: linear-gradient(135deg, #e61a80, #e61a3c);
-            }
-            &:nth-child(even) .back .button:before {
-                box-shadow: 0 0 10px 10px rgba(230, 26, 60, 0.25);
-                background-color: rgba(230, 26, 60, 0.25);
-            }
-            .front,
-            .back {
-                display: flex;
-                border-radius: 6px;
-                background-position: center;
-                background-size: cover;
-                text-align: center;
-                justify-content: center;
-                align-items: center;
-                position: absolute;
-                height: 100%;
-                width: 100%;
-                -webkit-backface-visibility: hidden;
-                backface-visibility: hidden;
-                transform-style: preserve-3d;
-                transition: ease-in-out 600ms;
-            }
-            .front {
-                background-size: cover;
-                padding: 2rem;
-                font-size: 1.618rem;
+            .hirexp-join-heading {
+                font-size: 2.5rem;
+                line-height: 2.5rem;
+                color: #342b7e;
                 font-weight: 600;
-                color: #fff;
-                overflow: hidden;
-                &:before {
-                    position: absolute;
-                    display: block;
-                    content: "";
-                    top: 0;
-                    left: 0;
-                    right: 0;
-                    bottom: 0;
-                    // background: linear-gradient(135deg, #96D1F3, #96B2F3);
-                    opacity: 0.25;
-                    z-index: -1;
-                }
-                &.card-one-img {
-                    background-image: url("~@/assets/images/join/hirexp-join-1.jpg");
-                }
-                &.card-two-img {
-                    background-image: url("~@/assets/images/join/hirexp-join-2.jpg");
-                }
-                &.card-three-img {
-                    background-image: url("~@/assets/images/join/hirexp-join-3.jpg");
-                }
-                &.card-four-img {
-                    background-image: url("~@/assets/images/join/hirexp-join-4.jpg");
-                }
             }
-            .back {
-                background: #ffffff;
-                color: #333;
-                transform: rotateY(-180deg);
-                padding: 0 2em;
-                .button {
-                    transform: translateZ(40px);
-                    cursor: pointer;
+            .hirexp-join-heading-sub {
+                font-size: 1.5rem;
+                line-height: 2.5rem;
+                font-weight: 500;
+            }
+        }
+        .content {
+            display: flex;
+            margin: 0 auto;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            max-width: 1000px;
+            .card {
+                color: inherit;
+                cursor: pointer;
+                width: 100%;
+                height: 260px;
+                min-height: 260px;
+                perspective: 1000px;
+                margin: 1rem;
+                position: relative;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                &:hover .front {
+                    transform: rotateY(180deg);
+                }
+                &:hover .back {
+                    transform: rotateY(0deg);
+                }
+                &:nth-child(even) .back .button {
+                    background: linear-gradient(135deg, #e61a80, #e61a3c);
+                }
+                &:nth-child(even) .back .button:before {
+                    box-shadow: 0 0 10px 10px rgba(230, 26, 60, 0.25);
+                    background-color: rgba(230, 26, 60, 0.25);
+                }
+                .front,
+                .back {
+                    display: flex;
+                    border-radius: 6px;
+                    background-position: center;
+                    background-size: cover;
+                    text-align: center;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
                     -webkit-backface-visibility: hidden;
                     backface-visibility: hidden;
-                    font-weight: bold;
-                    color: #fff;
-                    padding: 0.5em 1em;
-                    border-radius: 100px;
-                    border: none;
-                    position: relative;
                     transform-style: preserve-3d;
-                    transition: 300ms ease;
-                    background: linear-gradient(135deg, #1a9be6, #1a57e6);
+                    transition: ease-in-out 600ms;
+                }
+                .front {
+                    background-size: cover;
+                    padding: 2rem;
+                    font-size: 1.618rem;
+                    font-weight: 600;
+                    color: #fff;
+                    overflow: hidden;
                     &:before {
-                        transition: 300ms ease;
                         position: absolute;
                         display: block;
                         content: "";
-                        transform: translateZ(-40px);
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        // background: linear-gradient(135deg, #96D1F3, #96B2F3);
+                        opacity: 0.25;
+                        z-index: -1;
+                    }
+                    &.card-one-img {
+                        background-image: url("~@/assets/images/join/hirexp-join-1.jpg");
+                    }
+                    &.card-two-img {
+                        background-image: url("~@/assets/images/join/hirexp-join-2.jpg");
+                    }
+                    &.card-three-img {
+                        background-image: url("~@/assets/images/join/hirexp-join-3.jpg");
+                    }
+                    &.card-four-img {
+                        background-image: url("~@/assets/images/join/hirexp-join-4.jpg");
+                    }
+                }
+                .back {
+                    background: #ffffff;
+                    color: #333;
+                    transform: rotateY(-180deg);
+                    padding: 0 2em;
+                    .button {
+                        transform: translateZ(40px);
+                        cursor: pointer;
                         -webkit-backface-visibility: hidden;
                         backface-visibility: hidden;
-                        height: calc(100% - 20px);
-                        width: calc(100% - 20px);
+                        font-weight: bold;
+                        color: #fff;
+                        padding: 0.5em 1em;
                         border-radius: 100px;
-                        left: 10px;
-                        top: 16px;
-                        box-shadow: 0 0 10px 10px rgba(26, 87, 230, 0.25);
-                        background-color: rgba(26, 87, 230, 0.25);
-                    }
-                    &:hover {
-                        transform: translateZ(55px);
-                    }
-                    &:hover:before {
-                        transform: translateZ(-55px);
-                    }
-                    &:active {
-                        transform: translateZ(20px);
-                    }
-                    &:active:before {
-                        transform: translateZ(-20px);
-                        top: 12px;
+                        border: none;
+                        position: relative;
+                        transform-style: preserve-3d;
+                        transition: 300ms ease;
+                        background: linear-gradient(135deg, #1a9be6, #1a57e6);
+                        &:before {
+                            transition: 300ms ease;
+                            position: absolute;
+                            display: block;
+                            content: "";
+                            transform: translateZ(-40px);
+                            -webkit-backface-visibility: hidden;
+                            backface-visibility: hidden;
+                            height: calc(100% - 20px);
+                            width: calc(100% - 20px);
+                            border-radius: 100px;
+                            left: 10px;
+                            top: 16px;
+                            box-shadow: 0 0 10px 10px rgba(26, 87, 230, 0.25);
+                            background-color: rgba(26, 87, 230, 0.25);
+                        }
+                        &:hover {
+                            transform: translateZ(55px);
+                        }
+                        &:hover:before {
+                            transform: translateZ(-55px);
+                        }
+                        &:active {
+                            transform: translateZ(20px);
+                        }
+                        &:active:before {
+                            transform: translateZ(-20px);
+                            top: 12px;
+                        }
                     }
                 }
             }
         }
-        &.card-two,
-        &.card-four {
-            margin-top: -3rem;
-        }
-    }
-    .cards-bg {
-        &:before {
-            content: "";
-            position: absolute;
-            top: 8rem;
-            left: 0;
-            margin-left: -4rem;
-            width: 51.3rem;
-            height: 18rem;
-            z-index: -1;
-            background: rgb(52, 43, 126);
-            background: linear-gradient( 120deg, rgba(52, 43, 126, 1) 0%, rgba(84, 72, 189, 1) 33%, rgba(143, 72, 189, 1) 66%, rgba(197, 36, 55, 1) 100%);
-            // background-image: linear-gradient(120deg, #eaee44, #33d0ff);
-            opacity: 0.7;
+        .cards-bg {
+            &:before {
+                content: "";
+                position: absolute;
+                top: 8rem;
+                left: 0;
+                margin-left: -4rem;
+                width: 51.3rem;
+                height: 18rem;
+                z-index: -1;
+                background: rgb(52, 43, 126);
+                background: linear-gradient( 120deg, rgba(52, 43, 126, 1) 0%, rgba(84, 72, 189, 1) 33%, rgba(143, 72, 189, 1) 66%, rgba(197, 36, 55, 1) 100%);
+                // background-image: linear-gradient(120deg, #eaee44, #33d0ff);
+                opacity: 0.7;
+            }
         }
     }
 }
 
 .hirexp-core-values {
-    .hirexp-core-values-content-wrap {
-        .core-values-icon {
-            display: flex;
-            padding-left: 3rem;
-            padding-top: 2rem;
-            justify-content: center;
-            margin-bottom: 1rem;
-            img {
-                margin-left: -2.3rem;
-                width: 7rem;
-                height: 7rem;
-            }
+    .hirexp-core-values-container {
+        .row {
+            margin: 0 -4rem;
         }
-        .core-values-heading {
-            text-align: center;
-            font-size: 2.8rem;
-            font-weight: 700;
-            color: #342b7e;
-        }
-        .core-value-sub {
-            padding: 0 5rem;
-            text-align: center;
-        }
-    }
-    .content {
-        display: flex;
-        margin: 0 auto;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        max-width: 1000px;
-        .card {
-            color: inherit;
-            cursor: pointer;
-            width: 100%;
-            height: 285px;
-            min-height: 285px;
-            perspective: 1000px;
-            margin: 1rem;
-            position: relative;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-            &:hover .front {
-                transform: rotateY(180deg);
-            }
-            &:hover .back {
-                transform: rotateY(0deg);
-            }
-            &:nth-child(even) .back .button {
-                background: linear-gradient(135deg, #e61a80, #e61a3c);
-            }
-            &:nth-child(even) .back .button:before {
-                box-shadow: 0 0 10px 10px rgba(230, 26, 60, 0.25);
-                background-color: rgba(230, 26, 60, 0.25);
-            }
-            .front,
-            .back {
+        .hirexp-core-values-content-wrap {
+            .core-values-icon {
                 display: flex;
-                border-radius: 6px;
-                background-position: center;
-                background-size: cover;
-                text-align: center;
                 justify-content: center;
-                align-items: center;
-                position: absolute;
-                height: 100%;
-                width: 100%;
-                -webkit-backface-visibility: hidden;
-                backface-visibility: hidden;
-                transform-style: preserve-3d;
-                transition: ease-in-out 600ms;
-            }
-            .front {
-                background-size: cover;
-                padding: 2rem;
-                font-size: 1.618rem;
-                font-weight: 600;
-                color: #fff;
-                overflow: hidden;
-                &:before {
-                    position: absolute;
-                    display: block;
-                    content: "";
-                    top: 0;
-                    left: 0;
-                    right: 0;
-                    bottom: 0;
-                    background: linear-gradient(135deg, #1a9be6, #1a57e6);
-                    opacity: 0.25;
-                    z-index: -1;
+                img {
+                    width: 7rem;
+                    height: 7rem;
                 }
             }
-            .back {
-                background: #ffffff;
-                color: #333;
-                transform: rotateY(-180deg);
-                padding: 0 2em;
-                .button {
-                    transform: translateZ(40px);
-                    cursor: pointer;
+            .core-values-heading {
+                text-align: center;
+                font-size: 2.8rem;
+                font-weight: 700;
+                color: #342b7e;
+            }
+            .core-value-sub {
+                padding: 0 5rem;
+                text-align: center;
+            }
+        }
+        .content {
+            display: flex;
+            margin: 0 auto;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            max-width: 1000px;
+            .card {
+                color: inherit;
+                cursor: pointer;
+                width: 100%;
+                height: 285px;
+                min-height: 285px;
+                perspective: 1000px;
+                margin: 1rem;
+                position: relative;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                &:hover .front {
+                    transform: rotateY(180deg);
+                }
+                &:hover .back {
+                    transform: rotateY(0deg);
+                }
+                &:nth-child(even) .back .button {
+                    background: linear-gradient(135deg, #e61a80, #e61a3c);
+                }
+                &:nth-child(even) .back .button:before {
+                    box-shadow: 0 0 10px 10px rgba(230, 26, 60, 0.25);
+                    background-color: rgba(230, 26, 60, 0.25);
+                }
+                .front,
+                .back {
+                    display: flex;
+                    border-radius: 6px;
+                    background-position: center;
+                    background-size: cover;
+                    text-align: center;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
                     -webkit-backface-visibility: hidden;
                     backface-visibility: hidden;
-                    font-weight: bold;
-                    color: #fff;
-                    padding: 0.5em 1em;
-                    border-radius: 100px;
-                    border: none;
-                    position: relative;
                     transform-style: preserve-3d;
-                    transition: 300ms ease;
-                    background: linear-gradient(135deg, #1a9be6, #1a57e6);
+                    transition: ease-in-out 600ms;
+                }
+                .front {
+                    background-size: cover;
+                    padding: 2rem;
+                    font-size: 1.618rem;
+                    font-weight: 600;
+                    color: #fff;
+                    overflow: hidden;
                     &:before {
-                        transition: 300ms ease;
                         position: absolute;
                         display: block;
                         content: "";
-                        transform: translateZ(-40px);
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        background: linear-gradient(135deg, #1a9be6, #1a57e6);
+                        opacity: 0.25;
+                        z-index: -1;
+                    }
+                }
+                .back {
+                    background: #ffffff;
+                    color: #333;
+                    transform: rotateY(-180deg);
+                    padding: 0 2em;
+                    .button {
+                        transform: translateZ(40px);
+                        cursor: pointer;
                         -webkit-backface-visibility: hidden;
                         backface-visibility: hidden;
-                        height: calc(100% - 20px);
-                        width: calc(100% - 20px);
+                        font-weight: bold;
+                        color: #fff;
+                        padding: 0.5em 1em;
                         border-radius: 100px;
-                        left: 10px;
-                        top: 16px;
-                        box-shadow: 0 0 10px 10px rgba(26, 87, 230, 0.25);
-                        background-color: rgba(26, 87, 230, 0.25);
-                    }
-                    &:hover {
-                        transform: translateZ(55px);
-                    }
-                    &:hover:before {
-                        transform: translateZ(-55px);
-                    }
-                    &:active {
-                        transform: translateZ(20px);
-                    }
-                    &:active:before {
-                        transform: translateZ(-20px);
-                        top: 12px;
+                        border: none;
+                        position: relative;
+                        transform-style: preserve-3d;
+                        transition: 300ms ease;
+                        background: linear-gradient(135deg, #1a9be6, #1a57e6);
+                        &:before {
+                            transition: 300ms ease;
+                            position: absolute;
+                            display: block;
+                            content: "";
+                            transform: translateZ(-40px);
+                            -webkit-backface-visibility: hidden;
+                            backface-visibility: hidden;
+                            height: calc(100% - 20px);
+                            width: calc(100% - 20px);
+                            border-radius: 100px;
+                            left: 10px;
+                            top: 16px;
+                            box-shadow: 0 0 10px 10px rgba(26, 87, 230, 0.25);
+                            background-color: rgba(26, 87, 230, 0.25);
+                        }
+                        &:hover {
+                            transform: translateZ(55px);
+                        }
+                        &:hover:before {
+                            transform: translateZ(-55px);
+                        }
+                        &:active {
+                            transform: translateZ(20px);
+                        }
+                        &:active:before {
+                            transform: translateZ(-20px);
+                            top: 12px;
+                        }
                     }
                 }
             }

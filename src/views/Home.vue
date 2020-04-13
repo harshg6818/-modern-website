@@ -27,18 +27,18 @@
           <b-col cols="5">
             <b-container class="header-wrap">
               <div class="main-title-text animated fadeInLeft">
-              We are an architect<br />of experience
-            </div>
-            <div class="main-sub-text">
-              Come built with us
-            </div>
-            <diV class="main-button">
-              <a class="fadeIn">
-                <button class="cta animated pulse">
-                  <p class="animated fadeIn delay-06s">View Openings</p>
-                </button>
-              </a>
-            </diV>
+                We are an architect<br />of experience
+              </div>
+              <div class="main-sub-text">
+                Come built with us
+              </div>
+              <diV class="main-button">
+                <a class="fadeIn">
+                  <button class="cta animated pulse">
+                    <p class="animated fadeIn delay-06s">View Openings</p>
+                  </button>
+                </a>
+              </diV>
             </b-container>
           </b-col>
           <b-col cols="7">
@@ -54,15 +54,15 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-4">
-            <h1 class="hirexp-stats-num">1M</h1>
+            <h1 class="hirexp-stats-num">1 Million+</h1>
             <div class="hirexp-stats-sub">Applications Processed</div>
           </div>
           <div class="col-lg-4">
-            <h1 class="hirexp-stats-num">95K</h1>
+            <h1 class="hirexp-stats-num">95K+</h1>
             <div class="hirexp-stats-sub">Chats Initiated</div>
           </div>
           <div class="col-lg-4">
-            <h1 class="hirexp-stats-num">27K</h1>
+            <h1 class="hirexp-stats-num">27K+</h1>
             <div class="hirexp-stats-sub">Onboardings Completed</div>
           </div>
         </div>
@@ -70,8 +70,8 @@
     </section>
 
     <section class="hirexp-join">
-      <b-container>
-        <b-row cols="1" cols-sm="2" cols-md="4" cols-lg="2">
+      <b-container class="hirexp-join-container">
+        <b-row cols-lg="1">
           <b-col>
             <div class="hirexp-join-content-wrap">
               <div class="hirexp-join-icon">
@@ -86,102 +86,86 @@
               </div>
             </div>
           </b-col>
-          <b-col class="cards-bg">
-            <b-row cols-lg="2">
-              <b-col class="p-0 m-0">
-                <div class="content card-one">
-                  <a class="card" href="#!">
-                    <div class="front card-one-img">
-                      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
-                    </div>
-                    <div class="back">
-                      <div>
-                        <p>
-                          Consectetur adipisicing elit. Possimus, praesentium?
-                        </p>
-                        <p>
-                          Provident consectetur natus voluptatem quis tenetur
-                          sed beatae eius sint.
-                        </p>
-                        <button class="button">Click Here</button>
-                      </div>
-                    </div>
-                  </a>
+        </b-row>
+        <b-row>
+          <b-col class="p-0 m-0">
+            <div class="content card-one">
+              <a class="card" href="#!">
+                <div class="front card-one-img"></div>
+                <div class="back">
+                  <div>
+                    <p>
+                      Consectetur adipisicing elit. Possimus, praesentium?
+                    </p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                  </div>
                 </div>
-              </b-col>
-              <b-col class="p-0 m-0">
-                <div class="content card-two">
-                  <a class="card" href="#!">
-                    <div class="front card-two-img">
-                      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
-                    </div>
-                    <div class="back">
-                      <div>
-                        <p>
-                          Consectetur adipisicing elit. Possimus, praesentium?
-                        </p>
-                        <p>
-                          Provident consectetur natus voluptatem quis tenetur
-                          sed beatae eius sint.
-                        </p>
-                        <button class="button">Click Here</button>
-                      </div>
-                    </div>
-                  </a>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="p-0 m-0">
+            <div class="content card-two">
+              <a class="card" href="#!">
+                <div class="front card-two-img"></div>
+                <div class="back">
+                  <div>
+                    <p>
+                      Consectetur adipisicing elit. Possimus, praesentium?
+                    </p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                  </div>
                 </div>
-              </b-col>
-            </b-row>
-            <b-row cols-lg="2">
-              <b-col class="p-0 m-0">
-                <div class="content card-three">
-                  <a class="card" href="#!">
-                    <div class="front card-three-img">
-                      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
-                    </div>
-                    <div class="back">
-                      <div>
-                        <p>
-                          Consectetur adipisicing elit. Possimus, praesentium?
-                        </p>
-                        <p>
-                          Provident consectetur natus voluptatem quis tenetur
-                          sed beatae eius sint.
-                        </p>
-                        <button class="button">Click Here</button>
-                      </div>
-                    </div>
-                  </a>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="p-0 m-0">
+            <div class="content card-three">
+              <a class="card" href="#!">
+                <div class="front card-three-img"></div>
+                <div class="back">
+                  <div>
+                    <p>
+                      Consectetur adipisicing elit. Possimus, praesentium?
+                    </p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                  </div>
                 </div>
-              </b-col>
-              <b-col class="p-0 m-0">
-                <div class="content card-four">
-                  <a class="card" href="#!">
-                    <div class="front card-four-img">
-                      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
-                    </div>
-                    <div class="back">
-                      <div>
-                        <p>
-                          Consectetur adipisicing elit. Possimus, praesentium?
-                        </p>
-                        <p>
-                          Provident consectetur natus voluptatem quis tenetur
-                          sed beatae eius sint.
-                        </p>
-                        <button class="button">Click Here</button>
-                      </div>
-                    </div>
-                  </a>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="p-0 m-0">
+            <div class="content card-four">
+              <a class="card" href="#!">
+                <div class="front card-four-img"></div>
+                <div class="back">
+                  <div>
+                    <p>
+                      Consectetur adipisicing elit. Possimus, praesentium?
+                    </p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                  </div>
                 </div>
-              </b-col>
-            </b-row>
+              </a>
+            </div>
           </b-col>
         </b-row>
       </b-container>
     </section>
 
     <section class="hirexp-core-values">
-      <b-container>
+      <b-container class="hirexp-core-values-container">
         <b-row cols="1" cols-sm="2" cols-md="4" cols-lg="2">
           <b-col>
             <div class="hirexp-core-values-content-wrap">
@@ -195,62 +179,8 @@
               </div>
             </div>
           </b-col>
-          <b-col>
-            <b-row cols-lg="2">
-              <b-col class="p-0 m-0">
-                <div class="content">
-                  <a class="card" href="#!">
-                    <div
-                      class="front"
-                      style="background-image: url(https://images.unsplash.com/photo-1584910643800-540e9e31ce32?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=401&ixlib=rb-1.2.1&q=80&w=300);"
-                    >
-                      <p>Lorem ipsum dolor sit amet consectetur adipisi.</p>
-                    </div>
-                    <div class="back">
-                      <div>
-                        <p>
-                          Consectetur adipisicing elit. Possimus, praesentium?
-                        </p>
-                        <p>
-                          Provident consectetur natus voluptatem quis tenetur
-                          sed beatae eius sint.
-                        </p>
-                        <button class="button">Click Here</button>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </b-col>
-              <b-col class="p-0 m-0">
-                <div class="content">
-                  <a class="card" href="#!">
-                    <div
-                      class="front"
-                      style="background-image: url(https://images.unsplash.com/photo-1584910643800-540e9e31ce32?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=401&ixlib=rb-1.2.1&q=80&w=300);"
-                    >
-                      <p>Lorem ipsum dolor sit amet consectetur adipisi.</p>
-                    </div>
-                    <div class="back">
-                      <div>
-                        <p>
-                          Consectetur adipisicing elit. Possimus, praesentium?
-                        </p>
-                        <p>
-                          Provident consectetur natus voluptatem quis tenetur
-                          sed beatae eius sint.
-                        </p>
-                        <button class="button">Click Here</button>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </b-col>
-            </b-row>
-          </b-col>
         </b-row>
-      </b-container>
-      <b-container>
-        <b-row cols-lg="4">
+        <b-row cols-lg="3">
           <b-col class="p-0 m-0">
             <div class="content">
               <a class="card" href="#!">
@@ -273,6 +203,52 @@
               </a>
             </div>
           </b-col>
+          <b-col class="p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div
+                  class="front"
+                  style="background-image: url(https://images.unsplash.com/photo-1584910643800-540e9e31ce32?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=401&ixlib=rb-1.2.1&q=80&w=300);"
+                >
+                  <p>Lorem ipsum dolor sit amet consectetur adipisi.</p>
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div
+                  class="front"
+                  style="background-image: url(https://images.unsplash.com/photo-1584910643800-540e9e31ce32?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=401&ixlib=rb-1.2.1&q=80&w=300);"
+                >
+                  <p>Lorem ipsum dolor sit amet consectetur adipisi.</p>
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+        </b-row>
+        <b-row cols-lg="3">
           <b-col class="p-0 m-0">
             <div class="content">
               <a class="card" href="#!">
@@ -342,7 +318,6 @@
         </b-row>
       </b-container>
     </section>
-
     <section class="hirexp-tech-stack">
       <b-container>
         <b-row>
