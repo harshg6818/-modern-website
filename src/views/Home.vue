@@ -451,46 +451,46 @@
           </b-col>
         </b-row>
       </b-container>
-      <b-container fluid>
+      <b-container fluid class="mt-4">
         <b-row cols-lg="6">
           <b-col>
             <div class="tech-stack-card-wrap">
-              <div class="tech-android">
+              <div class="tech-postgres">
                 <img src="../assets/images/tech/postgres.png" />
               </div>
             </div>
           </b-col>
           <b-col>
             <div class="tech-stack-card-wrap">
-              <div class="tech-angular">
+              <div class="tech-python">
                 <img src="../assets/images/tech/python.jpg" />
               </div>
             </div>
           </b-col>
           <b-col>
             <div class="tech-stack-card-wrap">
-              <div class="tech-aws">
+              <div class="tech-redis">
                 <img src="../assets/images/tech/redis.jpg" />
               </div>
             </div>
           </b-col>
           <b-col>
             <div class="tech-stack-card-wrap">
-              <div class="tech-django">
+              <div class="tech-selenium">
                 <img src="../assets/images/tech/selenium.png" />
               </div>
             </div>
           </b-col>
           <b-col>
             <div class="tech-stack-card-wrap">
-              <div class="tech-javascript">
+              <div class="tech-vue">
                 <img src="../assets/images/tech/vuejs.png" />
               </div>
             </div>
           </b-col>
           <b-col>
             <div class="tech-stack-card-wrap">
-              <div class="tech-mysql">
+              <div class="tech-webpack">
                 <img src="../assets/images/tech/webpack.png" />
               </div>
             </div>
@@ -928,6 +928,9 @@
       <b-container>
         <b-row cols-lg="1">
           <b-col>
+            <div class="hirexp-opening-icon">
+              <i class="fas fa-briefcase"></i>
+            </div>
             <div class="hirexp-openings-heading">Job openings</div>
           </b-col>
         </b-row>
@@ -953,6 +956,150 @@
             <div class="hirexp-location">
               <img src="../assets/svg/manila.svg" />
             </div>
+          </b-col>
+        </b-row>
+      </b-container>
+      <b-container class="hirexp-jobs" fluid>
+        <b-row cols-lg="5">
+          <b-col>
+            <a class="job-card-wrap" href="/">
+              <div class="job-card-container">
+                <div class="job-card">
+                  <div class="job-card-title">
+                    <h2>Product Manager</h2>
+                  </div>
+                  <div class="job-card-details">
+                    <p class="job-card-location">
+                      <i class="fas fa-map-marker-alt"></i>
+                      Gurgaon
+                    </p>
+                    <p class="job-card-stack">
+                      <i class="fas fa-users"></i>
+                      Tech
+                    </p>
+                    <p class="job-card-exp">
+                      <i class="fas fa-briefcase"></i>
+                      3 years
+                    </p>
+                  </div>
+                  <div class="job-card-button">
+                    <span>View job</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </b-col>
+          <b-col>
+            <a class="job-card-wrap" href="/">
+              <div class="job-card-container">
+                <div class="job-card">
+                  <div class="job-card-title">
+                    <h2>Product Manager</h2>
+                  </div>
+                  <div class="job-card-details">
+                    <p class="job-card-location">
+                      <i class="fas fa-map-marker-alt"></i>
+                      Gurgaon
+                    </p>
+                    <p class="job-card-stack">
+                      <i class="fas fa-users"></i>
+                      Tech
+                    </p>
+                    <p class="job-card-exp">
+                      <i class="fas fa-briefcase"></i>
+                      3 years
+                    </p>
+                  </div>
+                  <div class="job-card-button">
+                    <span>View job</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </b-col>
+          <b-col>
+            <a class="job-card-wrap" href="/">
+              <div class="job-card-container">
+                <div class="job-card">
+                  <div class="job-card-title">
+                    <h2>Product Manager</h2>
+                  </div>
+                  <div class="job-card-details">
+                    <p class="job-card-location">
+                      <i class="fas fa-map-marker-alt"></i>
+                      Gurgaon
+                    </p>
+                    <p class="job-card-stack">
+                      <i class="fas fa-users"></i>
+                      Tech
+                    </p>
+                    <p class="job-card-exp">
+                      <i class="fas fa-briefcase"></i>
+                      3 years
+                    </p>
+                  </div>
+                  <div class="job-card-button">
+                    <span>View job</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </b-col>
+          <b-col>
+            <a class="job-card-wrap" href="/">
+              <div class="job-card-container">
+                <div class="job-card">
+                  <div class="job-card-title">
+                    <h2>Product Manager</h2>
+                  </div>
+                  <div class="job-card-details">
+                    <p class="job-card-location">
+                      <i class="fas fa-map-marker-alt"></i>
+                      Gurgaon
+                    </p>
+                    <p class="job-card-stack">
+                      <i class="fas fa-users"></i>
+                      Tech
+                    </p>
+                    <p class="job-card-exp">
+                      <i class="fas fa-briefcase"></i>
+                      3 years
+                    </p>
+                  </div>
+                  <div class="job-card-button">
+                    <span>View job</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </b-col>
+          <b-col>
+            <a class="job-card-wrap" href="/">
+              <div class="job-card-container">
+                <div class="job-card">
+                  <div class="job-card-title">
+                    <h2>Product Manager</h2>
+                  </div>
+                  <div class="job-card-details">
+                    <p class="job-card-location">
+                      <i class="fas fa-map-marker-alt"></i>
+                      Gurgaon
+                    </p>
+                    <p class="job-card-stack">
+                      <i class="fas fa-users"></i>
+                      Tech
+                    </p>
+                    <p class="job-card-exp">
+                      <i class="fas fa-briefcase"></i>
+                      3 years
+                    </p>
+                  </div>
+                  <div class="job-card-button">
+                    <span>View job</span>
+                  </div>
+                </div>
+              </div>
+            </a>
           </b-col>
         </b-row>
       </b-container>

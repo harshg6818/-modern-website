@@ -1,5 +1,6 @@
 .main {
     font-family: proxima-nova, helvetica, arial, sans-serif;
+    scroll-behavior: smooth;
 }
 
 .nav-wrap {
@@ -514,26 +515,67 @@
         border-radius: 50%;
         height: 12rem;
         width: 12rem;
+        .second-row {
+            margin: 2rem 0;
+        }
         img {
             height: 100%;
         }
         .tech-android {
             height: 8rem;
+            padding-top: 2rem;
         }
         .tech-angular {
             height: 8rem;
+            padding-top: 2rem;
         }
         .tech-aws {
             height: 8rem;
+            padding-top: 2rem;
+            img {
+                border-radius: 50%;
+                width: 180px;
+            }
         }
         .tech-django {
             height: 8rem;
+            padding-top: 2rem;
         }
         .tech-javascript {
             height: 8rem;
+            padding-top: 2rem;
         }
         .tech-mysql {
             height: 8rem;
+            padding-top: 2rem;
+            img {
+                width: 130px;
+                height: 90px;
+            }
+        }
+        .tech-postgres {
+            height: 8rem;
+            padding-top: 2rem;
+        }
+        .tech-python {
+            height: 8rem;
+            padding-top: 2rem;
+        }
+        .tech-redis {
+            height: 8rem;
+            padding-top: 2rem;
+        }
+        .tech-selenium {
+            height: 8rem;
+            padding-top: 2rem;
+        }
+        .tech-vue {
+            height: 8rem;
+            padding-top: 2rem;
+        }
+        .tech-webpack {
+            height: 8rem;
+            padding-top: 2rem;
         }
     }
 }
@@ -731,7 +773,13 @@
 
 .hirexp-openings-section {
     height: 80vh;
+    margin-top: 2rem;
+    .hirexp-opening-icon {
+        font-size: 3rem;
+        color: #342b7e;
+    }
     .hirexp-openings-heading {
+        margin-top: -1rem;
         font-size: 2.8rem;
         font-weight: 700;
         color: #342b7e;
@@ -746,6 +794,97 @@
         }
         &::hover {
             fill: #342b7e;
+        }
+    }
+    .hirexp-jobs {
+        margin-bottom: 4rem;
+        .job-card-wrap {
+            display: flex;
+            text-decoration: none;
+            margin: 17px 12px;
+            transition: all 0.2s ease;
+            .job-card-container {
+                display: flex;
+                .job-card {
+                    width: 276px;
+                    height: 100%;
+                    border-radius: 10px;
+                    box-shadow: 0 0 20px 2px rgba(112, 116, 147, 0.16);
+                    position: relative;
+                    margin-top: 30px;
+                }
+                .job-card-title {
+                    color: #ffffff;
+                    display: flex;
+                    align-items: center;
+                    padding: 20px;
+                    min-height: 200px;
+                    border-top-right-radius: 10px;
+                    border-top-left-radius: 10px;
+                    background: linear-gradient( 120deg, rgba(52, 43, 126, 1) 0%, rgba(84, 72, 189, 1) 33%, rgba(143, 72, 189, 1) 66%, rgba(197, 36, 55, 1) 100%);
+                    // background: linear-gradient(to right, #10977f, #34e5c1);
+                    margin: auto;
+                    h2 {
+                        font-weight: 600;
+                    }
+                }
+                .job-card-details {
+                    padding: 25px;
+                    background: #fff;
+                    border-radius: 0 0 8px 8px;
+                    text-align: left;
+                    .job-card-location {
+                        font-size: 18px;
+                        color: #124680;
+                        font-weight: 400;
+                        i {
+                            padding: 0 1rem;
+                            padding-right: 1.5rem;
+                        }
+                    }
+                    .job-card-stack {
+                        margin-top: 16px;
+                        font-size: 18px;
+                        text-align: left;
+                        color: #124680;
+                        font-weight: 400;
+                        i {
+                            padding: 0 1rem;
+                        }
+                    }
+                    .job-card-exp {
+                        font-size: 18px;
+                        color: #124680;
+                        margin-top: 20px;
+                        font-weight: 400;
+                        i {
+                            padding: 0 1rem;
+                        }
+                    }
+                }
+                .job-card-button {
+                    position: absolute;
+                    bottom: 0px;
+                    left: 25%;
+                    span {
+                        font-size: 16px;
+                        color: #124680;
+                        border-radius: 30px;
+                        padding: 10px 20px;
+                        border: 2px solid #124680;
+                        text-transform: uppercase;
+                        text-align: center;
+                        background: #ffffff;
+                    }
+                    &::after {
+                        content: "";
+                        clear: both;
+                        display: table;
+                        margin: 0;
+                        padding: 0;
+                    }
+                }
+            }
         }
     }
 }
