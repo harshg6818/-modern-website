@@ -11,7 +11,9 @@
             <b-collapse id="nav-collapse" is-nav class="hirexp-nav">
               <b-navbar-nav>
                 <b-nav-item href="#" class="hirexp-nav-item">Home</b-nav-item>
-                <b-nav-item href="#" class="hirexp-nav-item">About Us</b-nav-item>
+                <b-nav-item href="#" class="hirexp-nav-item"
+                  >About Us</b-nav-item
+                >
               </b-navbar-nav>
             </b-collapse>
           </div>
@@ -36,9 +38,9 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-xs-12 col-lg-5 col-md-5 col-sm-5 main-title">
-            <div
-              class="container main-title-text animated fadeInLeft"
-            >We are an architect of experience</div>
+            <div class="container main-title-text animated fadeInLeft">
+              We are an architect of experience
+            </div>
             <!-- <div class="container main-sub-text">
               If you wish to be a part of an energetic group relentlessly
               working to fast-forward into the future, in a transparent and
@@ -145,8 +147,13 @@
                     </div>
                     <div class="back">
                       <div>
-                        <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
-                        <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
+                        <p>
+                          Consectetur adipisicing elit. Possimus, praesentium?
+                        </p>
+                        <p>
+                          Provident consectetur natus voluptatem quis tenetur
+                          sed beatae eius sint.
+                        </p>
                         <button class="button">Click Here</button>
                       </div>
                     </div>
@@ -161,8 +168,13 @@
                     </div>
                     <div class="back">
                       <div>
-                        <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
-                        <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
+                        <p>
+                          Consectetur adipisicing elit. Possimus, praesentium?
+                        </p>
+                        <p>
+                          Provident consectetur natus voluptatem quis tenetur
+                          sed beatae eius sint.
+                        </p>
                         <button class="button">Click Here</button>
                       </div>
                     </div>
@@ -179,8 +191,13 @@
                     </div>
                     <div class="back">
                       <div>
-                        <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
-                        <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
+                        <p>
+                          Consectetur adipisicing elit. Possimus, praesentium?
+                        </p>
+                        <p>
+                          Provident consectetur natus voluptatem quis tenetur
+                          sed beatae eius sint.
+                        </p>
                         <button class="button">Click Here</button>
                       </div>
                     </div>
@@ -195,8 +212,13 @@
                     </div>
                     <div class="back">
                       <div>
-                        <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
-                        <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
+                        <p>
+                          Consectetur adipisicing elit. Possimus, praesentium?
+                        </p>
+                        <p>
+                          Provident consectetur natus voluptatem quis tenetur
+                          sed beatae eius sint.
+                        </p>
                         <button class="button">Click Here</button>
                       </div>
                     </div>
@@ -237,8 +259,13 @@
                     </div>
                     <div class="back">
                       <div>
-                        <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
-                        <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
+                        <p>
+                          Consectetur adipisicing elit. Possimus, praesentium?
+                        </p>
+                        <p>
+                          Provident consectetur natus voluptatem quis tenetur
+                          sed beatae eius sint.
+                        </p>
                         <button class="button">Click Here</button>
                       </div>
                     </div>
@@ -256,8 +283,13 @@
                     </div>
                     <div class="back">
                       <div>
-                        <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
-                        <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
+                        <p>
+                          Consectetur adipisicing elit. Possimus, praesentium?
+                        </p>
+                        <p>
+                          Provident consectetur natus voluptatem quis tenetur
+                          sed beatae eius sint.
+                        </p>
                         <button class="button">Click Here</button>
                       </div>
                     </div>
@@ -282,7 +314,10 @@
                 <div class="back">
                   <div>
                     <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
-                    <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
                     <button class="button">Click Here</button>
                   </div>
                 </div>
@@ -301,7 +336,10 @@
                 <div class="back">
                   <div>
                     <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
-                    <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
                     <button class="button">Click Here</button>
                   </div>
                 </div>
@@ -320,7 +358,10 @@
                 <div class="back">
                   <div>
                     <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
-                    <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
                     <button class="button">Click Here</button>
                   </div>
                 </div>
@@ -339,7 +380,10 @@
                 <div class="back">
                   <div>
                     <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
-                    <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
                     <button class="button">Click Here</button>
                   </div>
                 </div>
@@ -455,183 +499,571 @@
       </b-container>
     </section>
 
-    <section class="hirexp-peoples">
-      <div class="container-fluid">
-        <div class="hirexp-peoples-tabs-wrap">
-          <b-tabs align="center">
-            <b-tab title="Leadership" active>
-              <div class="container tab-container">
-                <div class="row">
-                  <div class="col-xs-12 col-lg-3 image-wrap">
-                    <img src="../assets/images/people/ada.jpg" width="100%" />
-                    <div class="img-overlay-text">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Consequatur culpa obcaecati vitae.
-                    </div>
-                  </div>
-                  <div class="col-xs-12 col-lg-3 image-wrap">
-                    <img src="../assets/images/people/Akshay.jpeg" />
-                    <div class="img-overlay-text">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Consequatur culpa obcaecati vitae.
-                    </div>
-                  </div>
-                  <div class="col-xs-12 col-lg-3 image-wrap">
-                    <img src="../assets/images/people/Amit.jpg" />
-                    <div class="img-overlay-text">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Consequatur culpa obcaecati vitae.
-                    </div>
-                  </div>
-                  <div class="col-xs-12 col-lg-3 image-wrap">
-                    <img src="../assets/images/people/patlani.jpg" />
-                    <div class="img-overlay-text">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Consequatur culpa obcaecati vitae.
-                    </div>
-                  </div>
-                  <div class="col-xs-12 col-lg-3 image-wrap">
-                    <img src="../assets/images/people/vikas.jpeg" />
-                    <div class="img-overlay-text">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Consequatur culpa obcaecati vitae.
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </b-tab>
-            <b-tab title="Advisers">
-              <div class="container tab-container">
-                <p>I'm the second tab</p>
-              </div>
-            </b-tab>
-            <b-tab title="Team">
-              <div class="container tab-container">
-                <p>I'm a disabled tab!</p>
-              </div>
-            </b-tab>
-          </b-tabs>
+    <section class="hirexp-culture">
+      <b-container>
+        <b-row>
+          <div class="hirexp-culture-content-wrap">
+            <div class="hirexp-culture-heading">Culture At HireXP</div>
+          </div>
+        </b-row>
+      </b-container>
+      <b-container fluid>
+        <div id="gallery"></div>
+        <div id="nav" class="navbar">
+          <button id="preview">&lt; previous</button>
+          <button id="next">next &gt;</button>
         </div>
-      </div>
+      </b-container>
     </section>
 
-    <section class="hirexp-perks-section">
-      <div class="container hirexp-perks-head">
-        <div class="hirexp-perks-heading">Perks and Benefits</div>
-        <p class="hirexp-perks-sub">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-          provident commodi enim eveniet accusamus.
-        </p>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 perks-card">
-            <div class="perks-card-icon">
-              <i class="fas fa-store-alt"></i>
+    <section class="hirexp-team">
+      <b-container>
+        <b-row cols-lg="1">
+          <b-col>
+            <div class="hirexp-team-content-wrap">
+              <h1 class="hirexp-team-heading">Team of HireXP</h1>
             </div>
-            <h4 class="perks-card-heading">Environment</h4>
-            <p class="perks-card-sub">
-              Our modern offices are comfortable, light and thoughtfully
-              designed. Both sites offer creative work spaces, a well-stocked
-              communal kitchen, and good access to transport links and city
-              life.
-            </p>
-          </div>
-          <div class="col-lg-4 perks-card">
-            <div class="perks-card-icon">
-              <i class="fas fa-store-alt"></i>
+          </b-col>
+        </b-row>
+      </b-container>
+      <b-container fluid>
+        <b-row cols-lg="5">
+          <b-col class="p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-one-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
             </div>
-            <h4 class="perks-card-heading">Equipment</h4>
-            <p class="perks-card-sub">
-              Our modern offices are comfortable, light and thoughtfully
-              designed. Both sites offer creative work spaces, a well-stocked
-              communal kitchen, and good access to transport links and city
-              life.
-            </p>
-          </div>
-          <div class="col-lg-4 perks-card">
-            <div class="perks-card-icon">
-              <i class="fas fa-store-alt"></i>
+          </b-col>
+          <b-col class="p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-two-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
             </div>
-            <h4 class="perks-card-heading">Rewards</h4>
-            <p class="perks-card-sub">
-              Our modern offices are comfortable, light and thoughtfully
-              designed. Both sites offer creative work spaces, a well-stocked
-              communal kitchen, and good access to transport links and city
-              life.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 perks-card">
-            <div class="perks-card-icon">
-              <i class="fas fa-store-alt"></i>
+          </b-col>
+          <b-col class="p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-three-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
             </div>
-            <h4 class="perks-card-heading">Environment</h4>
-            <p class="perks-card-sub">
-              Our modern offices are comfortable, light and thoughtfully
-              designed. Both sites offer creative work spaces, a well-stocked
-              communal kitchen, and good access to transport links and city
-              life.
-            </p>
-          </div>
-          <div class="col-lg-4 perks-card">
-            <div class="perks-card-icon">
-              <i class="fas fa-store-alt"></i>
+          </b-col>
+          <b-col class="p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-four-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
             </div>
-            <h4 class="perks-card-heading">Equipment</h4>
-            <p class="perks-card-sub">
-              Our modern offices are comfortable, light and thoughtfully
-              designed. Both sites offer creative work spaces, a well-stocked
-              communal kitchen, and good access to transport links and city
-              life.
-            </p>
-          </div>
-          <div class="col-lg-4 perks-card">
-            <div class="perks-card-icon">
-              <i class="fas fa-store-alt"></i>
+          </b-col>
+          <b-col class="p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-five-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
             </div>
-            <h4 class="perks-card-heading">Rewards</h4>
-            <p class="perks-card-sub">
-              Our modern offices are comfortable, light and thoughtfully
-              designed. Both sites offer creative work spaces, a well-stocked
-              communal kitchen, and good access to transport links and city
-              life.
-            </p>
-          </div>
-        </div>
-      </div>
+          </b-col>
+        </b-row>
+      </b-container>
+      <b-container fluid>
+        <b-row cols-lg="5">
+          <b-col class="p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-six-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-seven-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-eight-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-nine-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-ten-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+        </b-row>
+      </b-container>
+      <b-container fluid>
+        <b-row cols-lg="5">
+          <b-col class="p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-eleven-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-tweleve-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-thirteen-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-fourteen-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-fifteen-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+        </b-row>
+      </b-container>
+      <b-container fluid>
+        <b-row cols-lg="5">
+          <b-col class="p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-sixteen-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-seventeen-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-eighteen-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-nineteen-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-twenty-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+        </b-row>
+      </b-container>
     </section>
 
     <section class="hirexp-openings-section">
-      <div class="container">
-        <div class="hirexp-openings-heading">Job openings</div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 hirexp-location">
-            <img src="../assets/svg/banglore.svg" />
-          </div>
-          <div class="col-lg-3 hirexp-location">
-            <img src="../assets/svg/dubai.svg" />
-          </div>
-          <div class="col-lg-3 hirexp-location">
-            <img src="../assets/svg/gurugram.svg" />
-          </div>
-          <div class="col-lg-3 hirexp-location">
-            <img src="../assets/svg/manila.svg" />
-          </div>
-        </div>
-      </div>
+      <b-container>
+        <b-row cols-lg="1">
+          <b-col>
+            <div class="hirexp-openings-heading">Job openings</div>
+          </b-col>
+        </b-row>
+      </b-container>
+      <b-container>
+        <b-row cols-lg="4">
+          <b-col>
+            <div class="hirexp-location">
+              <img src="../assets/svg/banglore.svg" />
+            </div>
+          </b-col>
+          <b-col>
+            <div class="hirexp-location">
+              <img src="../assets/svg/dubai.svg" />
+            </div>
+          </b-col>
+          <b-col>
+            <div class="hirexp-location">
+              <img src="../assets/svg/gurugram.svg" />
+            </div>
+          </b-col>
+          <b-col>
+            <div class="hirexp-location">
+              <img src="../assets/svg/manila.svg" />
+            </div>
+          </b-col>
+        </b-row>
+      </b-container>
     </section>
   </div>
 </template>
 
 <script>
+import gallery from "./gallery";
+
 export default {
-  name: "Home"
+  name: "Home",
+
+  mixins: [gallery],
+
+  data() {
+    return {
+      data: [
+        {
+          name: "img/img01.jpg",
+          caption: "En voiture",
+          description:
+            "Il a pour lui l'éternité, montre en main.<br> — Jules Renard"
+        },
+        {
+          name: "img/img02.jpg",
+          caption: "Amis",
+          description: "Le temps confirme l'amitié.<br> — Henri Lacordaire"
+        },
+        {
+          name: "img/img03.jpg",
+          caption: "Au travail",
+          description:
+            "Dans le temps, même le futur était mieux.<br> — Karl Valentin"
+        },
+        {
+          name: "img/img04.jpg",
+          caption: "Au garage",
+          description:
+            "Il faut inventer en même temps que l'on apprend.<br> — Plutarque"
+        },
+        {
+          name: "img/img05.jpg",
+          caption: "Photo de groupe",
+          description:
+            "Les doctrines passent - les anecdotes demeurent.<br> — Emil Michel Cioran"
+        },
+        {
+          name: "img/img06.jpg",
+          caption: "Mère et Fille",
+          description:
+            "Il faut profiter du temps. Il ne passe pas deux fois.<br> — Melvin Gallant"
+        },
+        {
+          name: "img/img07.jpg",
+          caption: "Grand-père",
+          description:
+            "Je m'amuse à vieillir. C'est une occupation de tous les instants.<br> — Paul Léautaud"
+        },
+        {
+          name: "img/img08.jpg",
+          caption: "Par la fenêtre",
+          description: "Le temps passe. Nous aussi.<br> — Félix Leclerc"
+        },
+        {
+          name: "img/img09.jpg",
+          caption: "Une des soeurs",
+          description: "Le temps met tout en lumière.<br> — Thalès"
+        },
+        {
+          name: "img/img10.jpg",
+          caption: "Les soeurs",
+          description:
+            "Le temps n'a pas la même allure pour tout le monde !<br> — William Shakespeare"
+        },
+        {
+          name: "img/img11.jpg",
+          caption: "Partie de pêche",
+          description:
+            "On ne possède rien, jamais, - Qu'un peu de temps.<br> — Eugène Guillevic"
+        },
+        {
+          name: "img/img12.jpg",
+          caption: "Famille",
+          description:
+            "Vienne la nuit sonne l'heure ; les jours s'en vont je demeure.<br> — Guillaume Apollinaire"
+        },
+        {
+          name: "img/img13.jpg",
+          caption: "Ami",
+          description:
+            "L'amitié peut se passer longtemps de preuves.<br> — Jules Renard"
+        },
+        {
+          name: "img/img14.jpg",
+          caption: "Une des Soeurs",
+          description:
+            "Nous n'avons à nous que le jour d'aujourd'hui.<br> — Alphonse de Lamartine"
+        },
+        {
+          name: "img/img15.jpg",
+          caption: "Nounou",
+          description: "C'est le temps qui mûrit l'amour.<br> — Simone Piuze"
+        }
+      ]
+    };
+  },
+
+  mounted() {
+    // polaroidGallery(this.data);
+  }
 };
 </script>
 
