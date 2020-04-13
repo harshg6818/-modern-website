@@ -519,10 +519,11 @@
         margin-bottom: 2rem;
     }
     .tech-stack-card-wrap {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 0px 12px 6px rgba(0, 0, 0, 0.2);
         border-radius: 50%;
-        height: 12rem;
-        width: 12rem;
+        height: 10rem;
+        width: 10rem;
+        position: relative;
         .second-row {
             margin: 2rem 0;
         }
@@ -540,14 +541,10 @@
         .tech-aws {
             height: 8rem;
             padding-top: 2rem;
-            img {
-                border-radius: 50%;
-                width: 180px;
-            }
         }
         .tech-django {
-            height: 8rem;
-            padding-top: 2rem;
+            height: 10rem;
+            // padding-top: 2rem;
         }
         .tech-javascript {
             height: 8rem;
@@ -556,10 +553,6 @@
         .tech-mysql {
             height: 8rem;
             padding-top: 2rem;
-            img {
-                width: 130px;
-                height: 90px;
-            }
         }
         .tech-postgres {
             height: 8rem;
@@ -568,6 +561,9 @@
         .tech-python {
             height: 8rem;
             padding-top: 2rem;
+            img {
+                margin-left: -1rem;
+            }
         }
         .tech-redis {
             height: 8rem;
@@ -580,15 +576,298 @@
         .tech-vue {
             height: 8rem;
             padding-top: 2rem;
+            img {
+                height: 5rem;
+                padding-top: 1rem;
+            }
         }
         .tech-webpack {
             height: 8rem;
             padding-top: 2rem;
         }
     }
+    .android {
+        transform: scale(0.8);
+        background: rgb(203, 255, 167);
+        // margin-left: 8em;
+        animation: myfirst 8s linear infinite;
+        @keyframes myfirst {
+            0% {
+                left: 0px;
+                overflow: hidden;
+            }
+            25% {
+                left: 2em;
+                overflow: hidden;
+            }
+            75% {
+                left: 4em;
+                overflow: hidden;
+            }
+            100% {
+                left: 0px;
+                overflow: hidden;
+            }
+        }
+    }
+    .angular {
+        transform: scale(0.8);
+        background: rgb(255, 208, 206);
+        animation: myfirst 8s linear infinite;
+        @keyframes myfirst {
+            0% {
+                left: 0px;
+                overflow: hidden;
+            }
+            25% {
+                left: 2em;
+                overflow: hidden;
+            }
+            75% {
+                left: 4em;
+                overflow: hidden;
+            }
+            100% {
+                left: 0px;
+                overflow: hidden;
+            }
+        }
+    }
+    .aws {
+        transform: scale(0.8);
+        background: rgb(255, 216, 145);
+        animation: myfirst 8s linear infinite;
+        @keyframes myfirst {
+            0% {
+                left: 0px;
+                overflow: hidden;
+            }
+            25% {
+                left: 2em;
+                overflow: hidden;
+            }
+            75% {
+                left: 4em;
+                overflow: hidden;
+            }
+            100% {
+                left: 0px;
+                overflow: hidden;
+            }
+        }
+    }
+    .django {
+        transform: scale(0.8);
+        animation: myfirst 8s linear infinite;
+        @keyframes myfirst {
+            0% {
+                left: 0px;
+                overflow: hidden;
+            }
+            25% {
+                left: 2em;
+                overflow: hidden;
+            }
+            75% {
+                left: 4em;
+                overflow: hidden;
+            }
+            100% {
+                left: 0px;
+                overflow: hidden;
+            }
+        }
+    }
+    .javascript {
+        transform: scale(0.8);
+        background: rgb(247, 223, 30);
+        animation: myfirst 8s linear infinite;
+        @keyframes myfirst {
+            0% {
+                left: 0px;
+                overflow: hidden;
+            }
+            25% {
+                left: 2em;
+                overflow: hidden;
+            }
+            75% {
+                left: 4em;
+                overflow: hidden;
+            }
+            100% {
+                left: 0px;
+                overflow: hidden;
+            }
+        }
+    }
+    .mysql {
+        transform: scale(0.8);
+        background: rgb(225, 246, 255);
+        animation: myfirst 8s linear infinite;
+        @keyframes myfirst {
+            0% {
+                left: 0px;
+                overflow: hidden;
+            }
+            25% {
+                left: 2em;
+                overflow: hidden;
+            }
+            75% {
+                left: 4em;
+                overflow: hidden;
+            }
+            100% {
+                left: 0px;
+                overflow: hidden;
+            }
+        }
+    }
+    .postgres {
+        transform: scale(0.8);
+        background: rgb(225, 246, 255);
+        animation: myfirst 8s linear infinite;
+        @keyframes myfirst {
+            0% {
+                left: 0px;
+                overflow: hidden;
+            }
+            25% {
+                left: 2em;
+                overflow: hidden;
+            }
+            75% {
+                left: 4em;
+                overflow: hidden;
+            }
+            100% {
+                left: 0px;
+                overflow: hidden;
+            }
+        }
+    }
+    .python {
+        transform: scale(0.8);
+        background: linear-gradient(100deg, rgb(190, 233, 252), rgb(247, 223, 30) 90%);
+        animation: myfirst 8s linear infinite;
+        @keyframes myfirst {
+            0% {
+                left: 0px;
+                overflow: hidden;
+            }
+            25% {
+                left: 2em;
+                overflow: hidden;
+            }
+            75% {
+                left: 4em;
+                overflow: hidden;
+            }
+            100% {
+                left: 0px;
+                overflow: hidden;
+            }
+        }
+    }
+    .redis {
+        transform: scale(0.8);
+        background: rgb(255, 208, 206);
+        animation: myfirst 8s linear infinite;
+        @keyframes myfirst {
+            0% {
+                left: 0px;
+                overflow: hidden;
+            }
+            25% {
+                left: 2em;
+                overflow: hidden;
+            }
+            75% {
+                left: 4em;
+                overflow: hidden;
+            }
+            100% {
+                left: 0px;
+                overflow: hidden;
+            }
+        }
+    }
+    .selenium {
+        transform: scale(0.8);
+        animation: myfirst 8s linear infinite;
+        @keyframes myfirst {
+            0% {
+                left: 0px;
+                overflow: hidden;
+            }
+            25% {
+                left: 2em;
+                overflow: hidden;
+            }
+            75% {
+                left: 4em;
+                overflow: hidden;
+            }
+            100% {
+                left: 0px;
+                overflow: hidden;
+            }
+        }
+    }
+    .vue {
+        transform: scale(0.8);
+        background: rgba(65, 184, 131, 0.6);
+        animation: myfirst 8s linear infinite;
+        @keyframes myfirst {
+            0% {
+                left: 0px;
+                overflow: hidden;
+            }
+            25% {
+                left: 2em;
+                overflow: hidden;
+            }
+            75% {
+                left: 4em;
+                overflow: hidden;
+            }
+            100% {
+                left: 0px;
+                overflow: hidden;
+            }
+        }
+    }
+    .webpack {
+        transform: scale(0.8);
+        background: linear-gradient(100deg, rgb(190, 233, 252), rgb(225, 246, 255));
+        animation: myfirst 8s linear infinite;
+        @keyframes myfirst {
+            0% {
+                left: 0px;
+                overflow: hidden;
+            }
+            25% {
+                left: 2em;
+                overflow: hidden;
+            }
+            75% {
+                left: 4em;
+                overflow: hidden;
+            }
+            100% {
+                left: 0px;
+                overflow: hidden;
+            }
+        }
+    }
 }
 
 .hirexp-team {
+    // 
+    .row {
+        margin: 0 -2rem;
+    }
     .hirexp-team-content-wrap {
         .hirexp-team-heading {
             text-align: center;
@@ -609,8 +888,8 @@
             color: inherit;
             cursor: pointer;
             width: 100%;
-            height: 285px;
-            min-height: 285px;
+            height: 250px;
+            min-height: 250px;
             perspective: 1000px;
             margin: 1rem;
             position: relative;

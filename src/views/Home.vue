@@ -332,44 +332,44 @@
       <b-container fluid>
         <b-row cols-lg="6">
           <b-col>
-            <div class="tech-stack-card-wrap">
+            <div class="tech-stack-card-wrap android">
               <div class="tech-android">
                 <img src="../assets/images/tech/android.png" />
               </div>
             </div>
           </b-col>
           <b-col>
-            <div class="tech-stack-card-wrap">
+            <div class="tech-stack-card-wrap angular">
               <div class="tech-angular">
                 <img src="../assets/images/tech/angular.png" />
               </div>
             </div>
           </b-col>
           <b-col>
-            <div class="tech-stack-card-wrap">
+            <div class="tech-stack-card-wrap aws">
               <div class="tech-aws">
                 <img src="../assets/images/tech/aws.png" />
               </div>
             </div>
           </b-col>
           <b-col>
-            <div class="tech-stack-card-wrap">
+            <div class="tech-stack-card-wrap django">
               <div class="tech-django">
                 <img src="../assets/images/tech/django.png" />
               </div>
             </div>
           </b-col>
           <b-col>
-            <div class="tech-stack-card-wrap">
+            <div class="tech-stack-card-wrap javascript">
               <div class="tech-javascript">
                 <img src="../assets/images/tech/javascript.svg" />
               </div>
             </div>
           </b-col>
           <b-col>
-            <div class="tech-stack-card-wrap">
+            <div class="tech-stack-card-wrap mysql">
               <div class="tech-mysql">
-                <img src="../assets/images/tech/mysql.jpg" />
+                <img src="../assets/images/tech/mysql.png" />
               </div>
             </div>
           </b-col>
@@ -378,42 +378,42 @@
       <b-container fluid class="mt-4">
         <b-row cols-lg="6">
           <b-col>
-            <div class="tech-stack-card-wrap">
+            <div class="tech-stack-card-wrap postgres">
               <div class="tech-postgres">
                 <img src="../assets/images/tech/postgres.png" />
               </div>
             </div>
           </b-col>
           <b-col>
-            <div class="tech-stack-card-wrap">
+            <div class="tech-stack-card-wrap python">
               <div class="tech-python">
-                <img src="../assets/images/tech/python.jpg" />
+                <img src="../assets/images/tech/python.png" />
               </div>
             </div>
           </b-col>
           <b-col>
-            <div class="tech-stack-card-wrap">
+            <div class="tech-stack-card-wrap redis">
               <div class="tech-redis">
                 <img src="../assets/images/tech/redis.jpg" />
               </div>
             </div>
           </b-col>
           <b-col>
-            <div class="tech-stack-card-wrap">
+            <div class="tech-stack-card-wrap selenium">
               <div class="tech-selenium">
                 <img src="../assets/images/tech/selenium.png" />
               </div>
             </div>
           </b-col>
           <b-col>
-            <div class="tech-stack-card-wrap">
+            <div class="tech-stack-card-wrap vue">
               <div class="tech-vue">
                 <img src="../assets/images/tech/vuejs.png" />
               </div>
             </div>
           </b-col>
           <b-col>
-            <div class="tech-stack-card-wrap">
+            <div class="tech-stack-card-wrap webpack">
               <div class="tech-webpack">
                 <img src="../assets/images/tech/webpack.png" />
               </div>
@@ -450,7 +450,7 @@
           </b-col>
         </b-row>
       </b-container>
-      <b-container fluid>
+      <b-container>
         <b-row cols-lg="5">
           <b-col class="p-0 m-0">
             <div class="content">
@@ -549,7 +549,7 @@
           </b-col>
         </b-row>
       </b-container>
-      <b-container fluid>
+      <b-container>
         <b-row cols-lg="5">
           <b-col class="p-0 m-0">
             <div class="content">
@@ -648,7 +648,7 @@
           </b-col>
         </b-row>
       </b-container>
-      <b-container fluid>
+      <b-container>
         <b-row cols-lg="5">
           <b-col class="p-0 m-0">
             <div class="content">
@@ -747,7 +747,7 @@
           </b-col>
         </b-row>
       </b-container>
-      <b-container fluid>
+      <b-container>
         <b-row cols-lg="5">
           <b-col class="p-0 m-0">
             <div class="content">
