@@ -437,11 +437,7 @@
         </b-row>
       </b-container>
       <b-container fluid>
-        <div id="gallery"></div>
-        <div id="nav" class="navbar">
-          <button id="preview">&lt; previous</button>
-          <button id="next">next &gt;</button>
-        </div>
+        <div id="gallery" class="fullscreen"></div>
       </b-container>
     </section>
 
@@ -1017,102 +1013,9 @@ export default {
 
   mixins: [gallery],
 
-  data() {
-    return {
-      data: [
-        {
-          name: "img/img01.jpg",
-          caption: "En voiture",
-          description:
-            "Il a pour lui l'éternité, montre en main.<br> — Jules Renard"
-        },
-        {
-          name: "img/img02.jpg",
-          caption: "Amis",
-          description: "Le temps confirme l'amitié.<br> — Henri Lacordaire"
-        },
-        {
-          name: "img/img03.jpg",
-          caption: "Au travail",
-          description:
-            "Dans le temps, même le futur était mieux.<br> — Karl Valentin"
-        },
-        {
-          name: "img/img04.jpg",
-          caption: "Au garage",
-          description:
-            "Il faut inventer en même temps que l'on apprend.<br> — Plutarque"
-        },
-        {
-          name: "img/img05.jpg",
-          caption: "Photo de groupe",
-          description:
-            "Les doctrines passent - les anecdotes demeurent.<br> — Emil Michel Cioran"
-        },
-        {
-          name: "img/img06.jpg",
-          caption: "Mère et Fille",
-          description:
-            "Il faut profiter du temps. Il ne passe pas deux fois.<br> — Melvin Gallant"
-        },
-        {
-          name: "img/img07.jpg",
-          caption: "Grand-père",
-          description:
-            "Je m'amuse à vieillir. C'est une occupation de tous les instants.<br> — Paul Léautaud"
-        },
-        {
-          name: "img/img08.jpg",
-          caption: "Par la fenêtre",
-          description: "Le temps passe. Nous aussi.<br> — Félix Leclerc"
-        },
-        {
-          name: "img/img09.jpg",
-          caption: "Une des soeurs",
-          description: "Le temps met tout en lumière.<br> — Thalès"
-        },
-        {
-          name: "img/img10.jpg",
-          caption: "Les soeurs",
-          description:
-            "Le temps n'a pas la même allure pour tout le monde !<br> — William Shakespeare"
-        },
-        {
-          name: "img/img11.jpg",
-          caption: "Partie de pêche",
-          description:
-            "On ne possède rien, jamais, - Qu'un peu de temps.<br> — Eugène Guillevic"
-        },
-        {
-          name: "img/img12.jpg",
-          caption: "Famille",
-          description:
-            "Vienne la nuit sonne l'heure ; les jours s'en vont je demeure.<br> — Guillaume Apollinaire"
-        },
-        {
-          name: "img/img13.jpg",
-          caption: "Ami",
-          description:
-            "L'amitié peut se passer longtemps de preuves.<br> — Jules Renard"
-        },
-        {
-          name: "img/img14.jpg",
-          caption: "Une des Soeurs",
-          description:
-            "Nous n'avons à nous que le jour d'aujourd'hui.<br> — Alphonse de Lamartine"
-        },
-        {
-          name: "img/img15.jpg",
-          caption: "Nounou",
-          description: "C'est le temps qui mûrit l'amour.<br> — Simone Piuze"
-        }
-      ]
-    };
-  },
-
   mounted() {
-    // polaroidGallery(this.data);
-  }
+    gallery.polaroidGallery();
+  },
 };
 </script>
 
@@ -1120,110 +1023,135 @@ export default {
 @import "../assets/scss/_hirexp.scss";
 </style>
 
-<style lang="scss">
-.hirexp-peoples {
-  .hirexp-peoples-tabs-wrap {
-    .nav-tabs {
-      border: none !important;
-      .nav-item {
-        font-size: 1.3em;
-        .nav-link {
-          color: #342b7e;
-          background-color: #e3e8eb;
-          border-color: #342b7e;
-          transition: 1s ease;
-        }
-        .nav-link.active {
-          color: #fff;
-          background-color: #342b7e;
-          border-color: #342b7e;
-          transition: 1s ease;
-        }
-      }
-    }
-    .tab-container {
-      border-top: 2px solid #342b7e;
-      // background-color: #ffffff;
-      height: 100vh;
-      .image-wrap {
-        width: 33.333%;
-        height: auto;
-        float: left;
-        padding: 1em;
-        position: relative;
-        &:hover img {
-          opacity: 0.3;
-        }
+<style>
+.fullscreen {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background-color: #f2ebe2;
+  padding: 0;
+}
 
-        &:hover .img-overlay-text {
-          opacity: 1;
-        }
+.photo {
+  position: absolute;
+  cursor: pointer;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  transition: all 0.6s;
+}
 
-        img {
-          padding: 0;
-          height: 300px !important;
-          width: 275px !important;
-          display: block;
-          opacity: 1;
-        }
-      }
+.side {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 
-      .image-wrap img,
-      .img-overlay-text {
-        -webkit-transition: opacity 0.5s ease-out;
-        -moz-transition: opacity 0.5s ease-out;
-        -o-transition: opacity 0.5s ease-out;
-        transition: opacity 0.5s ease-out;
-      }
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
 
-      .img-overlay-text {
-        position: absolute;
-        columns: #000000;
-        left: 0;
-        top: 25%;
-        right: 0;
-        bottom: 0;
-        width: 80%;
-        font-size: 16px;
-        text-align: center;
-        opacity: 0;
-        -webkit-transform: translate(15%, 10%);
-        -ms-transform: translate(15%, 10%);
-        transform: translate(15%, 10%);
-      }
+  -webkit-transition: transform 0.6s;
+  -moz-transition: transform 0.6s;
+  transition: transform 0.6s;
+}
 
-      // .image-wrap {
-      //   img {
-      //     height: 300px !important;
-      //     width: 275px !important;
-      //   }
-      //   &:hover .overlay {
-      //     opacity: 1;
-      //   }
-      //   .overlay {
-      //     position: absolute;
-      //     top: 0;
-      //     bottom: 0;
-      //     left: 0;
-      //     right: 0;
-      //     height: 100%;
-      //     width: 100%;
-      //     opacity: 0;
-      //     transition: 0.5s ease;
-      //     background-color: rgba(0, 0, 0, 0.3);
-      //     .img-overlay-text {
-      //       color: white;
-      //       font-size: 16px;
-      //       position: absolute;
-      //       top: 50%;
-      //       width: 80%;
-      //       -webkit-transform: translate(10%, -50%);
-      //       -ms-transform: translate(10%, -50%);
-      //       transform: translate(10%, -50%);
-      //     }
-      //   }
-      // }
-    }
+.side-back {
+  -webkit-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  -ms-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+  display: table;
+}
+
+.side-back div {
+  display: table-cell;
+  vertical-align: middle;
+  background-color: white;
+}
+
+.side-back p {
+  padding: 30px;
+  color: #8f8476;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.photo.flipped .side-front {
+  -webkit-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  -ms-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+}
+
+.photo.flipped .side-back {
+  -webkit-transform: rotateY(0);
+  -moz-transform: rotateY(0);
+  -ms-transform: rotateY(0);
+  transform: rotateY(0);
+}
+
+figure {
+  width: 150px;
+  position: absolute;
+  padding: 30px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: white;
+}
+
+figure img {
+  height: auto;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+figure figcaption {
+  font-family: Comic Sans, Comic Sans MS, cursive;
+  color: #8f8476;
+}
+
+button {
+  background-color: transparent;
+  padding: 10px 24px;
+  color: #ffffff;
+  border: 2px solid black;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #a00;
+  color: white;
+}
+
+#copyright {
+  font-family: Consolas, Verdana, Arial, sans-serif;
+  position: fixed;
+  color: #ccc;
+  text-decoration: none;
+  bottom: 20px;
+  right: 10px;
+}
+
+#copyright:hover {
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  #forkme {
+    display: none;
+  }
+
+  #copyright {
+    position: relative;
+    display: block;
+    text-align: center;
+    right: 0px;
+    bottom: 0px;
   }
 }
 </style>
