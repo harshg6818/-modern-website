@@ -10,17 +10,17 @@
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
             <b-collapse id="nav-collapse" is-nav class="hirexp-nav">
               <b-navbar-nav>
-                <b-nav-item href="#" class="hirexp-nav-item">Home</b-nav-item>
+                <b-nav-item href="#header-section" class="hirexp-nav-item">Home</b-nav-item>
                 <b-nav-item href="#" class="hirexp-nav-item"
                   >About Us</b-nav-item
                 >
-                <b-nav-item href="#" class="hirexp-nav-item"
+                <b-nav-item href="#hirexp-culture" class="hirexp-nav-item"
                   >Culture & Celebrations</b-nav-item
                 >
-                <b-nav-item href="#" class="hirexp-nav-item"
+                <b-nav-item href="#hirexp-team" class="hirexp-nav-item"
                   >Tech@HireXP</b-nav-item
                 >
-                <b-nav-item href="#" class="hirexp-nav-item"
+                <b-nav-item href="#hirexp-openings-section" class="hirexp-nav-item"
                   >View Openings</b-nav-item
                 >
               </b-navbar-nav>
@@ -30,7 +30,7 @@
       </div>
     </header>
 
-    <section class="header-section">
+    <section class="header-section" id="header-section">
       <b-container fluid>
         <b-row>
           <b-col cols="5">
@@ -428,7 +428,7 @@
       </b-container>
     </section>
 
-    <section class="hirexp-culture">
+    <section class="hirexp-culture" id="hirexp-culture">
       <b-container>
         <b-row>
           <div class="hirexp-culture-content-wrap">
@@ -436,12 +436,12 @@
           </div>
         </b-row>
       </b-container>
-      <b-container class="fullscreen">
+      <b-container fluid>
         <div id="gallery" class="fullscreen"></div>
       </b-container>
     </section>
 
-    <section class="hirexp-team">
+    <section class="hirexp-team" id="hirexp-team">
       <b-container>
         <b-row cols-lg="1">
           <b-col>
@@ -849,7 +849,7 @@
       </b-container>
     </section>
 
-    <section class="hirexp-openings-section">
+    <section class="hirexp-openings-section" id="hirexp-openings-section">
       <b-container class="hirexp-opening-container"></b-container>
       <b-container>
         <b-row cols-lg="1">
@@ -1002,6 +1002,184 @@
         </b-row>
       </b-container>
     </section>
+
+    <section class="hirexp-perks-section">
+      <div class="container hirexp-perks-head">
+        <div class="hirexp-perks-heading">Perks and Benefits</div>
+        <p class="hirexp-perks-sub">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+          provident commodi enim eveniet accusamus.
+        </p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 perks-card">
+            <div class="perks-card-icon">
+              <i class="fas fa-store-alt"></i>
+            </div>
+            <h4 class="perks-card-heading">Environment</h4>
+            <p class="perks-card-sub">
+              Our modern offices are comfortable, light and thoughtfully
+              designed. Both sites offer creative work spaces, a well-stocked
+              communal kitchen, and good access to transport links and city
+              life.
+            </p>
+          </div>
+          <div class="col-lg-4 perks-card">
+            <div class="perks-card-icon">
+              <i class="fas fa-store-alt"></i>
+            </div>
+            <h4 class="perks-card-heading">Equipment</h4>
+            <p class="perks-card-sub">
+              Our modern offices are comfortable, light and thoughtfully
+              designed. Both sites offer creative work spaces, a well-stocked
+              communal kitchen, and good access to transport links and city
+              life.
+            </p>
+          </div>
+          <div class="col-lg-4 perks-card">
+            <div class="perks-card-icon">
+              <i class="fas fa-store-alt"></i>
+            </div>
+            <h4 class="perks-card-heading">Rewards</h4>
+            <p class="perks-card-sub">
+              Our modern offices are comfortable, light and thoughtfully
+              designed. Both sites offer creative work spaces, a well-stocked
+              communal kitchen, and good access to transport links and city
+              life.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 perks-card">
+            <div class="perks-card-icon">
+              <i class="fas fa-store-alt"></i>
+            </div>
+            <h4 class="perks-card-heading">Environment</h4>
+            <p class="perks-card-sub">
+              Our modern offices are comfortable, light and thoughtfully
+              designed. Both sites offer creative work spaces, a well-stocked
+              communal kitchen, and good access to transport links and city
+              life.
+            </p>
+          </div>
+          <div class="col-lg-4 perks-card">
+            <div class="perks-card-icon">
+              <i class="fas fa-store-alt"></i>
+            </div>
+            <h4 class="perks-card-heading">Equipment</h4>
+            <p class="perks-card-sub">
+              Our modern offices are comfortable, light and thoughtfully
+              designed. Both sites offer creative work spaces, a well-stocked
+              communal kitchen, and good access to transport links and city
+              life.
+            </p>
+          </div>
+          <div class="col-lg-4 perks-card">
+            <div class="perks-card-icon">
+              <i class="fas fa-store-alt"></i>
+            </div>
+            <h4 class="perks-card-heading">Rewards</h4>
+            <p class="perks-card-sub">
+              Our modern offices are comfortable, light and thoughtfully
+              designed. Both sites offer creative work spaces, a well-stocked
+              communal kitchen, and good access to transport links and city
+              life.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hirexp-awards">
+      <b-container class="hirexp-awards-content">
+        <div class="hirexp-awards-icon">
+          <i class="fas fa-trophy"></i>
+        </div>
+        <div class="hirexp-awards-heading">
+          Media and Awards
+        </div>
+      </b-container>
+      <b-container class="hirexp-awards-container">
+        <b-row>
+          <b-col class="p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front awards-one"></div>
+                <div class="back">
+                  <div>
+                    <p>
+                      hireXP: Rendering quality HR Services through
+                      state-of-the-art technology.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <p>
+              hireXP: Rendering quality HR Services through state-of-the-art
+              technology.
+            </p>
+          </b-col>
+          <b-col class="p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front awards-two"></div>
+                <div class="back">
+                  <div>
+                    <p>
+                      20 most promising recruitment technology solution
+                      providers.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <p>20 most promising recruitment technology solution providers.</p>
+          </b-col>
+          <b-col class="p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front awards-three"></div>
+                <div class="back">
+                  <div>
+                    <p>
+                      Knowlarity CEO invests in recruitment startup HireXP
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <p>Knowlarity CEO invests in recruitment startup HireXP</p>
+          </b-col>
+          <b-col class="p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front awards-four"></div>
+                <div class="back">
+                  <div>
+                    <p>
+                      India Dealbook: HireXP, Magicpin raise funds; Marico exits
+                      Bellezimo
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <p>
+              India Dealbook: HireXP, Magicpin raise funds; Marico exits
+              Bellezimo
+            </p>
+          </b-col>
+        </b-row>
+      </b-container>
+    </section>
   </div>
 </template>
 
@@ -1014,7 +1192,14 @@ export default {
   mixins: [gallery],
 
   mounted() {
-    gallery.polaroidGallery();
+    setInterval(() => this.test(), 6000);
+    this.test();
+  },
+
+  methods: {
+    test() {
+      gallery.polaroidGallery();
+    }
   }
 };
 </script>
@@ -1025,13 +1210,12 @@ export default {
 
 <style>
 .fullscreen {
-  width: 100vw;
-  height: 100vh;
+  height: 90vh;
   overflow: hidden;
-  margin: 0;
-  background-color: #f2ebe2;
-  padding: 0;
-  z-index: -200;
+  background: linear-gradient(90deg, #61245e, #42276f 90%);
+  padding: 2em 0;
+  margin: 2em 0;
+  padding-left: 4rem;
 }
 
 .photo {
@@ -1078,7 +1262,7 @@ export default {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-.photo.flipped .side-front {
+/* .photo.flipped .side-front {
   -webkit-transform: rotateY(-180deg);
   -moz-transform: rotateY(-180deg);
   -ms-transform: rotateY(-180deg);
@@ -1090,7 +1274,7 @@ export default {
   -moz-transform: rotateY(0);
   -ms-transform: rotateY(0);
   transform: rotateY(0);
-}
+} */
 
 figure {
   width: 250px;

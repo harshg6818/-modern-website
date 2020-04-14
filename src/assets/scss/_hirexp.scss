@@ -4,6 +4,11 @@
 }
 
 .nav-wrap {
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    display: block;
+    z-index: 9999;
     background: linear-gradient(90deg, #61245e, #42276f 90%);
     // background: linear-gradient( 120deg, rgba(52, 43, 126, 1) 0%, rgba(84, 72, 189, 1) 33%, rgba(143, 72, 189, 1) 66%, rgba(197, 36, 55, 1) 100%);
     color: #e8dff6;
@@ -15,6 +20,7 @@
             font-weight: 600;
             &:hover {
                 color: #342b7e;
+                text-shadow: 1px 1px 1px 1px #FFF;
                 backface-visibility: hidden;
                 cursor: pointer;
                 transition: 0.5s ease;
@@ -55,6 +61,7 @@
 }
 
 .header-section {
+    margin-top: 4rem;
     font-family: proxima-nova, helvetica, arial, sans-serif;
     .main-title {
         // margin-top: 15%;
@@ -773,7 +780,7 @@
     }
     .python {
         transform: scale(0.8);
-        background: linear-gradient(100deg, rgb(190, 233, 252), rgb(247, 223, 30) 90%);
+        background: linear-gradient( 100deg, rgb(190, 233, 252), rgb(247, 223, 30) 90%);
         animation: myfirst 8s linear infinite;
         margin-left: 4rem;
         // @keyframes myfirst {
@@ -897,7 +904,7 @@
 }
 
 .hirexp-team {
-    // 
+    //
     .row {
         margin: 0 -2rem;
     }
@@ -1092,7 +1099,6 @@
 }
 
 .hirexp-openings-section {
-    height: 80vh;
     margin-top: 2rem;
     .hirexp-opening-icon {
         font-size: 3rem;
@@ -1144,7 +1150,8 @@
                     min-height: 200px;
                     border-top-right-radius: 10px;
                     border-top-left-radius: 10px;
-                    background: linear-gradient( 120deg, rgba(52, 43, 126, 1) 0%, rgba(84, 72, 189, 1) 33%, rgba(143, 72, 189, 1) 66%, rgba(197, 36, 55, 1) 100%);
+                    // background: linear-gradient( 120deg, rgba(52, 43, 126, 1) 0%, rgba(84, 72, 189, 1) 33%, rgba(143, 72, 189, 1) 66%, rgba(197, 36, 55, 1) 100%);
+                    background: linear-gradient(90deg, #61245e, #42276f 90%);
                     // background: linear-gradient(to right, #10977f, #34e5c1);
                     margin: auto;
                     h2 {
@@ -1205,6 +1212,206 @@
                         display: table;
                         margin: 0;
                         padding: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.hirexp-perks-section {
+    // background-color: #e3e8eb;
+    .hirexp-perks-head {
+        padding: 2em 0;
+        .hirexp-perks-heading {
+            font-size: 2.8rem;
+            font-weight: 700;
+            color: #342B7E;
+        }
+        .hirexp-perks-sub {
+            font-size: 1rem;
+            line-height: 2.2rem;
+        }
+    }
+    .perks-card {
+        .perks-card-icon {
+            text-align: left;
+            font-size: 1.5rem;
+            padding-bottom: .5rem;
+            color: #342B7E;
+        }
+        .perks-card-heading {
+            text-align: left;
+            font-weight: 700;
+        }
+        .perks-card-sub {
+            text-align: left;
+            font-size: 1rem;
+            line-height: 2.2rem;
+            font-weight: 400;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+.hirexp-awards {
+    margin-top: 2rem;
+    .hirexp-awards-content {
+        .hirexp-awards-icon {
+            font-size: 3rem;
+            color: #342b7e;
+        }
+        .hirexp-awards-heading {
+            font-size: 2.8rem;
+            font-weight: 700;
+            color: #342b7e;
+            // padding-bottom: 2rem;
+        }
+    }
+    .hirexp-awards-container {
+        margin-top: 2rem;
+        .row {
+            margin: 0 -2rem;
+        }
+        .content {
+            display: flex;
+            margin: 0 auto;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            max-width: 1000px;
+            .card {
+                color: inherit;
+                cursor: pointer;
+                width: 100%;
+                height: 170px;
+                min-height: 100%;
+                perspective: 1000px;
+                margin: 1rem;
+                position: relative;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                &:hover .front {
+                    transform: rotateY(180deg);
+                }
+                &:hover .back {
+                    transform: rotateY(0deg);
+                }
+                &:nth-child(even) .back .button {
+                    background: linear-gradient(135deg, #e61a80, #e61a3c);
+                }
+                &:nth-child(even) .back .button:before {
+                    box-shadow: 0 0 10px 10px rgba(230, 26, 60, 0.25);
+                    background-color: rgba(230, 26, 60, 0.25);
+                }
+                .front,
+                .back {
+                    display: flex;
+                    border-radius: 6px;
+                    background-position: center;
+                    background-size: cover;
+                    text-align: center;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    -webkit-backface-visibility: hidden;
+                    backface-visibility: hidden;
+                    transform-style: preserve-3d;
+                    transition: ease-in-out 600ms;
+                }
+                .front {
+                    background-size: cover;
+                    padding: 2rem;
+                    font-size: 1.618rem;
+                    font-weight: 600;
+                    color: #fff;
+                    overflow: hidden;
+                    &:before {
+                        position: absolute;
+                        display: block;
+                        content: "";
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        // background: linear-gradient(135deg, #1a9be6, #1a57e6);
+                        opacity: 0.25;
+                        z-index: -1;
+                    }
+                    &.awards-one {
+                        background: url("~@/assets/images/awards/1.jpg");
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                    }
+                    &.awards-two {
+                        background: url("~@/assets/images/awards/2.jpg");
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                    }
+                    &.awards-three {
+                        background: url("~@/assets/images/awards/3.jpg");
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                    }
+                    &.awards-four {
+                        background: url("~@/assets/images/awards/4.jpg");
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                    }
+                }
+                .back {
+                    background: #ffffff;
+                    color: #333;
+                    transform: rotateY(-180deg);
+                    padding: 0 2em;
+                    .button {
+                        transform: translateZ(40px);
+                        cursor: pointer;
+                        -webkit-backface-visibility: hidden;
+                        backface-visibility: hidden;
+                        font-weight: bold;
+                        color: #fff;
+                        padding: 0.5em 1em;
+                        border-radius: 100px;
+                        border: none;
+                        position: relative;
+                        transform-style: preserve-3d;
+                        transition: 300ms ease;
+                        background: linear-gradient(135deg, #1a9be6, #1a57e6);
+                        &:before {
+                            transition: 300ms ease;
+                            position: absolute;
+                            display: block;
+                            content: "";
+                            transform: translateZ(-40px);
+                            -webkit-backface-visibility: hidden;
+                            backface-visibility: hidden;
+                            height: calc(100% - 20px);
+                            width: calc(100% - 20px);
+                            border-radius: 100px;
+                            left: 10px;
+                            top: 16px;
+                            box-shadow: 0 0 10px 10px rgba(26, 87, 230, 0.25);
+                            background-color: rgba(26, 87, 230, 0.25);
+                        }
+                        &:hover {
+                            transform: translateZ(55px);
+                        }
+                        &:hover:before {
+                            transform: translateZ(-55px);
+                        }
+                        &:active {
+                            transform: translateZ(20px);
+                        }
+                        &:active:before {
+                            transform: translateZ(-20px);
+                            top: 12px;
+                        }
                     }
                 }
             }
