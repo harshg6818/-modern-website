@@ -128,6 +128,26 @@
     }
 }
 
+.hirexp-about {
+    .hirexp-about-content-wrap {
+        margin: 4rem 0;
+        .hirexp-about-heading {
+            line-height: 1.2;
+            font-size: 3rem;
+            font-weight: 700;
+            color: #342b7e;
+            text-align: center;
+        }
+        .hirexp-about-head-sub {
+            margin: 1rem 0;
+            line-height: 1.2;
+            font-size: 1.5rem;
+            color: #342b7e;
+            text-align: center;
+        }
+    }
+}
+
 .hirexp-stats {
     background: linear-gradient(90deg, #61245e, #42276f 90%);
     padding: 1rem 0;

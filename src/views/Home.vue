@@ -10,8 +10,10 @@
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
             <b-collapse id="nav-collapse" is-nav class="hirexp-nav">
               <b-navbar-nav>
-                <b-nav-item href="#header-section" class="hirexp-nav-item">Home</b-nav-item>
-                <b-nav-item href="#" class="hirexp-nav-item"
+                <b-nav-item href="#header-section" class="hirexp-nav-item"
+                  >Home</b-nav-item
+                >
+                <b-nav-item href="#hirexp-about" class="hirexp-nav-item"
                   >About Us</b-nav-item
                 >
                 <b-nav-item href="#hirexp-culture" class="hirexp-nav-item"
@@ -20,7 +22,9 @@
                 <b-nav-item href="#hirexp-team" class="hirexp-nav-item"
                   >Tech@HireXP</b-nav-item
                 >
-                <b-nav-item href="#hirexp-openings-section" class="hirexp-nav-item"
+                <b-nav-item
+                  href="#hirexp-openings-section"
+                  class="hirexp-nav-item"
                   >View Openings</b-nav-item
                 >
               </b-navbar-nav>
@@ -76,6 +80,24 @@
           </div>
         </div>
       </div>
+    </section>
+
+    <section class="hirexp-about" id="hirexp-about">
+      <b-container>
+        <b-row>
+          <b-col class="hirexp-about-content-wrap">
+            <h1 class="hirexp-about-heading">About Us</h1>
+            <div class="hirexp-about-head-sub">
+              We dreamt of creating a highly usable, intuitive solution that
+              would take away your day-to-day recruitment worries, streamline
+              standard hiring processes, and provide you with insightful
+              analytics on your systems. But most importantly, free up your
+              recruiters’ time and creativity to engage candidates in more
+              impactful ways.
+            </div>
+          </b-col>
+        </b-row>
+      </b-container>
     </section>
 
     <section class="hirexp-join">
@@ -332,7 +354,7 @@
         <b-row>
           <b-col>
             <div class="tech-stach-icon">
-              <img src="../assets/stack.png" />
+              <img src="../assets/stack.png" alt="stack" />
             </div>
             <div class="tech-stach-heading">Tech Stack At HireXP</div>
           </b-col>
@@ -343,84 +365,84 @@
           <b-col>
             <div class="tech-stack-card-wrap android">
               <div class="tech-android">
-                <img src="../assets/images/tech/android.png" />
+                <img src="../assets/images/tech/android.png" alt="android" />
               </div>
             </div>
           </b-col>
           <b-col>
             <div class="tech-stack-card-wrap angular">
               <div class="tech-angular">
-                <img src="../assets/images/tech/angular.png" />
+                <img src="../assets/images/tech/angular.png" alt="angular" />
               </div>
             </div>
           </b-col>
           <b-col>
             <div class="tech-stack-card-wrap aws">
               <div class="tech-aws">
-                <img src="../assets/images/tech/aws.png" />
+                <img src="../assets/images/tech/aws.png" alt="aws" />
               </div>
             </div>
           </b-col>
           <b-col>
             <div class="tech-stack-card-wrap django">
               <div class="tech-django">
-                <img src="../assets/images/tech/django.png" />
+                <img src="../assets/images/tech/django.png" alt="django" />
               </div>
             </div>
           </b-col>
           <b-col>
             <div class="tech-stack-card-wrap javascript">
               <div class="tech-javascript">
-                <img src="../assets/images/tech/javascript.svg" />
+                <img src="../assets/images/tech/javascript.svg" alt="js" />
               </div>
             </div>
           </b-col>
           <b-col>
             <div class="tech-stack-card-wrap mysql">
               <div class="tech-mysql">
-                <img src="../assets/images/tech/mysql.png" />
+                <img src="../assets/images/tech/mysql.png" alt="mysql" />
               </div>
             </div>
           </b-col>
           <b-col>
             <div class="tech-stack-card-wrap postgres">
               <div class="tech-postgres">
-                <img src="../assets/images/tech/postgres.png" />
+                <img src="../assets/images/tech/postgres.png" alt="postgress" />
               </div>
             </div>
           </b-col>
           <b-col>
             <div class="tech-stack-card-wrap python">
               <div class="tech-python">
-                <img src="../assets/images/tech/python.png" />
+                <img src="../assets/images/tech/python.png" alt="python" />
               </div>
             </div>
           </b-col>
           <b-col>
             <div class="tech-stack-card-wrap redis">
               <div class="tech-redis">
-                <img src="../assets/images/tech/redis.jpg" />
+                <img src="../assets/images/tech/redis.jpg" alt="redis" />
               </div>
             </div>
           </b-col>
           <b-col>
             <div class="tech-stack-card-wrap selenium">
               <div class="tech-selenium">
-                <img src="../assets/images/tech/selenium.png" />
+                <img src="../assets/images/tech/selenium.png" alt="selenium" />
               </div>
             </div>
           </b-col>
           <b-col>
             <div class="tech-stack-card-wrap vue">
               <div class="tech-vue">
-                <img src="../assets/images/tech/vuejs.png" />
+                <img src="../assets/images/tech/vuejs.png" alt="vue" />
               </div>
             </div>
           </b-col>
           <b-col>
             <div class="tech-stack-card-wrap webpack">
               <div class="tech-webpack">
-                <img src="../assets/images/tech/webpack.png" />
+                <img src="../assets/images/tech/webpack.png" alt="webpack" />
               </div>
             </div>
           </b-col>
@@ -436,7 +458,7 @@
           </div>
         </b-row>
       </b-container>
-      <b-container fluid>
+      <b-container fluid class="p-0">
         <div id="gallery" class="fullscreen"></div>
       </b-container>
     </section>
@@ -865,22 +887,22 @@
         <b-row cols-lg="4">
           <b-col>
             <div class="hirexp-location">
-              <img src="../assets/svg/banglore.svg" />
+              <img src="../assets/svg/banglore.svg" alt="banglore" />
             </div>
           </b-col>
           <b-col>
             <div class="hirexp-location">
-              <img src="../assets/svg/dubai.svg" />
+              <img src="../assets/svg/dubai.svg" alt="dubai" />
             </div>
           </b-col>
           <b-col>
             <div class="hirexp-location">
-              <img src="../assets/svg/gurugram.svg" />
+              <img src="../assets/svg/gurugram.svg" alt="gurugram" />
             </div>
           </b-col>
           <b-col>
             <div class="hirexp-location">
-              <img src="../assets/svg/manila.svg" />
+              <img src="../assets/svg/manila.svg" alt="manila" />
             </div>
           </b-col>
         </b-row>
@@ -1294,6 +1316,6 @@ figure img {
 
 figure figcaption {
   font-family: Comic Sans, Comic Sans MS, cursive;
-  color: #8f8476;
+  color: #342b7e;
 }
 </style>
