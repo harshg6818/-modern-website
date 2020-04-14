@@ -233,10 +233,10 @@
                         background-image: url("~@/assets/images/join/hirexp-join-1.jpg");
                     }
                     &.card-two-img {
-                        background-image: url("~@/assets/images/join/hirexp-join-2.jpg");
+                        background-image: url("~@/assets/images/join/hirexp-join-2.jpeg");
                     }
                     &.card-three-img {
-                        background-image: url("~@/assets/images/join/hirexp-join-3.jpg");
+                        background-image: url("~@/assets/images/join/hirexp-join-3.jpeg");
                     }
                     &.card-four-img {
                         background-image: url("~@/assets/images/join/hirexp-join-4.jpg");
@@ -589,20 +589,23 @@
     .android {
         transform: scale(0.8);
         background: rgb(203, 255, 167);
-        // margin-left: 8em;
-        animation: myfirst 8s linear infinite;
-        @keyframes myfirst {
+        margin-left: 6em;
+        animation: android 6s linear infinite;
+        @keyframes android {
             0% {
                 left: 0px;
                 overflow: hidden;
             }
-            25% {
-                left: 2em;
-                overflow: hidden;
-            }
-            75% {
-                left: 4em;
-                overflow: hidden;
+            // 25% {
+            //     left: 2em;
+            //     overflow: hidden;
+            // }
+            // 75% {
+            //     left: 2em;
+            //     overflow: hidden;
+            // }
+            50% {
+                left: 2rem;
             }
             100% {
                 left: 0px;
@@ -613,18 +616,19 @@
     .angular {
         transform: scale(0.8);
         background: rgb(255, 208, 206);
-        animation: myfirst 8s linear infinite;
-        @keyframes myfirst {
+        animation: angular 8s linear infinite;
+        margin-top: 7rem;
+        @keyframes angular {
             0% {
                 left: 0px;
                 overflow: hidden;
             }
             25% {
-                left: 2em;
+                left: -2em;
                 overflow: hidden;
             }
             75% {
-                left: 4em;
+                left: 2em;
                 overflow: hidden;
             }
             100% {
@@ -659,207 +663,223 @@
     .django {
         transform: scale(0.8);
         animation: myfirst 8s linear infinite;
-        @keyframes myfirst {
-            0% {
-                left: 0px;
-                overflow: hidden;
-            }
-            25% {
-                left: 2em;
-                overflow: hidden;
-            }
-            75% {
-                left: 4em;
-                overflow: hidden;
-            }
-            100% {
-                left: 0px;
-                overflow: hidden;
-            }
-        }
+        margin-top: 5rem;
+        // @keyframes myfirst {
+        //     0% {
+        //         left: 0px;
+        //         overflow: hidden;
+        //     }
+        //     25% {
+        //         left: 2em;
+        //         overflow: hidden;
+        //     }
+        //     75% {
+        //         left: 4em;
+        //         overflow: hidden;
+        //     }
+        //     100% {
+        //         left: 0px;
+        //         overflow: hidden;
+        //     }
+        // }
     }
     .javascript {
         transform: scale(0.8);
         background: rgb(247, 223, 30);
         animation: myfirst 8s linear infinite;
-        @keyframes myfirst {
-            0% {
-                left: 0px;
-                overflow: hidden;
-            }
-            25% {
-                left: 2em;
-                overflow: hidden;
-            }
-            75% {
-                left: 4em;
-                overflow: hidden;
-            }
-            100% {
-                left: 0px;
-                overflow: hidden;
-            }
-        }
+        margin-top: 6rem;
+        margin-left: 3rem;
+        // @keyframes myfirst {
+        //     0% {
+        //         left: 0px;
+        //         overflow: hidden;
+        //     }
+        //     25% {
+        //         left: 2em;
+        //         overflow: hidden;
+        //     }
+        //     75% {
+        //         left: 4em;
+        //         overflow: hidden;
+        //     }
+        //     100% {
+        //         left: 0px;
+        //         overflow: hidden;
+        //     }
+        // }
     }
     .mysql {
         transform: scale(0.8);
         background: rgb(225, 246, 255);
         animation: myfirst 8s linear infinite;
-        @keyframes myfirst {
-            0% {
-                left: 0px;
-                overflow: hidden;
-            }
-            25% {
-                left: 2em;
-                overflow: hidden;
-            }
-            75% {
-                left: 4em;
-                overflow: hidden;
-            }
-            100% {
-                left: 0px;
-                overflow: hidden;
-            }
-        }
+        margin-top: -1rem;
+        margin-left: -1rem;
+        // @keyframes myfirst {
+        //     0% {
+        //         left: 0px;
+        //         overflow: hidden;
+        //     }
+        //     25% {
+        //         left: 2em;
+        //         overflow: hidden;
+        //     }
+        //     75% {
+        //         left: 4em;
+        //         overflow: hidden;
+        //     }
+        //     100% {
+        //         left: 0px;
+        //         overflow: hidden;
+        //     }
+        // }
     }
     .postgres {
         transform: scale(0.8);
         background: rgb(225, 246, 255);
         animation: myfirst 8s linear infinite;
-        @keyframes myfirst {
-            0% {
-                left: 0px;
-                overflow: hidden;
-            }
-            25% {
-                left: 2em;
-                overflow: hidden;
-            }
-            75% {
-                left: 4em;
-                overflow: hidden;
-            }
-            100% {
-                left: 0px;
-                overflow: hidden;
-            }
-        }
+        margin-top: 7rem;
+        margin-left: -3rem;
+        // @keyframes myfirst {
+        //     0% {
+        //         left: 0px;
+        //         overflow: hidden;
+        //     }
+        //     25% {
+        //         left: 2em;
+        //         overflow: hidden;
+        //     }
+        //     75% {
+        //         left: 4em;
+        //         overflow: hidden;
+        //     }
+        //     100% {
+        //         left: 0px;
+        //         overflow: hidden;
+        //     }
+        // }
     }
     .python {
         transform: scale(0.8);
         background: linear-gradient(100deg, rgb(190, 233, 252), rgb(247, 223, 30) 90%);
         animation: myfirst 8s linear infinite;
-        @keyframes myfirst {
-            0% {
-                left: 0px;
-                overflow: hidden;
-            }
-            25% {
-                left: 2em;
-                overflow: hidden;
-            }
-            75% {
-                left: 4em;
-                overflow: hidden;
-            }
-            100% {
-                left: 0px;
-                overflow: hidden;
-            }
-        }
+        margin-left: 4rem;
+        // @keyframes myfirst {
+        //     0% {
+        //         left: 0px;
+        //         overflow: hidden;
+        //     }
+        //     25% {
+        //         left: 2em;
+        //         overflow: hidden;
+        //     }
+        //     75% {
+        //         left: 4em;
+        //         overflow: hidden;
+        //     }
+        //     100% {
+        //         left: 0px;
+        //         overflow: hidden;
+        //     }
+        // }
     }
     .redis {
         transform: scale(0.8);
         background: rgb(255, 208, 206);
         animation: myfirst 8s linear infinite;
-        @keyframes myfirst {
-            0% {
-                left: 0px;
-                overflow: hidden;
-            }
-            25% {
-                left: 2em;
-                overflow: hidden;
-            }
-            75% {
-                left: 4em;
-                overflow: hidden;
-            }
-            100% {
-                left: 0px;
-                overflow: hidden;
-            }
-        }
+        margin-top: 6rem;
+        margin-left: 2rem;
+        // @keyframes myfirst {
+        //     0% {
+        //         left: 0px;
+        //         overflow: hidden;
+        //     }
+        //     25% {
+        //         left: 2em;
+        //         overflow: hidden;
+        //     }
+        //     75% {
+        //         left: 4em;
+        //         overflow: hidden;
+        //     }
+        //     100% {
+        //         left: 0px;
+        //         overflow: hidden;
+        //     }
+        // }
     }
     .selenium {
         transform: scale(0.8);
         animation: myfirst 8s linear infinite;
-        @keyframes myfirst {
-            0% {
-                left: 0px;
-                overflow: hidden;
-            }
-            25% {
-                left: 2em;
-                overflow: hidden;
-            }
-            75% {
-                left: 4em;
-                overflow: hidden;
-            }
-            100% {
-                left: 0px;
-                overflow: hidden;
-            }
-        }
+        margin-top: -2rem;
+        margin-left: -4rem;
+        // @keyframes myfirst {
+        //     0% {
+        //         left: 0px;
+        //         overflow: hidden;
+        //     }
+        //     25% {
+        //         left: 2em;
+        //         overflow: hidden;
+        //     }
+        //     75% {
+        //         left: 4em;
+        //         overflow: hidden;
+        //     }
+        //     100% {
+        //         left: 0px;
+        //         overflow: hidden;
+        //     }
+        // }
     }
     .vue {
         transform: scale(0.8);
         background: rgba(65, 184, 131, 0.6);
         animation: myfirst 8s linear infinite;
-        @keyframes myfirst {
-            0% {
-                left: 0px;
-                overflow: hidden;
-            }
-            25% {
-                left: 2em;
-                overflow: hidden;
-            }
-            75% {
-                left: 4em;
-                overflow: hidden;
-            }
-            100% {
-                left: 0px;
-                overflow: hidden;
-            }
-        }
+        margin-left: -4rem;
+        margin-top: 2rem;
+        // @keyframes myfirst {
+        //     0% {
+        //         left: 0px;
+        //         overflow: hidden;
+        //     }
+        //     25% {
+        //         left: 2em;
+        //         overflow: hidden;
+        //     }
+        //     75% {
+        //         left: 4em;
+        //         overflow: hidden;
+        //     }
+        //     100% {
+        //         left: 0px;
+        //         overflow: hidden;
+        //     }
+        // }
     }
     .webpack {
         transform: scale(0.8);
         background: linear-gradient(100deg, rgb(190, 233, 252), rgb(225, 246, 255));
         animation: myfirst 8s linear infinite;
-        @keyframes myfirst {
-            0% {
-                left: 0px;
-                overflow: hidden;
-            }
-            25% {
-                left: 2em;
-                overflow: hidden;
-            }
-            75% {
-                left: 4em;
-                overflow: hidden;
-            }
-            100% {
-                left: 0px;
-                overflow: hidden;
-            }
-        }
+        margin-top: 4rem;
+        margin-left: -4rem;
+        // @keyframes myfirst {
+        //     0% {
+        //         left: 0px;
+        //         overflow: hidden;
+        //     }
+        //     25% {
+        //         left: 2em;
+        //         overflow: hidden;
+        //     }
+        //     75% {
+        //         left: 4em;
+        //         overflow: hidden;
+        //     }
+        //     100% {
+        //         left: 0px;
+        //         overflow: hidden;
+        //     }
+        // }
     }
 }
 

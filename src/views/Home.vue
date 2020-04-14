@@ -14,6 +14,15 @@
                 <b-nav-item href="#" class="hirexp-nav-item"
                   >About Us</b-nav-item
                 >
+                <b-nav-item href="#" class="hirexp-nav-item"
+                  >Culture & Celebrations</b-nav-item
+                >
+                <b-nav-item href="#" class="hirexp-nav-item"
+                  >Tech@HireXP</b-nav-item
+                >
+                <b-nav-item href="#" class="hirexp-nav-item"
+                  >View Openings</b-nav-item
+                >
               </b-navbar-nav>
             </b-collapse>
           </div>
@@ -30,7 +39,7 @@
                 We are an architect<br />of experience
               </div>
               <div class="main-sub-text">
-                Come built with us
+                Come build with us
               </div>
               <diV class="main-button">
                 <a class="fadeIn">
@@ -330,7 +339,7 @@
         </b-row>
       </b-container>
       <b-container fluid>
-        <b-row cols-lg="6">
+        <b-row>
           <b-col>
             <div class="tech-stack-card-wrap android">
               <div class="tech-android">
@@ -373,10 +382,6 @@
               </div>
             </div>
           </b-col>
-        </b-row>
-      </b-container>
-      <b-container fluid class="mt-4">
-        <b-row cols-lg="6">
           <b-col>
             <div class="tech-stack-card-wrap postgres">
               <div class="tech-postgres">
