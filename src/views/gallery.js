@@ -1,82 +1,177 @@
 /* eslint-disable no-unused-vars */
 let arr = [{
-        name: "../assets/logo.png",
+        name: "img01",
         caption: "En voiture",
         description: "Il a pour lui l'éternité, montre en main.<br> — Jules Renard"
     },
     {
-        name: "./img/img02.jpg",
+        name: "img02",
         caption: "Amis",
         description: "Le temps confirme l'amitié.<br> — Henri Lacordaire"
     },
     {
-        name: "./img/img03.jpg",
+        name: "img03",
         caption: "Au travail",
         description: "Dans le temps, même le futur était mieux.<br> — Karl Valentin"
     },
     {
-        name: "./img/img04.jpg",
+        name: "img04",
         caption: "Au garage",
         description: "Il faut inventer en même temps que l'on apprend.<br> — Plutarque"
     },
     {
-        name: "img/img05.jpg",
+        name: "img05",
         caption: "Photo de groupe",
         description: "Les doctrines passent - les anecdotes demeurent.<br> — Emil Michel Cioran"
     },
     {
-        name: "img/img06.jpg",
+        name: "img06",
         caption: "Mère et Fille",
         description: "Il faut profiter du temps. Il ne passe pas deux fois.<br> — Melvin Gallant"
     },
     {
-        name: "img/img07.jpg",
+        name: "img07",
         caption: "Grand-père",
         description: "Je m'amuse à vieillir. C'est une occupation de tous les instants.<br> — Paul Léautaud"
     },
     {
-        name: "img/img08.jpg",
+        name: "img08",
         caption: "Par la fenêtre",
         description: "Le temps passe. Nous aussi.<br> — Félix Leclerc"
     },
     {
-        name: "img/img09.jpg",
+        name: "img09",
         caption: "Une des soeurs",
         description: "Le temps met tout en lumière.<br> — Thalès"
     },
     {
-        name: "img/img10.jpg",
+        name: "img10",
         caption: "Les soeurs",
         description: "Le temps n'a pas la même allure pour tout le monde !<br> — William Shakespeare"
     },
     {
-        name: "img/img11.jpg",
+        name: "img11",
         caption: "Partie de pêche",
         description: "On ne possède rien, jamais, - Qu'un peu de temps.<br> — Eugène Guillevic"
     },
     {
-        name: "img/img12.jpg",
+        name: "img12",
         caption: "Famille",
         description: "Vienne la nuit sonne l'heure ; les jours s'en vont je demeure.<br> — Guillaume Apollinaire"
     },
     {
-        name: "img/img13.jpg",
+        name: "img13",
         caption: "Ami",
         description: "L'amitié peut se passer longtemps de preuves.<br> — Jules Renard"
     },
     {
-        name: "img/img14.jpg",
+        name: "img14",
         caption: "Une des Soeurs",
         description: "Nous n'avons à nous que le jour d'aujourd'hui.<br> — Alphonse de Lamartine"
     },
     {
-        name: "img/img15.jpg",
+        name: "img15",
+        caption: "Nounou",
+        description: "C'est le temps qui mûrit l'amour.<br> — Simone Piuze"
+    },
+
+    {
+        name: "img16",
+        caption: "Nounou",
+        description: "C'est le temps qui mûrit l'amour.<br> — Simone Piuze"
+    },
+    {
+        name: "img17",
+        caption: "Nounou",
+        description: "C'est le temps qui mûrit l'amour.<br> — Simone Piuze"
+    },
+    {
+        name: "img18",
+        caption: "Nounou",
+        description: "C'est le temps qui mûrit l'amour.<br> — Simone Piuze"
+    },
+    {
+        name: "img19",
+        caption: "Nounou",
+        description: "C'est le temps qui mûrit l'amour.<br> — Simone Piuze"
+    },
+    {
+        name: "img20",
+        caption: "Nounou",
+        description: "C'est le temps qui mûrit l'amour.<br> — Simone Piuze"
+    },
+    {
+        name: "img21",
+        caption: "Nounou",
+        description: "C'est le temps qui mûrit l'amour.<br> — Simone Piuze"
+    },
+    {
+        name: "img22",
+        caption: "Nounou",
+        description: "C'est le temps qui mûrit l'amour.<br> — Simone Piuze"
+    },
+    {
+        name: "img23",
+        caption: "Nounou",
+        description: "C'est le temps qui mûrit l'amour.<br> — Simone Piuze"
+    },
+    {
+        name: "img24",
+        caption: "Nounou",
+        description: "C'est le temps qui mûrit l'amour.<br> — Simone Piuze"
+    },
+    {
+        name: "img25",
+        caption: "Nounou",
+        description: "C'est le temps qui mûrit l'amour.<br> — Simone Piuze"
+    },
+    {
+        name: "img26",
+        caption: "Nounou",
+        description: "C'est le temps qui mûrit l'amour.<br> — Simone Piuze"
+    },
+    {
+        name: "img27",
+        caption: "Nounou",
+        description: "C'est le temps qui mûrit l'amour.<br> — Simone Piuze"
+    },
+    {
+        name: "img28",
+        caption: "Nounou",
+        description: "C'est le temps qui mûrit l'amour.<br> — Simone Piuze"
+    },
+    {
+        name: "img29",
+        caption: "Nounou",
+        description: "C'est le temps qui mûrit l'amour.<br> — Simone Piuze"
+    },
+    {
+        name: "img30",
+        caption: "Nounou",
+        description: "C'est le temps qui mûrit l'amour.<br> — Simone Piuze"
+    },
+    {
+        name: "img31",
+        caption: "Nounou",
+        description: "C'est le temps qui mûrit l'amour.<br> — Simone Piuze"
+    },
+    {
+        name: "img32",
+        caption: "Nounou",
+        description: "C'est le temps qui mûrit l'amour.<br> — Simone Piuze"
+    },
+    {
+        name: "img33",
+        caption: "Nounou",
+        description: "C'est le temps qui mûrit l'amour.<br> — Simone Piuze"
+    },
+    {
+        name: "img34",
         caption: "Nounou",
         description: "C'est le temps qui mûrit l'amour.<br> — Simone Piuze"
     }
 ];
 
-// function() {
 let dataSize = {};
 let dataLength = 0;
 let currentData = null;
@@ -91,13 +186,12 @@ function setGallery(arr) {
     let out = "";
     let i;
     for (i = 0; i < arr.length; i++) {
-        console.log("arr[i]", arr[i]);
         out +=
             '<div class="photo" id="' +
             i +
             '"><div class="side side-front"><figure>' +
             '<img src="' +
-            arr[i].name +
+            getImage(arr[i].name) +
             '" alt="' +
             arr[i].name +
             '"/>' +
@@ -109,6 +203,11 @@ function setGallery(arr) {
             "</p></div></div></div>";
     }
     document.getElementById("gallery").innerHTML = out;
+}
+
+function getImage(name) {
+    let images = require.context("../assets/images/culture", false, /\.jpg$/);
+    return images("./" + name + ".jpg");
 }
 
 function observe() {

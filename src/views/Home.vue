@@ -436,7 +436,7 @@
           </div>
         </b-row>
       </b-container>
-      <b-container fluid>
+      <b-container class="fullscreen">
         <div id="gallery" class="fullscreen"></div>
       </b-container>
     </section>
@@ -1015,7 +1015,7 @@ export default {
 
   mounted() {
     gallery.polaroidGallery();
-  },
+  }
 };
 </script>
 
@@ -1031,6 +1031,7 @@ export default {
   margin: 0;
   background-color: #f2ebe2;
   padding: 0;
+  z-index: -200;
 }
 
 .photo {
@@ -1092,7 +1093,7 @@ export default {
 }
 
 figure {
-  width: 150px;
+  width: 250px;
   position: absolute;
   padding: 30px;
   margin: 0 auto;
@@ -1110,48 +1111,5 @@ figure img {
 figure figcaption {
   font-family: Comic Sans, Comic Sans MS, cursive;
   color: #8f8476;
-}
-
-button {
-  background-color: transparent;
-  padding: 10px 24px;
-  color: #ffffff;
-  border: 2px solid black;
-  -webkit-transition-duration: 0.4s;
-  -moz-transition-duration: 0.4s;
-  transition-duration: 0.4s;
-}
-
-button:hover {
-  background-color: #a00;
-  color: white;
-}
-
-#copyright {
-  font-family: Consolas, Verdana, Arial, sans-serif;
-  position: fixed;
-  color: #ccc;
-  text-decoration: none;
-  bottom: 20px;
-  right: 10px;
-}
-
-#copyright:hover {
-  color: white;
-  text-decoration: none;
-}
-
-@media screen and (max-width: 767px) {
-  #forkme {
-    display: none;
-  }
-
-  #copyright {
-    position: relative;
-    display: block;
-    text-align: center;
-    right: 0px;
-    bottom: 0px;
-  }
 }
 </style>
