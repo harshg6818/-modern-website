@@ -460,9 +460,10 @@
       </b-container>
     </section>
 
-    <section class="gallery-swiper">
+    <section class="gallery-swiper animated fadeIn">
       <swiper class="swiper" :options="swiperOption">
         <swiper-slide>
+          <p>tag line for slide one</p>
           <div class="gallery animated fadeInRightBig">
             <figure class="gallery__item gallery__item--1">
               <img
@@ -565,6 +566,7 @@
           </div>
         </swiper-slide>
         <swiper-slide>
+          <p>tag line for slide two</p>
           <div class="gallery animated fadeInRightBig">
             <figure class="gallery__item gallery__item--1">
               <img
@@ -667,6 +669,7 @@
           </div>
         </swiper-slide>
         <swiper-slide>
+          <p>tag line for slide three</p>
           <div class="gallery animated fadeInRightBig">
             <figure class="gallery__item gallery__item--1">
               <img
