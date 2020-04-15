@@ -458,9 +458,319 @@
           </div>
         </b-row>
       </b-container>
-      <b-container fluid class="p-0">
-        <div id="gallery" class="fullscreen"></div>
-      </b-container>
+    </section>
+
+    <section class="gallery-swiper">
+      <swiper class="swiper" :options="swiperOption">
+        <swiper-slide>
+          <div class="gallery animated fadeInRightBig">
+            <figure class="gallery__item gallery__item--1">
+              <img
+                src="../assets/images/culture/img01.jpg"
+                alt="Gallery image 1"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--2">
+              <img
+                src="../assets/images/culture/img02.jpg"
+                alt="Gallery image 2"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--3">
+              <img
+                src="../assets/images/culture/img03.jpg"
+                alt="Gallery image 3"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--4">
+              <img
+                src="../assets/images/culture/img04.jpg"
+                alt="Gallery image 4"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--5">
+              <img
+                src="../assets/images/culture/img05.jpg"
+                alt="Gallery image 5"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--6">
+              <img
+                src="../assets/images/culture/img06.jpg"
+                alt="Gallery image 6"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--7">
+              <img
+                src="../assets/images/culture/img07.jpg"
+                alt="Gallery image 7"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--8">
+              <img
+                src="../assets/images/culture/img08.jpg"
+                alt="Gallery image 8"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--9">
+              <img
+                src="../assets/images/culture/img09.jpg"
+                alt="Gallery image 9"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--10">
+              <img
+                src="../assets/images/culture/img10.jpg"
+                alt="Gallery image 10"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--11">
+              <img
+                src="../assets/images/culture/img11.jpg"
+                alt="Gallery image 11"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--12">
+              <img
+                src="../assets/images/culture/img12.jpg"
+                alt="Gallery image 12"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--13">
+              <img
+                src="../assets/images/culture/img13.jpg"
+                alt="Gallery image 13"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--14">
+              <img
+                src="../assets/images/culture/img14.jpg"
+                alt="Gallery image 14"
+                class="gallery__img"
+              />
+            </figure>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="gallery animated fadeInRightBig">
+            <figure class="gallery__item gallery__item--1">
+              <img
+                src="../assets/images/culture/img15.jpg"
+                alt="Gallery image 1"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--2">
+              <img
+                src="../assets/images/culture/img27.jpg"
+                alt="Gallery image 2"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--3">
+              <img
+                src="../assets/images/culture/img17.jpg"
+                alt="Gallery image 3"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--4">
+              <img
+                src="../assets/images/culture/img18.jpg"
+                alt="Gallery image 4"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--5">
+              <img
+                src="../assets/images/culture/img19.jpg"
+                alt="Gallery image 5"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--6">
+              <img
+                src="../assets/images/culture/img20.jpg"
+                alt="Gallery image 6"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--7">
+              <img
+                src="../assets/images/culture/img21.jpg"
+                alt="Gallery image 7"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--8">
+              <img
+                src="../assets/images/culture/img22.jpg"
+                alt="Gallery image 8"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--9">
+              <img
+                src="../assets/images/culture/img23.jpg"
+                alt="Gallery image 9"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--10">
+              <img
+                src="../assets/images/culture/img24.jpg"
+                alt="Gallery image 10"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--11">
+              <img
+                src="../assets/images/culture/img25.jpg"
+                alt="Gallery image 11"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--12">
+              <img
+                src="../assets/images/culture/img26.jpg"
+                alt="Gallery image 12"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--13">
+              <img
+                src="../assets/images/culture/img16.jpg"
+                alt="Gallery image 13"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--14">
+              <img
+                src="../assets/images/culture/img28.jpg"
+                alt="Gallery image 14"
+                class="gallery__img"
+              />
+            </figure>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="gallery animated fadeInRightBig">
+            <figure class="gallery__item gallery__item--1">
+              <img
+                src="../assets/images/culture/img29.jpg"
+                alt="Gallery image 1"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--2">
+              <img
+                src="../assets/images/culture/img30.jpg"
+                alt="Gallery image 2"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--3">
+              <img
+                src="../assets/images/culture/img31.jpg"
+                alt="Gallery image 3"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--4">
+              <img
+                src="../assets/images/culture/img32.jpg"
+                alt="Gallery image 4"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--5">
+              <img
+                src="../assets/images/culture/img33.jpg"
+                alt="Gallery image 5"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--6">
+              <img
+                src="../assets/images/culture/img34.jpg"
+                alt="Gallery image 6"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--7">
+              <img
+                src="../assets/images/culture/img07.jpg"
+                alt="Gallery image 7"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--8">
+              <img
+                src="../assets/images/culture/img08.jpg"
+                alt="Gallery image 8"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--9">
+              <img
+                src="../assets/images/culture/img09.jpg"
+                alt="Gallery image 9"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--10">
+              <img
+                src="../assets/images/culture/img10.jpg"
+                alt="Gallery image 10"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--11">
+              <img
+                src="../assets/images/culture/img11.jpg"
+                alt="Gallery image 11"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--12">
+              <img
+                src="../assets/images/culture/img12.jpg"
+                alt="Gallery image 12"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--13">
+              <img
+                src="../assets/images/culture/img13.jpg"
+                alt="Gallery image 13"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--14">
+              <img
+                src="../assets/images/culture/img14.jpg"
+                alt="Gallery image 14"
+                class="gallery__img"
+              />
+            </figure>
+          </div>
+        </swiper-slide>
+        <div class="swiper-button-prev" slot="button-prev"></div>
+        <div class="swiper-button-next" slot="button-next"></div>
+      </swiper>
     </section>
 
     <section class="hirexp-team" id="hirexp-team">
@@ -1206,116 +1516,33 @@
 </template>
 
 <script>
-import gallery from "./gallery";
+import { Swiper, SwiperSlide } from "vue-awesome-swiper";
+import "swiper/css/swiper.css";
 
 export default {
   name: "Home",
 
-  mixins: [gallery],
-
-  mounted() {
-    setInterval(() => this.test(), 6000);
-    this.test();
+  components: {
+    SwiperSlide,
+    Swiper
   },
 
-  methods: {
-    test() {
-      gallery.polaroidGallery();
-    }
+  data() {
+    return {
+      swiperOption: {
+        autoplay: {
+          // delay: 5000,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev"
+        }
+      }
+    };
   }
 };
 </script>
 
 <style lang="scss" scoped>
 @import "../assets/scss/_hirexp.scss";
-</style>
-
-<style>
-.fullscreen {
-  height: 90vh;
-  overflow: hidden;
-  background: linear-gradient(90deg, #61245e, #42276f 90%);
-  padding: 2em 0;
-  margin: 2em 0;
-  padding-left: 4rem;
-}
-
-.photo {
-  position: absolute;
-  cursor: pointer;
-  -webkit-transition: all 0.6s;
-  -moz-transition: all 0.6s;
-  transition: all 0.6s;
-}
-
-.side {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  backface-visibility: hidden;
-
-  -webkit-transition: transform 0.6s;
-  -moz-transition: transform 0.6s;
-  transition: transform 0.6s;
-}
-
-.side-back {
-  -webkit-transform: rotateY(-180deg);
-  -moz-transform: rotateY(-180deg);
-  -ms-transform: rotateY(-180deg);
-  transform: rotateY(-180deg);
-  display: table;
-}
-
-.side-back div {
-  display: table-cell;
-  vertical-align: middle;
-  background-color: white;
-}
-
-.side-back p {
-  padding: 30px;
-  color: #8f8476;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-/* .photo.flipped .side-front {
-  -webkit-transform: rotateY(-180deg);
-  -moz-transform: rotateY(-180deg);
-  -ms-transform: rotateY(-180deg);
-  transform: rotateY(-180deg);
-}
-
-.photo.flipped .side-back {
-  -webkit-transform: rotateY(0);
-  -moz-transform: rotateY(0);
-  -ms-transform: rotateY(0);
-  transform: rotateY(0);
-} */
-
-figure {
-  width: 250px;
-  position: absolute;
-  padding: 30px;
-  margin: 0 auto;
-  text-align: center;
-  background-color: white;
-}
-
-figure img {
-  height: auto;
-  max-width: 100%;
-  margin: 0 auto;
-  margin-bottom: 15px;
-}
-
-figure figcaption {
-  font-family: Comic Sans, Comic Sans MS, cursive;
-  color: #342b7e;
-}
 </style>
