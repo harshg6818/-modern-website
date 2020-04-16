@@ -240,7 +240,8 @@
                 }
                 .back {
                     background: #ffffff;
-                    color: #333;
+                    background: linear-gradient(90deg, #61245e, #42276f 90%);
+                    color: #fff;
                     transform: rotateY(-180deg);
                     padding: 0 2em;
                     .button {

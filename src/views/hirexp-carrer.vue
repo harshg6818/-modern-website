@@ -13,10 +13,9 @@
                 <b-nav-item href="#header-section" class="hirexp-nav-item"
                   >Home</b-nav-item
                 >
-                <b-nav-item
-                  href="#hirexp-about"
-                  class="hirexp-nav-item"
-                ></b-nav-item>
+                <b-nav-item href="#hirexp-about" class="hirexp-nav-item"
+                  >About us</b-nav-item
+                >
                 <b-nav-item href="#hirexp-culture" class="hirexp-nav-item"
                   >Culture & Celebrations</b-nav-item
                 >
@@ -89,12 +88,10 @@
           <b-col class="hirexp-about-content-wrap">
             <h1 class="hirexp-about-heading">About Us</h1>
             <div class="hirexp-about-head-sub">
-              We dreamt of creating a highly usable, intuitive solution that
-              would take away your day-to-day recruitment worries, streamline
-              standard hiring processes, and provide you with insightful
-              analytics on your systems. But most importantly, free up your
-              recruiters’ time and creativity to engage candidates in more
-              impactful ways.
+              At hireXP our most valuable resource is people! We have been able
+              to change the landscape of HR technologies, benchmark our products
+              and put customer-first only because of the brilliant ideas by our
+              people and never give-up attitude.
             </div>
           </b-col>
         </b-row>
@@ -127,11 +124,10 @@
                 <div class="back">
                   <div>
                     <p>
-                      Consectetur adipisicing elit. Possimus, praesentium?
-                    </p>
-                    <p>
-                      Provident consectetur natus voluptatem quis tenetur sed
-                      beatae eius sint.
+                      Work related challenges are an opportunity to brainstorm
+                      and come up with innovative ideas. Help is always at an
+                      arm’s distance as our teams believe in collaborative
+                      energies.
                     </p>
                   </div>
                 </div>
@@ -145,11 +141,10 @@
                 <div class="back">
                   <div>
                     <p>
-                      Consectetur adipisicing elit. Possimus, praesentium?
-                    </p>
-                    <p>
-                      Provident consectetur natus voluptatem quis tenetur sed
-                      beatae eius sint.
+                      We are a chosen startup for the creative lot who likes to
+                      work in an environment that gives them an opportunity to
+                      learn, venture into new zones, take risks and
+                      think-out-of-the-box.
                     </p>
                   </div>
                 </div>
@@ -163,11 +158,10 @@
                 <div class="back">
                   <div>
                     <p>
-                      Consectetur adipisicing elit. Possimus, praesentium?
-                    </p>
-                    <p>
-                      Provident consectetur natus voluptatem quis tenetur sed
-                      beatae eius sint.
+                      We hireXpians share a common passion- give full attention
+                      to every client’s small and big wish, this has helped us
+                      to enhance our own knowledge and is the key factor that
+                      separates us from our competitors.
                     </p>
                   </div>
                 </div>
@@ -181,11 +175,12 @@
                 <div class="back">
                   <div>
                     <p>
-                      Consectetur adipisicing elit. Possimus, praesentium?
+                      How are we different&nbsp;?
                     </p>
                     <p>
-                      Provident consectetur natus voluptatem quis tenetur sed
-                      beatae eius sint.
+                      We are happy working! Since we love what we do, we derive
+                      satisfaction from our work and that gives us a superior
+                      quality of life.
                     </p>
                   </div>
                 </div>
