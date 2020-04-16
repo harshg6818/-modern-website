@@ -157,7 +157,9 @@
 
     <section class="hirexp-case-study">
       <div class="container-fluid">
-        <div class="hirexp-case-study-head">How companies grow with HireXP&nbsp;?</div>
+        <div class="hirexp-case-study-head">
+          How companies grow with HireXP&nbsp;?
+        </div>
       </div>
       <div class="container-fluid">
         <div class="row">
@@ -308,6 +310,39 @@
       </div>
     </section>
 
+    <section class="cta cta--default">
+      <div class="container">
+        <!-- <div class="cta__details">
+          <div
+            class="detail__ball detail__ball--purple detail__ball--small ball-one"
+          ></div>
+          <div
+            class="detail__ball detail__ball--blue detail__ball--smallest ball-two"
+          ></div>
+          <div
+            class="detail__ball detail__ball--green detail__ball--medium ball-three"
+          ></div>
+          <div
+            class="detail__ball detail__ball--blue detail__ball--large ball-four"
+          ></div>
+          <div
+            class="detail__ball detail__ball--blue detail__ball--small ball-five"
+          ></div>
+        </div> -->
+
+        <div class="get-started">
+          <h1 class="bold">Ready to get <span>started</span>?</h1>
+          <h3>Create a free account in just <strong>2 minutes</strong></h3>
+
+          <div class="get-started__actions">
+            <div class="get-started__action get-started__action--primary">
+              <a class="btn btn--primary btn--large" href="#">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="hirexp-customers">
       <div class="container">
         <div class="row">
@@ -366,10 +401,6 @@
         </div>
       </div>
     </section>
-    <div
-      id="map"
-      style="position: absolute; top: 0; bottom:0; right:0;left:0;"
-    ></div>
   </div>
 </template>
 
