@@ -29,37 +29,6 @@
     }
 }
 
-.header-background-section {
-    .leftandin {
-        width: 100%;
-        .outer-left {
-            // background: linear-gradient( 120deg, rgba(52, 43, 126, 1) 0%, rgba(84, 72, 189, 1) 33%, rgba(143, 72, 189, 1) 66%, rgba(197, 36, 55, 1) 100%);
-            background: #ffffff;
-            min-height: calc(100vh - 3.5rem);
-            width: 100%;
-            margin-left: -13.5%;
-            float: left;
-            position: absolute;
-        }
-        .inner {
-            border-top-left-radius: 50vh;
-            min-height: calc(100vh - 3.5rem);
-            box-shadow: inset 0 14px 5px rgba(0, 0, 0, 0.2), inset 0 14px 10px rgba(0, 0, 0, 0.5);
-            display: inline-block;
-            // height: 100%;
-            position: absolute;
-            right: 0;
-            width: 70%;
-        }
-        #inner1 {
-            background: url("~@/assets/images/thumbNew.jpg");
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-    }
-}
-
 .header-section {
     margin-top: 4rem;
     font-family: proxima-nova, helvetica, arial, sans-serif;
@@ -484,40 +453,6 @@
                         }
                     }
                 }
-            }
-        }
-    }
-}
-
-.life-hirexp-wrap {
-    background-image: url("~@/assets/images/life/knowledge-1.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    .life-hirexp {
-        padding: 5% 0%;
-        background: rgba(0, 0, 0, 0.6);
-        .life-hirexp-heading {
-            padding: 2% 0;
-            font-size: 2.8rem;
-            font-weight: 700;
-            color: #ffffff;
-        }
-        .life-hirexp-img {
-            padding: 0;
-            overflow: hidden;
-            img {
-                border-radius: 6px;
-                &:hover {
-                    -webkit-transition: 0.4s ease;
-                    transition: 0.4s ease;
-                    transform: scale(1.5);
-                }
-            }
-            &:hover {
-                -webkit-transition: 0.4s ease;
-                transition: 0.4s ease;
             }
         }
     }
@@ -1019,49 +954,49 @@
                     background-image: url("~@/assets/images/people/patlani-5.jpg");
                 }
                 &.team-six-card {
-                    background-image: url("https://images.unsplash.com/photo-1584910643800-540e9e31ce32?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=401&ixlib=rb-1.2.1&q=80&w=300");
+                    background-image: url("~@/assets/images/people/avatar.jpg");
                 }
                 &.team-seven-card {
                     background-image: url("~@/assets/images/people/nandini-7.jpg");
                 }
                 &.team-eight-card {
-                    background-image: url("https://images.unsplash.com/photo-1584910643800-540e9e31ce32?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=401&ixlib=rb-1.2.1&q=80&w=300");
+                    background-image: url("~@/assets/images/people/avatar.jpg");
                 }
                 &.team-nine-card {
-                    background-image: url("https://images.unsplash.com/photo-1584910643800-540e9e31ce32?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=401&ixlib=rb-1.2.1&q=80&w=300");
+                    background-image: url("~@/assets/images/people/avatar.jpg");
                 }
                 &.team-ten-card {
                     background-image: url("~@/assets/images/people/ada-10.jpg");
                 }
                 &.team-eleven-card {
-                    background-image: url("https://images.unsplash.com/photo-1584910643800-540e9e31ce32?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=401&ixlib=rb-1.2.1&q=80&w=300");
+                    background-image: url("~@/assets/images/people/avatar.jpg");
                 }
                 &.team-tweleve-card {
-                    background-image: url("https://images.unsplash.com/photo-1584910643800-540e9e31ce32?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=401&ixlib=rb-1.2.1&q=80&w=300");
+                    background-image: url("~@/assets/images/people/avatar.jpg");
                 }
                 &.team-thirteen-card {
                     background-image: url("~@/assets/images/people/amit-13.jpg");
                 }
                 &.team-fourteen-card {
-                    background-image: url("https://images.unsplash.com/photo-1584910643800-540e9e31ce32?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=401&ixlib=rb-1.2.1&q=80&w=300");
+                    background-image: url("~@/assets/images/people/avatar.jpg");
                 }
                 &.team-fifteen-card {
-                    background-image: url("https://images.unsplash.com/photo-1584910643800-540e9e31ce32?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=401&ixlib=rb-1.2.1&q=80&w=300");
+                    background-image: url("~@/assets/images/people/avatar.jpg");
                 }
                 &.team-sixteen-card {
-                    background-image: url("https://images.unsplash.com/photo-1584910643800-540e9e31ce32?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=401&ixlib=rb-1.2.1&q=80&w=300");
+                    background-image: url("~@/assets/images/people/avatar.jpg");
                 }
                 &.team-seventeen-card {
-                    background-image: url("https://images.unsplash.com/photo-1584910643800-540e9e31ce32?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=401&ixlib=rb-1.2.1&q=80&w=300");
+                    background-image: url("~@/assets/images/people/avatar.jpg");
                 }
                 &.team-eighteen-card {
-                    background-image: url("https://images.unsplash.com/photo-1584910643800-540e9e31ce32?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=401&ixlib=rb-1.2.1&q=80&w=300");
+                    background-image: url("~@/assets/images/people/avatar.jpg");
                 }
                 &.team-nineteen-card {
-                    background-image: url("https://images.unsplash.com/photo-1584910643800-540e9e31ce32?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=401&ixlib=rb-1.2.1&q=80&w=300");
+                    background-image: url("~@/assets/images/people/avatar.jpg");
                 }
                 &.team-twenty-card {
-                    background-image: url("https://images.unsplash.com/photo-1584910643800-540e9e31ce32?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=401&ixlib=rb-1.2.1&q=80&w=300");
+                    background-image: url("~@/assets/images/people/avatar.jpg");
                 }
             }
             .back {
@@ -1439,79 +1374,79 @@
     }
 }
 
-.gallery-swiper {
-    .swiper {
-        .gallery {
-            background: linear-gradient(90deg, #61245e, #42276f 90%);
-            grid-column: full-start / full-end;
-            display: grid;
-            grid-template: repeat(7, 5vw) / repeat(8, 1fr);
-            grid-gap: 1rem;
-            padding: 1rem;
-            &__item {
-                &--1 {
-                    grid-row: 1 / span 2;
-                    grid-column: 1 / span 2;
-                }
-                &--2 {
-                    grid-row: 1 / span 3;
-                    grid-column: 3 / span 3;
-                }
-                &--3 {
-                    grid-row: 1 / span 2;
-                    grid-column: 6 / 7;
-                }
-                &--4 {
-                    grid-row: 1 / span 2;
-                    grid-column: 7 / -1;
-                }
-                &--5 {
-                    grid-row: 3 / span 3;
-                    grid-column: 1 / span 2;
-                }
-                &--6 {
-                    grid-row: 4 / span 2;
-                    grid-column: 3 / span 2;
-                }
-                &--7 {
-                    grid-row: 4 / 5;
-                    grid-column: 5 / 6;
-                }
-                &--8 {
-                    grid-row: 3 / span 2;
-                    grid-column: 6 / span 2;
-                }
-                &--9 {
-                    grid-row: 3 / span 3;
-                    grid-column: 8 / -1;
-                }
-                &--10 {
-                    grid-row: 6 / span 2;
-                    grid-column: 1 / 2;
-                }
-                &--11 {
-                    grid-row: 6 / span 2;
-                    grid-column: 2 / span 2;
-                }
-                &--12 {
-                    grid-row: 6 / span 2;
-                    grid-column: 4 / 5;
-                }
-                &--13 {
-                    grid-row: 5 / span 3;
-                    grid-column: 5 / span 3;
-                }
-                &--14 {
-                    grid-row: 6 / span 2;
-                    grid-column: 8 / -1;
-                }
-            }
-            &__img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                display: block;
-            }
-        }
-    }
-}
+// .gallery-swiper {
+//     .swiper {
+//         .gallery {
+//             background: linear-gradient(90deg, #61245e, #42276f 90%);
+//             grid-column: full-start / full-end;
+//             display: grid;
+//             grid-template: repeat(7, 5vw) / repeat(8, 1fr);
+//             grid-gap: 1rem;
+//             padding: 1rem;
+//             &__item {
+//                 &--1 {
+//                     grid-row: 1 / span 2;
+//                     grid-column: 1 / span 2;
+//                 }
+//                 &--2 {
+//                     grid-row: 1 / span 3;
+//                     grid-column: 3 / span 3;
+//                 }
+//                 &--3 {
+//                     grid-row: 1 / span 2;
+//                     grid-column: 6 / 7;
+//                 }
+//                 &--4 {
+//                     grid-row: 1 / span 2;
+//                     grid-column: 7 / -1;
+//                 }
+//                 &--5 {
+//                     grid-row: 3 / span 3;
+//                     grid-column: 1 / span 2;
+//                 }
+//                 &--6 {
+//                     grid-row: 4 / span 2;
+//                     grid-column: 3 / span 2;
+//                 }
+//                 &--7 {
+//                     grid-row: 4 / 5;
+//                     grid-column: 5 / 6;
+//                 }
+//                 &--8 {
+//                     grid-row: 3 / span 2;
+//                     grid-column: 6 / span 2;
+//                 }
+//                 &--9 {
+//                     grid-row: 3 / span 3;
+//                     grid-column: 8 / -1;
+//                 }
+//                 &--10 {
+//                     grid-row: 6 / span 2;
+//                     grid-column: 1 / 2;
+//                 }
+//                 &--11 {
+//                     grid-row: 6 / span 2;
+//                     grid-column: 2 / span 2;
+//                 }
+//                 &--12 {
+//                     grid-row: 6 / span 2;
+//                     grid-column: 4 / 5;
+//                 }
+//                 &--13 {
+//                     grid-row: 5 / span 3;
+//                     grid-column: 5 / span 3;
+//                 }
+//                 &--14 {
+//                     grid-row: 6 / span 2;
+//                     grid-column: 8 / -1;
+//                 }
+//             }
+//             &__img {
+//                 width: 100%;
+//                 height: 100%;
+//                 object-fit: cover;
+//                 display: block;
+//             }
+//         }
+//     }
+// }

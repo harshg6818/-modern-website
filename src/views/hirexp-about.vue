@@ -3,7 +3,6 @@
     <section class="hirexp-about-nav">
       <nav class="navbar navbar-expand-lg">
         <div class="container">
-          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
           <div class="hirexp-logo">
             <img src="../assets/logo-light.png" alt="hirexp-logo" />
           </div>
@@ -20,9 +19,7 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-item nav-link active" href="/about"
-                >Home <span class="sr-only">(current)</span></a
-              >
+              <a class="nav-item nav-link active" href="">Home</a>
             </div>
           </div>
         </div>
@@ -31,7 +28,6 @@
 
     <section class="hirexp-header">
       <div class="container-fluid p-0">
-        <!-- <img  src="./about-img/bg-about.png" alt="aboutImage"> -->
         <div class="about-bg">
           <div class="overlay-text">
             <h1>About HireXP</h1>
