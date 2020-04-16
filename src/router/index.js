@@ -4,6 +4,7 @@ import Home from "../views/Home.vue";
 import About from "../views/hirexp-about.vue";
 import Carrer from "../views/hirexp-carrer.vue";
 import Customers from "../views/hirexp-customers.vue";
+import GetStart from "../views/hirexp-getStart.vue";
 
 Vue.use(VueRouter);
 
@@ -27,6 +28,11 @@ const routes = [
     path: "/customers",
     name: "Customers",
     component: Customers
+  },
+  {
+    path: "/getstart",
+    name: "GetStart",
+    component: GetStart
   }
 ];
 
