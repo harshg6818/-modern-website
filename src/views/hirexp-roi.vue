@@ -438,26 +438,43 @@
             <div class="row">
               <div class="col-5">
                 <div class="footer-logo">
-                  <img
-                    src="../assets/logo.png"
-                    alt="logo hirexp"
-                  />
+                  <img src="../assets/logo.png" alt="logo hirexp" />
                 </div>
               </div>
 
               <div class="col-7">
                 <ul class="copyright-certificate list-inline">
                   <li>
-                    <img src="../assets/images/footer/1.jpg" alt="one" width="100px" height="100px" />
+                    <img
+                      src="../assets/images/footer/1.jpg"
+                      alt="one"
+                      width="100px"
+                      height="100px"
+                    />
                   </li>
                   <li>
-                    <img src="../assets/images/footer/1.jpg" alt="one" width="100px" height="100px" />
+                    <img
+                      src="../assets/images/footer/1.jpg"
+                      alt="one"
+                      width="100px"
+                      height="100px"
+                    />
                   </li>
                   <li>
-                    <img src="../assets/images/footer/2.png" alt="one" width="100px" height="100px" />
+                    <img
+                      src="../assets/images/footer/2.png"
+                      alt="one"
+                      width="100px"
+                      height="100px"
+                    />
                   </li>
                   <li>
-                    <img src="../assets/images/footer/3.jpg" alt="one" width="100px" height="100px" />
+                    <img
+                      src="../assets/images/footer/3.jpg"
+                      alt="one"
+                      width="100px"
+                      height="100px"
+                    />
                   </li>
                 </ul>
               </div>
