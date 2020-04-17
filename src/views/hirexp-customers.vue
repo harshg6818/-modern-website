@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="hirexp-customers-nav">
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar fixed-top navbar-expand-lg">
         <div class="container">
           <div class="hirexp-logo">
             <img src="../assets/logo-light.png" alt="hirexp-logo" />
