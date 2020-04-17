@@ -32,7 +32,7 @@
         margin-right: -4rem;
         z-index: 1;
         padding: 20px;
-        box-shadow: 0 4px 20px 1px rgba(0, 0, 0, .06), 0 1px 4px rgba(0, 0, 0, .08) !important;
+        box-shadow: 0 4px 20px 1px rgba(0, 0, 0, 0.06), 0 1px 4px rgba(0, 0, 0, 0.08) !important;
         border-radius: 10px;
         background: #fff;
         div {
@@ -102,7 +102,7 @@
         max-width: 1218px;
         height: 1px;
         background: #373656;
-        opacity: .5;
+        opacity: 0.5;
         display: block;
         margin: 0 auto;
     }
@@ -127,7 +127,7 @@
     .copyright-links {
         font-size: 1rem;
         color: #333e49;
-        transition: all .3s ease-out;
+        transition: all 0.3s ease-out;
         text-decoration: none;
         outline: none;
     }

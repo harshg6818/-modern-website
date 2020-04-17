@@ -354,9 +354,166 @@
         </div>
       </div>
     </section>
+
+    <footer class="hirexp-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <ul>
+              <h3>PRODUCTS</h3>
+              <li>Recruitment Software</li>
+              <li>Candidate Experience</li>
+              <li>Onboarding Software</li>
+              <li>Keep WARM</li>
+              <li>Amara</li>
+              <li>Marketplace</li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <ul>
+              <h3>RESOURCES</h3>
+              <li>Blogs</li>
+              <li>Webinar & Events</li>
+              <li>Customers</li>
+              <li>ROI</li>
+              <li>HR Tool Kit</li>
+              <li>Amara Guide</li>
+              <li>Job Descriptions</li>
+              <li>Templates</li>
+              <li>Submit Feedback</li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <ul>
+              <h3>COMPANY</h3>
+              <li>About Us</li>
+              <li>News Room</li>
+              <li>Carrers</li>
+              <li>Partnerships</li>
+              <li>Legal Stuff</li>
+              <li>Contact Us</li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <ul>
+              <h3>SUPPORT</h3>
+              <li>Services</li>
+              <li>Help Center</li>
+              <li>Log In</li>
+            </ul>
+            <ul>
+              <li class="social">
+                <span class="social fb">
+                  <a href="https://www.facebook.com/hirexp">
+                    <i class="fab fa-facebook-square"></i>
+                  </a>
+                </span>
+                <span class="social twitter">
+                  <a href="https://www.twitter.com/hirexp">
+                    <i class="fab fa-twitter-square"></i>
+                  </a>
+                </span>
+                <span class="social linkedin">
+                  <a href="https://www.linkedin.com/company/hirexp">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </span>
+                <span class="social instagram">
+                  <a
+                    href="https://www.instagram.com/explore/tags/hirexp/?hl=en"
+                  >
+                    <i class="fab fa-instagram-square"></i> </a
+                ></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <footer>
+      <div class="copyright-wrap">
+        <div class="container">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-5">
+                <div class="footer-logo">
+                  <img
+                    src="../assets/logo.png"
+                    alt="logo hirexp"
+                  />
+                </div>
+              </div>
+
+              <div class="col-7">
+                <ul class="copyright-certificate list-inline">
+                  <li>
+                    <img src="../assets/images/footer/1.jpg" alt="one" width="100px" height="100px" />
+                  </li>
+                  <li>
+                    <img src="../assets/images/footer/1.jpg" alt="one" width="100px" height="100px" />
+                  </li>
+                  <li>
+                    <img src="../assets/images/footer/2.png" alt="one" width="100px" height="100px" />
+                  </li>
+                  <li>
+                    <img src="../assets/images/footer/3.jpg" alt="one" width="100px" height="100px" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-5">
+                <p class="">© 2020 Squadgain Techlabs Pvt. Ltd.</p>
+              </div>
+
+              <div class="col-7">
+                <ul class="copyright list-inline">
+                  <li>
+                    <a
+                      href="/"
+                      title=""
+                      target="_self"
+                      rel=""
+                      class="copyright-links"
+                      >Terms &amp; Conditions</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      title=""
+                      class="copyright-links"
+                      target="_self"
+                      href="/privacy/"
+                      >Privacy Policy</a
+                    >
+                  </li>
+                  <li>
+                    <a title="" class="copyright-links" target="_self" href=""
+                      >Personal information</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href=" "
+                      title=" "
+                      target=" _blank "
+                      rel=" "
+                      class="copyright-links "
+                      >HireXp Status</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
 </template>
 
 <style lang="scss" scoped>
 @import "../assets/scss/_hirexp_roi.scss";
+@import "../assets/scss/_hirexp_footer.scss";
 </style>

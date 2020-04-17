@@ -1,0 +1,71 @@
+.hirexp-footer {
+    padding: 2rem 0;
+    background: linear-gradient(90deg, #61245e, #42276f 90%);
+    color: #ffffff;
+    .row {
+        text-align: left;
+    }
+    ul,
+    li {
+        line-height: 2;
+        list-style: none;
+        text-align: left;
+    }
+    li {
+        &:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+    .social {
+        a {
+            color: #ffffff;
+            text-decoration: none;
+            background-color: transparent;
+        }
+        font-size: 2rem;
+        .twitter,
+        .linkedin,
+        .instagram {
+            padding: 0 0 0 1rem;
+        }
+    }
+}
+
+.copyright-wrap {
+    background-color: #fff;
+    color: #333e49;
+    text-align: left;
+    padding: 16px 0px;
+    .footer-logo {
+        padding-top: 2rem;
+        img {
+            width: 180px;
+            height: 60px;
+        }
+    }
+    .list-inline {
+        text-align: left;
+        float: right;
+        list-style: none;
+    }
+    .list-inline {
+        li {
+            display: inline-block;
+            margin: 0 16px 0 0;
+        }
+    }
+    .copyright-certificate {
+        li {
+            display: inline-block;
+            margin: 0 1rem;
+        }
+    }
+    .copyright-links {
+        font-size: 1rem;
+        color: #333e49;
+        transition: all 0.3s ease-out;
+        text-decoration: none;
+        outline: none;
+    }
+}
