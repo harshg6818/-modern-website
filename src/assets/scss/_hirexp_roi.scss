@@ -1,0 +1,24 @@
+.hirexp-roi-nav {
+    .navbar {
+        // top: 0;
+        // position: fixed;
+        // width: 100%;
+        // z-index: 9999;
+        background: linear-gradient(90deg, #61245e, #42276f 90%);
+        .navbar-collapse {
+            justify-content: flex-end;
+        }
+        .navbar-nav a {
+            color: #ffffff !important;
+            font-size: 1.3rem;
+            font-weight: 600;
+            a:hover {
+                color: #342b7e;
+                text-shadow: 1px 1px 1px 1px #fff;
+                backface-visibility: hidden;
+                cursor: pointer;
+                transition: 0.5s ease;
+            }
+        }
+    }
+}
