@@ -74,11 +74,28 @@
                   </div>
                 </div>
                 <div class="back">
-                  <div>
-                    <p>
-                      Consectetur adipisicing elit. Possimus, praesentium?
-                    </p>
-                    <button class="button">Click Here</button>
+                  <div class="back-content">
+                    <div class="company-img">
+                      <!-- <img
+                        src="../assets/images/customer/paisabazaar.png"
+                        alt="paisabazaar"
+                        width="100%"
+                      /> -->
+                      <div class="company-name">POP XO</div>
+                    </div>
+                    <div class="company-people">
+                      <img
+                        src="../assets/images/customer/shruti.png"
+                        alt="shruti"
+                        width="100%"
+                      />
+                    </div>
+                    <div class="company-designation">
+                      <span>Shruti Singh</span> <br /><span
+                        >Head Of Human Resources<br />
+                        Pop XO</span
+                      >
+                    </div>
                   </div>
                 </div>
               </a>
@@ -106,7 +123,29 @@
                   </div>
                 </div>
                 <div class="back">
-                  <p>Our Story</p>
+                  <div class="back-content">
+                    <div class="company-img">
+                      <img
+                        src="../assets/images/customer/paisabazaar.png"
+                        alt="paisabazaar"
+                        width="100%"
+                      />
+                    </div>
+                    <div class="company-people">
+                      <img
+                        src="../assets/images/customer/shambhavi.jpg"
+                        alt="shambhavi"
+                        width="100%"
+                      />
+                    </div>
+                    <div class="company-designation">
+                      <span>Shambhavi Solanki</span><br />
+                      <span
+                        >Head - HR <br />
+                        Paisabazaar</span
+                      >
+                    </div>
+                  </div>
                 </div>
               </a>
             </div>
@@ -132,11 +171,28 @@
                   </div>
                 </div>
                 <div class="back">
-                  <div>
-                    <p>
-                      Consectetur adipisicing elit. Possimus, praesentium?
-                    </p>
-                    <button class="button">Click Here</button>
+                  <div class="back-content">
+                    <div class="company-img">
+                      <!-- <img
+                        src="../assets/images/customer/paisabazaar.png"
+                        alt="paisabazaar"
+                        width="100%"
+                      /> -->
+                      <div class="company-name">POP XO</div>
+                    </div>
+                    <div class="company-people">
+                      <img
+                        src="../assets/images/customer/shruti.png"
+                        alt="shruti"
+                        width="100%"
+                      />
+                    </div>
+                    <div class="company-designation">
+                      <span>Shruti Singh</span> <br /><span
+                        >Head Of Human Resources<br />
+                        Pop XO</span
+                      >
+                    </div>
                   </div>
                 </div>
               </a>
@@ -198,6 +254,88 @@
                   </div>
                 </div>
               </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hirexp-test">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 testimonials">
+            <div class="testimonial-card">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkSflTI9DIJAstZ8fesrSz70HR8oH9BN_d8w0cjGEtiZyqDcs8"
+              />
+              <p>
+                &ldquo;I have been using HireXP for a year now and the
+                experience has been wonderful. The tool is designed does not
+                only help me easy my TA team job but also is very user-friendly
+                for the hiring managers to be using it. We are able to do the
+                job posting to all the sites within minutes. The reach is good.
+                CanXp is helping us with insights that can help improve our
+                internal hiring processes. Hiring managers are able to upload
+                feedback easily and immediately. This is reduced our internal
+                response time to almost half. They record their voices and it is
+                done! And before I close, I cannot forget to mention that the
+                tech support team at HireXP is very friendly and the response
+                time is less than 30 minutes!&rdquo;
+              </p>
+              <h1>
+                Shruti Singh (Head HR)
+              </h1>
+              <div class="company">Pop XO</div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 testimonials">
+            <div class="testimonial-card">
+              <img
+                src="https://i.pinimg.com/236x/2d/e5/7f/2de57f8025bd64dffd554de0f080ee7f--my-pinterest-pinterest-board.jpg?b=t"
+              />
+              <p>
+                &ldquo;The leadership of the HireXP is completely involved and
+                they have been driving this from the beginning and they are just
+                not here to sell the product, they are here to ensure that
+                product is being used and it is being used to the advantage of
+                the employer. I have never experienced this kind of approach
+                coming from other companies in this space. It was a great
+                experience onboarding them.&rdquo;
+              </p>
+              <h1>Adrea Glauber</h1>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 testimonials">
+            <div class="testimonial-card">
+              <img
+                src="https://i.pinimg.com/236x/2d/e5/7f/2de57f8025bd64dffd554de0f080ee7f--my-pinterest-pinterest-board.jpg?b=t"
+              />
+              <p>
+                &ldquo;HireXP helped us improve the candidate response rate to
+                70 to 80 %. We were able to improve the communication with the
+                candidates. Before HireXP, we were not able to pinpoint
+                candidates who were perhaps going from Amber to red category and
+                we were not able to understand what's going wrong. HireXp helped
+                us build the predictability and we were able to convert
+                candidate from red and amber category to green. HireXP
+                definitely has an edge over other tools available in the
+                market.&rdquo;
+              </p>
+              <h1>Adrea Glauber</h1>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 testimonials">
+            <div class="testimonial-card">
+              <img
+                src="https://i.pinimg.com/236x/2d/e5/7f/2de57f8025bd64dffd554de0f080ee7f--my-pinterest-pinterest-board.jpg?b=t"
+              />
+              <p>
+                &ldquo;HireXP makes hiring process smooth and efficient. It
+                makes both recruiters' and managers' life easy as it is very
+                time-saving. It gives an amazing experience and is an awesome
+                tool.&rdquo;
+              </p>
+              <h1>Adrea Glauber</h1>
             </div>
           </div>
         </div>
