@@ -17,13 +17,29 @@
         .hirexp-nav-item a {
             color: #ffffff;
             font-size: 1.3rem;
-            font-weight: 600;
+            font-weight: 500;
+            transition: 0.3s ease;
             &:hover {
-                color: #342b7e;
-                text-shadow: 1px 1px 1px 1px #FFF;
-                backface-visibility: hidden;
-                cursor: pointer;
-                transition: 0.5s ease;
+                color: #61245e;
+                transition: 0.3s;
+                background-color: #ffffff;
+                border-radius: 10px;
+                // text-shadow: 1px 1px 0 grey, 5px 13px 15px black;
+            }
+        }
+        .hirexp-view a {
+            margin: 0 1rem;
+            border: 1px solid #fff;
+            border-radius: 10px;
+            color: #ffffff;
+            font-size: 1.3rem;
+            font-weight: 500;
+            transition: 0.3s;
+            &:hover {
+                color: #61245e;
+                background-color: #ffffff;
+                transition: 0.3s ease;
+                // text-shadow: 1px 1px 0 grey, 5px 13px 15px black;
             }
         }
     }
@@ -1182,7 +1198,7 @@
         .hirexp-perks-heading {
             font-size: 2.8rem;
             font-weight: 700;
-            color: #342B7E;
+            color: #342b7e;
         }
         .hirexp-perks-sub {
             font-size: 1rem;
@@ -1193,8 +1209,8 @@
         .perks-card-icon {
             text-align: left;
             font-size: 1.5rem;
-            padding-bottom: .5rem;
-            color: #342B7E;
+            padding-bottom: 0.5rem;
+            color: #342b7e;
         }
         .perks-card-heading {
             text-align: left;

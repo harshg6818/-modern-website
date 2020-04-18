@@ -22,9 +22,7 @@
                 <b-nav-item href="#hirexp-team" class="hirexp-nav-item"
                   >Tech@HireXP</b-nav-item
                 >
-                <b-nav-item
-                  href="#hirexp-openings-section"
-                  class="hirexp-nav-item"
+                <b-nav-item href="#hirexp-openings-section" class="hirexp-view"
                   >View Openings</b-nav-item
                 >
               </b-navbar-nav>
@@ -46,7 +44,7 @@
                 Come build with us
               </div>
               <diV class="main-button">
-                <a class="fadeIn">
+                <a class="fadeIn" href="#hirexp-openings-section">
                   <button class="cta animated pulse">
                     <p class="animated fadeIn delay-06s">View Openings</p>
                   </button>

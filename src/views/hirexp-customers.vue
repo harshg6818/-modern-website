@@ -36,120 +36,169 @@
       </div>
     </section>
 
-    <section class="hirexp-images-videos">
-      <div class="container-fluid gallery">
-        <figure class="gallery__item gallery__item--1">
-          <img
-            src="../assets/images/life/demo.jpg"
-            alt="Gallery image 1"
-            class="gallery__img"
-          />
-        </figure>
-        <figure class="gallery__item gallery__item--2">
-          <img
-            src="../assets/images/life/demo.jpg"
-            alt="Gallery image 1"
-            class="gallery__img"
-          />
-        </figure>
-        <figure class="gallery__item gallery__item--3">
-          <img
-            src="../assets/images/life/demo.jpg"
-            alt="Gallery image 1"
-            class="gallery__img"
-          />
-        </figure>
-        <figure class="gallery__item gallery__item--4">
-          <img
-            src="../assets/images/life/demo.jpg"
-            alt="Gallery image 1"
-            class="gallery__img"
-          />
-        </figure>
-        <figure class="gallery__item gallery__item--5">
-          <img
-            src="../assets/images/life/demo.jpg"
-            alt="Gallery image 1"
-            class="gallery__img"
-          />
-        </figure>
-        <figure class="gallery__item gallery__item--6">
-          <img
-            src="../assets/images/life/demo.jpg"
-            alt="Gallery image 1"
-            class="gallery__img"
-          />
-        </figure>
-        <figure class="gallery__item gallery__item--7">
-          <img
-            src="../assets/images/life/demo.jpg"
-            alt="Gallery image 1"
-            class="gallery__img"
-          />
-        </figure>
-        <figure class="gallery__item gallery__item--8">
-          <img
-            src="../assets/images/life/demo.jpg"
-            alt="Gallery image 1"
-            class="gallery__img"
-          />
-        </figure>
-        <figure class="gallery__item gallery__item--9">
-          <img
-            src="../assets/images/life/demo.jpg"
-            alt="Gallery image 1"
-            class="gallery__img"
-          />
-        </figure>
-      </div>
-    </section>
-
     <section class="hirexp-clients">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-7">
-            <img
-              src="../assets/images/client-logo.png"
-              alt="clients"
-              width="100%"
-            />
+          <img src="../assets/images/logos-12.png" alt="clients" width="100%" />
+        </div>
+      </div>
+    </section>
+
+    <section class="hirexp-testimonials">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front">
+                  <div class="front-card-text">
+                    &ldquo;I have been using HireXP for a year now and the
+                    experience has been wonderful. The tool is designed does not
+                    only help me easy my TA team job but also is very
+                    user-friendly for the hiring managers to be using it. We are
+                    able to do the job posting to all the sites within minutes.
+                    The reach is good. CanXp is helping us with insights that
+                    can help improve our internal hiring processes. Hiring
+                    managers are able to upload feedback easily and immediately.
+                    This is reduced our internal response time to almost half.
+                    They record their voices and it is done! And before I close,
+                    I cannot forget to mention that the tech support team at
+                    HireXP is very friendly and the response time is less than
+                    30 minutes!&rdquo;
+                  </div>
+                  <div class="front-card-details">
+                    <span>Shruti Singh</span> <br /><span
+                      >Head Of Human Resources<br />
+                      Pop XO</span
+                    >
+                  </div>
+                </div>
+                <div class="back">
+                  <div>
+                    <p>
+                      Consectetur adipisicing elit. Possimus, praesentium?
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
-          <div class="col-5">
-            <l-map
-              :zoom="zoom"
-              :center="center"
-              :options="mapOptions"
-              style="height: 100%"
-            >
-              <l-tile-layer :url="url">
-                <l-marker :lat-lng="dubai">
-                  <l-icon
-                    :icon-size="dynamicSize"
-                    :icon-anchor="dynamicAnchor"
-                    icon-url="../assets/images/location.png"
-                /></l-marker>
-                <l-marker :lat-lng="manila">
-                  <l-icon
-                    :icon-size="dynamicSize"
-                    :icon-anchor="dynamicAnchor"
-                    icon-url="../assets/images/location.png"
-                  />
-                </l-marker>
-                <l-marker :lat-lng="banglore"
-                  ><l-icon
-                    :icon-size="dynamicSize"
-                    :icon-anchor="dynamicAnchor"
-                    icon-url="../assets/images/location.png"
-                  />
-                </l-marker>
-                <l-marker :lat-lng="gurugram">
-                  <l-icon
-                    :icon-size="dynamicSize"
-                    :icon-anchor="dynamicAnchor"
-                    icon-url="../assets/images/location.png"
-                /></l-marker>
-              </l-tile-layer>
-            </l-map>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front">
+                  <div class="front-card-text">
+                    “The leadership of the HireXP is completely involved and
+                    they have been driving this from the beginning and they are
+                    just not here to sell the product, they are here to ensure
+                    that product is being used and it is being used to the
+                    advantage of the employer. I have never experienced this
+                    kind of approach coming from other companies in this space.
+                    It was a great experience onboarding them.”
+                  </div>
+                  <div class="front-card-details" style="margin-top: 9rem;">
+                    <span>Shambhavi Solanki</span><br />
+                    <span
+                      >Head - HR <br />
+                      Paisabazaar</span
+                    >
+                  </div>
+                </div>
+                <div class="back">
+                  <p>Our Story</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front">
+                  <div class="front-card-text">
+                    &ldquo;HireXP helped us improve the candidate response rate
+                    to 70 to 80 %. We were able to improve the communication
+                    with the candidates. Before HireXP, we were not able to
+                    pinpoint candidates who were perhaps going from Amber to red
+                    category and we were not able to understand what's going
+                    wrong. HireXp helped us build the predictability and we were
+                    able to convert candidate from red and amber category to
+                    green. HireXP definitely has an edge over other tools
+                    available in the market.&rdquo;
+                  </div>
+                  <div class="front-card-details" style="margin-top: 4.5rem;">
+                    <span>Nandini Bhatnagar</span><br />
+                    <span>Head - Employer Branding <br />Publicis.Sapient</span>
+                  </div>
+                </div>
+                <div class="back">
+                  <div>
+                    <p>
+                      Consectetur adipisicing elit. Possimus, praesentium?
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <div class="content">
+              <a class="card" href="#!" style="height: 230px;min-height:230px;">
+                <div class="front">
+                  <div class="front-card-text">
+                    “HireXP makes hiring process smooth and efficient. It makes
+                    both recruiters' and managers' life easy as it is very
+                    time-saving. It gives an amazing experience and is an
+                    awesome tool.”
+                  </div>
+                  <div class="front-card-details" style="margin-top: 1.5rem;">
+                    <span>Aakriti Nagpal</span><br />
+                    <span>Recruiter </span>
+                  </div>
+                </div>
+                <div class="back">
+                  <div>
+                    <p>
+                      Consectetur adipisicing elit. Possimus, praesentium?
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <div class="content">
+              <a class="card" href="#!" style="height: 230px;min-height:230px;">
+                <div class="front">
+                  <div class="front-card-text">
+                    &ldquo; Awe-some! Recruitment Life Cycle Tool. Intelligent
+                    recruiting, voice feedback recording, referrals assessment
+                    and candidate interview experience all in one go! Super
+                    intelligent and efficient way of managing Hiring! Keep up
+                    the good work HireXP! &rdquo;
+                  </div>
+                  <div class="front-card-details">
+                    <span>Rabia Dhody</span><br />
+                    <span
+                      >Director- Human Resources <br />
+                      Tk20, Inc.</span
+                    >
+                  </div>
+                </div>
+                <div class="back">
+                  <div>
+                    <p>
+                      Consectetur adipisicing elit. Possimus, praesentium?
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -168,11 +217,10 @@
               <div class="row">
                 <div class="col-5 p-0 case-study-card-left">
                   <div class="case-study-company-icon">
-                    <!-- <img
-                      src="../assets/images/testImage.jpg"
+                    <img
+                      src="../assets/images/customer/cpplus.png"
                       alt="comany-icon"
-                    /> -->
-                    Company Logo
+                    />
                   </div>
                   <div class="case-study-company-img">
                     <img
@@ -183,7 +231,7 @@
                 </div>
                 <div class="col-7 p-0 case-study-card-right">
                   <div class="case-study-heading">
-                    Company name
+                    CP PLUS
                   </div>
                   <div class="case-study-sub">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -203,11 +251,10 @@
               <div class="row">
                 <div class="col-5 p-0 case-study-card-left">
                   <div class="case-study-company-icon">
-                    <!-- <img
-                      src="../assets/images/testImage.jpg"
+                    <img
+                      src="../assets/images/customer/philips.png"
                       alt="comany-icon"
-                    /> -->
-                    Company Logo
+                    />
                   </div>
                   <div class="case-study-company-img">
                     <img
@@ -218,7 +265,7 @@
                 </div>
                 <div class="col-7 p-0 case-study-card-right">
                   <div class="case-study-heading">
-                    Company name
+                    PHILIPS
                   </div>
                   <div class="case-study-sub">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -241,11 +288,10 @@
               <div class="row">
                 <div class="col-5 p-0 case-study-card-left">
                   <div class="case-study-company-icon">
-                    <!-- <img
-                      src="../assets/images/testImage.jpg"
+                    <img
+                      src="../assets/images/customer/cpplus.png"
                       alt="comany-icon"
-                    /> -->
-                    Company Logo
+                    />
                   </div>
                   <div class="case-study-company-img">
                     <img
@@ -256,7 +302,7 @@
                 </div>
                 <div class="col-7 p-0 case-study-card-right">
                   <div class="case-study-heading">
-                    Company name
+                    CP PLUS
                   </div>
                   <div class="case-study-sub">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -276,11 +322,10 @@
               <div class="row">
                 <div class="col-5 p-0 case-study-card-left">
                   <div class="case-study-company-icon">
-                    <!-- <img
-                      src="../assets/images/testImage.jpg"
+                    <img
+                      src="../assets/images/customer/philips.png"
                       alt="comany-icon"
-                    /> -->
-                    Company Logo
+                    />
                   </div>
                   <div class="case-study-company-img">
                     <img
@@ -291,7 +336,7 @@
                 </div>
                 <div class="col-7 p-0 case-study-card-right">
                   <div class="case-study-heading">
-                    Company name
+                    PHILIPS
                   </div>
                   <div class="case-study-sub">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -304,39 +349,6 @@
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="cta cta--default">
-      <div class="container">
-        <!-- <div class="cta__details">
-          <div
-            class="detail__ball detail__ball--purple detail__ball--small ball-one"
-          ></div>
-          <div
-            class="detail__ball detail__ball--blue detail__ball--smallest ball-two"
-          ></div>
-          <div
-            class="detail__ball detail__ball--green detail__ball--medium ball-three"
-          ></div>
-          <div
-            class="detail__ball detail__ball--blue detail__ball--large ball-four"
-          ></div>
-          <div
-            class="detail__ball detail__ball--blue detail__ball--small ball-five"
-          ></div>
-        </div> -->
-
-        <div class="get-started">
-          <h1 class="bold">Ready to get <span>started</span>?</h1>
-          <h3>Create a free account in just <strong>2 minutes</strong></h3>
-
-          <div class="get-started__actions">
-            <div class="get-started__action get-started__action--primary">
-              <a class="btn btn--primary btn--large" href="#">Get Started</a>
             </div>
           </div>
         </div>
@@ -401,48 +413,197 @@
         </div>
       </div>
     </section>
+
+    <section class="cta cta--default">
+      <div class="container">
+        <div class="get-started">
+          <h1 class="bold">Ready to get <span>started</span>?</h1>
+          <h3>Create a free account in just <strong>2 minutes</strong></h3>
+
+          <div class="get-started__actions">
+            <div class="get-started__action get-started__action--primary">
+              <a class="btn btn--primary btn--large" href="#">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="hirexp-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <ul>
+              <h3>PRODUCTS</h3>
+              <li>Recruitment Software</li>
+              <li>Candidate Experience</li>
+              <li>Onboarding Software</li>
+              <li>Keep WARM</li>
+              <li>Amara</li>
+              <li>Marketplace</li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <ul>
+              <h3>RESOURCES</h3>
+              <li>Blogs</li>
+              <li>Webinar & Events</li>
+              <li>Customers</li>
+              <li>ROI</li>
+              <li>HR Tool Kit</li>
+              <li>Amara Guide</li>
+              <li>Job Descriptions</li>
+              <li>Templates</li>
+              <li>Submit Feedback</li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <ul>
+              <h3>COMPANY</h3>
+              <li>About Us</li>
+              <li>News Room</li>
+              <li>Carrers</li>
+              <li>Partnerships</li>
+              <li>Legal Stuff</li>
+              <li>Contact Us</li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <ul>
+              <h3>SUPPORT</h3>
+              <li>Services</li>
+              <li>Help Center</li>
+              <li>Log In</li>
+            </ul>
+            <ul>
+              <li class="social">
+                <span class="social fb">
+                  <a href="https://www.facebook.com/hirexp">
+                    <i class="fab fa-facebook-square"></i>
+                  </a>
+                </span>
+                <span class="social twitter">
+                  <a href="https://www.twitter.com/hirexp">
+                    <i class="fab fa-twitter-square"></i>
+                  </a>
+                </span>
+                <span class="social linkedin">
+                  <a href="https://www.linkedin.com/company/hirexp">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </span>
+                <span class="social instagram">
+                  <a
+                    href="https://www.instagram.com/explore/tags/hirexp/?hl=en"
+                  >
+                    <i class="fab fa-instagram-square"></i> </a
+                ></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <footer>
+      <div class="copyright-wrap">
+        <div class="container">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-5">
+                <div class="footer-logo">
+                  <img src="../assets/logo.png" alt="logo hirexp" />
+                </div>
+              </div>
+
+              <div class="col-7">
+                <ul class="copyright-certificate list-inline">
+                  <li>
+                    <img
+                      src="../assets/images/footer/1.jpg"
+                      alt="one"
+                      width="100px"
+                      height="100px"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="../assets/images/footer/1.jpg"
+                      alt="one"
+                      width="100px"
+                      height="100px"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="../assets/images/footer/2.png"
+                      alt="one"
+                      width="100px"
+                      height="100px"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="../assets/images/footer/3.jpg"
+                      alt="one"
+                      width="100px"
+                      height="100px"
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-5">
+                <p class="">© 2020 Squadgain Techlabs Pvt. Ltd.</p>
+              </div>
+
+              <div class="col-7">
+                <ul class="copyright list-inline">
+                  <li>
+                    <a
+                      href="/"
+                      title=""
+                      target="_self"
+                      rel=""
+                      class="copyright-links"
+                      >Terms &amp; Conditions</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      title=""
+                      class="copyright-links"
+                      target="_self"
+                      href="/privacy/"
+                      >Privacy Policy</a
+                    >
+                  </li>
+                  <li>
+                    <a title="" class="copyright-links" target="_self" href=""
+                      >Personal information</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href=" "
+                      title=" "
+                      target=" _blank "
+                      rel=" "
+                      class="copyright-links "
+                      >HireXp Status</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
 </template>
-
-<script>
-import { latLng } from "leaflet";
-import { LMap, LTileLayer, LMarker, LIcon } from "vue2-leaflet";
-
-export default {
-  name: "Example",
-  components: {
-    LMap,
-    LTileLayer,
-    LMarker,
-    LIcon
-  },
-  data() {
-    return {
-      zoom: 13,
-      center: latLng(28.457905, 77.026819),
-      url:
-        "https://api.maptiler.com/maps/bright/{z}/{x}/{y}.png?key=zBZEk6NvIza1pWNbwoDc",
-      dubai: latLng(25.19568, 55.271653),
-      manila: latLng(14.59, 120.98),
-      gurugram: latLng(28.457905, 77.026819),
-      banglore: latLng(12.979387, 77.594537),
-      mapOptions: {
-        zoomSnap: 0.5
-      },
-      iconSize: 64
-    };
-  },
-  computed: {
-    dynamicSize() {
-      return [this.iconSize, this.iconSize * 1.15];
-    },
-    dynamicAnchor() {
-      return [this.iconSize / 2, this.iconSize * 1.15];
-    }
-  }
-};
-</script>
-
 <style lang="scss" scoped>
 @import "../assets/scss/_hirexp_customer.scss";
+@import "../assets/scss/_hirexp_footer.scss";
 </style>
