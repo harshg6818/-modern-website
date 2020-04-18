@@ -265,9 +265,7 @@
         <div class="row">
           <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 testimonials">
             <div class="testimonial-card">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkSflTI9DIJAstZ8fesrSz70HR8oH9BN_d8w0cjGEtiZyqDcs8"
-              />
+              <img src="../assets/images/customer/shruti.png" />
               <p>
                 &ldquo;I have been using HireXP for a year now and the
                 experience has been wonderful. The tool is designed does not
@@ -290,9 +288,7 @@
           </div>
           <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 testimonials">
             <div class="testimonial-card">
-              <img
-                src="https://i.pinimg.com/236x/2d/e5/7f/2de57f8025bd64dffd554de0f080ee7f--my-pinterest-pinterest-board.jpg?b=t"
-              />
+              <img src="../assets/images/customer/shambhavi.jpg" />
               <p>
                 &ldquo;The leadership of the HireXP is completely involved and
                 they have been driving this from the beginning and they are just
@@ -302,14 +298,13 @@
                 coming from other companies in this space. It was a great
                 experience onboarding them.&rdquo;
               </p>
-              <h1>Adrea Glauber</h1>
+              <h1>Shambhavi Solanki (Head HR)</h1>
+              <div class="company">Paisabazaar</div>
             </div>
           </div>
           <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 testimonials">
             <div class="testimonial-card">
-              <img
-                src="https://i.pinimg.com/236x/2d/e5/7f/2de57f8025bd64dffd554de0f080ee7f--my-pinterest-pinterest-board.jpg?b=t"
-              />
+              <img src="../assets/images/customer/nandini.jpg" />
               <p>
                 &ldquo;HireXP helped us improve the candidate response rate to
                 70 to 80 %. We were able to improve the communication with the
@@ -321,21 +316,35 @@
                 definitely has an edge over other tools available in the
                 market.&rdquo;
               </p>
-              <h1>Adrea Glauber</h1>
+              <h1>Nandini Bhatnagar <br />(Head Employer Branding)</h1>
+              <div class="company">Publicis.Sapient</div>
             </div>
           </div>
-          <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 testimonials">
+          <!-- <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 testimonials">
             <div class="testimonial-card">
-              <img
-                src="https://i.pinimg.com/236x/2d/e5/7f/2de57f8025bd64dffd554de0f080ee7f--my-pinterest-pinterest-board.jpg?b=t"
-              />
+              <img src="../assets/images/customer/akriti.png" />
               <p>
                 &ldquo;HireXP makes hiring process smooth and efficient. It
                 makes both recruiters' and managers' life easy as it is very
                 time-saving. It gives an amazing experience and is an awesome
                 tool.&rdquo;
               </p>
-              <h1>Adrea Glauber</h1>
+              <h1>Aakriti Nagpal</h1>
+              <div class="company">Recruiter</div>
+            </div>
+          </div> -->
+          <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 testimonials">
+            <div class="testimonial-card">
+              <img src="../assets/images/customer/rabya.png" />
+              <p>
+                &ldquo; Awe-some! Recruitment Life Cycle Tool. Intelligent
+                recruiting, voice feedback recording, referrals assessment and
+                candidate interview experience all in one go! Super intelligent
+                and efficient way of managing Hiring! Keep up the good work
+                HireXP! &rdquo;
+              </p>
+              <h1>Rabia Dhody (Director- HR)</h1>
+              <div class="company">Tk20, Inc.</div>
             </div>
           </div>
         </div>
