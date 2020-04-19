@@ -91,6 +91,43 @@
         </div>
       </div>
     </section>
+
+    <section class="hirexp-clients">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-2 col-lg-2 col-xl-2 pt-3">
+            <div class="client-img">
+              <img src="../assets/images/home/comviva.png" />
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-2 col-lg-2 col-xl-2 pt-3">
+            <div class="client-img">
+              <img src="../assets/images/home/cpplus.png" />
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-2 col-lg-2 col-xl-2 pt-3">
+            <div class="client-img">
+              <img src="../assets/images/home/philips.png" />
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-2 col-lg-2 col-xl-2 pt-3">
+            <div class="client-img">
+              <img src="../assets/images/home/policy.png" />
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-2 col-lg-2 col-xl-2">
+            <div class="client-img">
+              <img src="../assets/images/home/sapient.png" />
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-2 col-lg-2 col-xl-2">
+            <div class="client-img">
+              <img src="../assets/images/home/swiggy.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 

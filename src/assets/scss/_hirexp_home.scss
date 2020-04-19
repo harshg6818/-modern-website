@@ -1,5 +1,6 @@
 .hirexp-nav {
     .navbar {
+        // padding: 0;
         background: linear-gradient(90deg, #61245e, #42276f 90%);
         .navbar-collapse {
             justify-content: flex-end;
@@ -7,12 +8,13 @@
         .navbar-nav a {
             color: #ffffff !important;
             font-size: 1.3rem;
-            font-weight: 600;
-            a:hover {
-                color: #342b7e;
-                text-shadow: 1px 1px 1px 1px #fff;
+            font-weight: 500;
+            &:hover {
                 backface-visibility: hidden;
                 cursor: pointer;
+                transition: 0.5s ease;
+                border-bottom: 4px solid #fff;
+                // margin-bottom: -6px;
                 transition: 0.5s ease;
             }
         }
@@ -128,6 +130,15 @@
         .sliderBtn a:hover {
             border-color: #017bf5;
             color: #017bf5;
+        }
+    }
+}
+
+.hirexp-clients {
+    .client-img {
+        width: 100%;
+        img {
+            width: 100%;
         }
     }
 }
