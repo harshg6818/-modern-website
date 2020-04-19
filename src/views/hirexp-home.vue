@@ -94,6 +94,9 @@
 
     <section class="hirexp-clients">
       <div class="container">
+        <div class="clients-heading">
+          Enterprises that we are proud to associate with.
+        </div>
         <div class="row">
           <div class="col-12 col-sm-6 col-md-2 col-lg-2 col-xl-2 pt-3">
             <div class="client-img">

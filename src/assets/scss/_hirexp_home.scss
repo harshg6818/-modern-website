@@ -95,6 +95,7 @@
             position: relative;
             font-size: 5.5em;
             font-weight: 700;
+            // color: #122e8a;
             transition: 0.3s linear;
             transition-delay: 0.2s;
         }
@@ -112,7 +113,7 @@
             margin-right: 0;
         }
         .sliderBtn {
-            position: fixed;
+            position: absolute;
             bottom: 10%;
             left: 5%;
             z-index: 999;
@@ -135,6 +136,17 @@
 }
 
 .hirexp-clients {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    .clients-heading {
+        padding: 1rem 0;
+        font-size: 3rem;
+        line-height: 1.2;
+        color: #122e8a;
+        font-weight: 700;
+        transition: 0.3s linear;
+        transition-delay: 0.2s;
+    }
     .client-img {
         width: 100%;
         img {
