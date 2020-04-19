@@ -6,6 +6,7 @@ import Carrer from "../views/hirexp-carrer.vue";
 import Customers from "../views/hirexp-customers.vue";
 import GetStart from "../views/hirexp-getStart.vue";
 import Roi from "../views/hirexp-roi.vue";
+import HirexpHome from "../views/hirexp-home.vue";
 
 Vue.use(VueRouter);
 
@@ -39,6 +40,11 @@ const routes = [
     path: "/roi",
     name: "Roi",
     component: Roi
+  },
+  {
+    path: "/home",
+    name: "HirexpHome",
+    component: HirexpHome
   }
 ];
 
