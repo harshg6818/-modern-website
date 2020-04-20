@@ -54,8 +54,8 @@
             object-fit: cover;
             transition: 0.3s linear;
             cursor: pointer;
-            // clip-path: circle(50% at 80% 50%);
             clip-path: circle(50% at 80% 50%);
+            // clip-path: circle(55% at 82% 0%);
         }
         .slider .slides .slide img {
             // transform: translateX(30%) scale(1, 1);
@@ -138,6 +138,9 @@
 .hirexp-clients {
     margin-top: 1rem;
     margin-bottom: 4rem;
+    .row {
+        margin: 0 -10rem;
+    }
     .clients-heading {
         padding: 1rem 0;
         font-size: 3rem;
@@ -151,6 +154,65 @@
         width: 100%;
         img {
             width: 100%;
+        }
+    }
+}
+
+.hirexp-products {
+    height: 100vh;
+    .products-heading {
+        padding: 1rem 0;
+        font-size: 3rem;
+        line-height: 1.2;
+        color: #122e8a;
+        font-weight: 700;
+        transition: 0.3s linear;
+        transition-delay: 0.2s;
+    }
+    .tabs {
+        .nav-pills {
+            // background-color: grey;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            background: linear-gradient(to right, #61245e, #42276f);
+            .nav-item {
+                width: 25%;
+                .nav-link {
+                    padding: 0.5rem 3rem;
+                    color: #ffffff;
+                    opacity: 0.5;
+                    &.active {
+                        background: none;
+                        border-bottom: 4px solid #fff;
+                        border-radius: 0;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+        .tab-content {
+            // height: 70vh;
+            background: linear-gradient(to right, #61245e, #42276f);
+            opacity: 0.8;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+            .tab-pane {
+                .tab-pane-wrap {
+                    display: flex;
+                    .pane-content {
+                        padding: 2rem;
+                        text-align: left;
+                        color: #ffffff;
+                        opacity: 1;
+                    }
+                    .pane-img {
+                        padding: 2rem;
+                        img {
+                            width: 40%;
+                        }
+                    }
+                }
+            }
         }
     }
 }

@@ -131,6 +131,125 @@
         </div>
       </div>
     </section>
+
+    <section class="hirexp-products">
+      <div class="container">
+        <div class="row">
+          <div class="products-heading">
+            Get ahead of the curve with our superior automation services.
+          </div>
+
+          <div class="row">
+            <div class="tabs">
+              <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    id="pills-home-tab"
+                    data-toggle="pill"
+                    href="#pills-home"
+                    role="tab"
+                    aria-controls="pills-home"
+                    aria-selected="true"
+                    >Recruitment Software</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    id="pills-profile-tab"
+                    data-toggle="pill"
+                    href="#pills-profile"
+                    role="tab"
+                    aria-controls="pills-profile"
+                    aria-selected="false"
+                    >Amara-AI Chatbot</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    id="pills-contact-tab"
+                    data-toggle="pill"
+                    href="#pills-contact"
+                    role="tab"
+                    aria-controls="pills-contact"
+                    aria-selected="false"
+                    >Onboarding</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    id="pills-contact-tab"
+                    data-toggle="pill"
+                    href="#pills-worm"
+                    role="tab"
+                    aria-controls="pills-contact"
+                    aria-selected="false"
+                    >Keep Worm</a
+                  >
+                </li>
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="pills-home"
+                  role="tabpanel"
+                  aria-labelledby="pills-home-tab"
+                >
+                  <div class="tab-pane-wrap">
+                    <div class="pane-content">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Perferendis quod blanditiis consequatur voluptatum earum
+                      pariatur voluptatibus magni odit itaque delectus quisquam
+                      asperiores aut voluptatem, accusantium consectetur,
+                      sapiente ex nisi tempora!
+                    </div>
+                    <div class="pane-img">
+                      <img src="../assets/images/home/2.jpg" />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-profile"
+                  role="tabpanel"
+                  aria-labelledby="pills-profile-tab"
+                >
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
+                  doloremque laborum cupiditate sapiente. Minus ex dolor dolorum
+                  sapiente architecto neque repudiandae, minima reprehenderit
+                  nemo mollitia earum porro corrupti, iure inventore.
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-contact"
+                  role="tabpanel"
+                  aria-labelledby="pills-contact-tab"
+                >
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Similique molestiae dolorem, unde corrupti ipsa praesentium
+                  iste voluptatum ipsam numquam deleniti corporis eveniet
+                  inventore, recusandae culpa fugit animi voluptas id obcaecati.
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-worm"
+                  role="tabpanel"
+                  aria-labelledby="pills-wirm-tab"
+                >
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Similique molestiae dolorem, unde corrupti ipsa praesentium
+                  iste voluptatum ipsam numquam deleniti corporis eveniet
+                  inventore, recusandae culpa fugit animi voluptas id obcaecati.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
