@@ -30,5 +30,10 @@
         <router-link to="/home">Home Page</router-link>
       </a>
     </div>
+    <div class="row">
+      <a href="" target="_blank">
+        <router-link to="/home-new">Home Page new</router-link>
+      </a>
+    </div>
   </div>
 </template>
