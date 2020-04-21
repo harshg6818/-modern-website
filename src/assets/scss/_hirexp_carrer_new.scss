@@ -1,0 +1,270 @@
+// hirexp nav start
+.hirexp-nav {
+    background: linear-gradient(90deg, #42276f, #911f42);
+    .navbar-collapse {
+        .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    color: #ffffff;
+                    &:hover {
+                        border-bottom: 3px solid #ffffff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
+
+// hirexp nav end
+// header section start
+.hirexp-intro {
+    margin-top: 65px;
+    .intro-container {
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        min-height: 100%;
+        .leftandin {
+            width: 100%;
+            z-index: 3;
+            .outer-left {
+                background: #ffffff;
+                display: inline-block;
+                min-height: calc(100vh - 115px);
+                height: 100%;
+                width: 100%;
+                text-align: left;
+                .delay-06s {
+                    animation-delay: 0.6s;
+                    -webkit-animation-delay: 0.6s;
+                }
+                .title {
+                    font-size: 3em;
+                    color: #122e8a;
+                    font-weight: 600;
+                    width: 40%;
+                    letter-spacing: 1.5px;
+                    position: absolute;
+                    margin-top: 3em;
+                    z-index: 1;
+                }
+                .description {
+                    font-size: 1.8em;
+                    color: #122e8a;
+                    position: absolute;
+                    margin-top: 17rem;
+                    z-index: 1;
+                    width: 30%
+                }
+                .cta {
+                    background: rgb(213, 113, 24);
+                    background: -moz-linear-gradient(90deg, #42276f, #911f42);
+                    background: -webkit-linear-gradient(90deg, #42276f, #911f42);
+                    background: linear-gradient(90deg, #42276f, #911f42);
+                    border: none;
+                    border-radius: 12px;
+                    box-shadow: -1px 2px 7px rgba(213, 78, 24, .4), 1px -1px 7px rgba(7, 6, 25, .4);
+                    color: #e8dff6;
+                    font-size: 1.3em;
+                    letter-spacing: 1px;
+                    margin-top: 22rem;
+                    padding: 0.5em 1em;
+                    position: absolute;
+                    text-shadow: 0px 0px 3px rgba(200, 200, 200, .4);
+                    transition: background-size .9s ease-in;
+                    z-index: 1;
+                    p {
+                        padding: 0;
+                        margin: 0;
+                    }
+                    &:hover {
+                        backface-visibility: hidden;
+                        background-size: 150%;
+                        box-shadow: 1px 2px 7px rgba(213, 78, 24, .3), 1px 1px 10px rgba(7, 6, 25, .3);
+                        cursor: pointer;
+                        text-shadow: 0px 0px 4px rgba(0, 0, 0, .4);
+                        transition: background-size .9s ease-in;
+                        transform: scale(0.98) !important;
+                    }
+                }
+            }
+            .inner {
+                border-top-left-radius: 50vh;
+                box-shadow: inset 0 14px 5px rgba(0, 0, 0, 0.2), inset 0 14px 10px rgba(0, 0, 0, 0.5);
+                display: inline-block;
+                min-height: calc(100vh - 115px);
+                vertical-align: top;
+                position: absolute;
+                right: 0;
+                width: 60%;
+            }
+            #inner1 {
+                background: url('~@/assets/images/thumbNew.jpg');
+                background-size: cover;
+            }
+        }
+    }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    .hirexp-intro {
+        .intro-container {
+            .leftandin {
+                .outer-left {
+                    .title {
+                        font-size: 1.2rem;
+                        width: 50%;
+                        margin-top: 4rem;
+                        margin-left: 1.2rem;
+                    }
+                    .description {
+                        font-size: 0.9rem;
+                        margin-top: 9.5rem;
+                        width: 50%;
+                        margin-left: 1.3rem;
+                    }
+                    .cta {
+                        font-size: 0.8em;
+                        margin-top: 12rem;
+                        margin-left: 1.2 rem;
+                    }
+                }
+                .inner,
+                .outer-left {
+                    height: 300px;
+                    min-height: 300px;
+                }
+                .inner {
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .hirexp-intro {
+        .intro-container {
+            .leftandin {
+                .outer-left {
+                    .title {
+                        font-size: 1.8rem;
+                        width: 50%;
+                        margin-top: 4rem;
+                        margin-left: 0;
+                    }
+                    .description {
+                        font-size: 1.3rem;
+                        margin-top: 9.5rem;
+                        width: 50%;
+                        margin-left: 0;
+                    }
+                    .cta {
+                        font-size: 0.8em;
+                        margin-top: 12rem;
+                        margin-left: 1.2rem;
+                    }
+                }
+                .inner,
+                .outer-left {
+                    height: 300px;
+                    min-height: 300px;
+                }
+                .inner {
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .hirexp-intro {
+        .intro-container {
+            .leftandin {
+                .outer-left {
+                    .title {
+                        font-size: 1.8rem;
+                        width: 50%;
+                        margin-top: 4rem;
+                        margin-left: 0;
+                    }
+                    .description {
+                        font-size: 1.3rem;
+                        margin-top: 9.5rem;
+                        width: 50%;
+                        margin-left: 0;
+                    }
+                    .cta {
+                        font-size: 1em;
+                        margin-top: 12rem;
+                        margin-left: 0;
+                    }
+                }
+                .inner,
+                .outer-left {
+                    height: 300px;
+                    min-height: 300px;
+                }
+                .inner {
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .hirexp-intro {
+        .intro-container {
+            .leftandin {
+                .outer-left {
+                    .title {
+                        font-size: 1.8rem;
+                        width: 50%;
+                        margin-top: 4rem;
+                        margin-left: 0;
+                    }
+                    .description {
+                        font-size: 1.3rem;
+                        margin-top: 9.5rem;
+                        width: 50%;
+                        margin-left: 0;
+                    }
+                    .cta {
+                        font-size: 1em;
+                        margin-top: 12rem;
+                        margin-left: 0;
+                    }
+                }
+                .inner,
+                .outer-left {
+                    height: 300px;
+                    min-height: 300px;
+                }
+            }
+        }
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
+
+// header section end

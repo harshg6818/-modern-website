@@ -498,7 +498,3 @@
     </main>
   </div>
 </template>
-
-<style scoped>
-@import "../assets/css/home-1.css";
-</style>
