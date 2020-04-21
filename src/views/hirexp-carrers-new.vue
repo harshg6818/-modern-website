@@ -6,7 +6,7 @@
         <b-navbar toggleable="lg" fixed="top" class="hirexp-nav">
           <div class="container p-0">
             <b-navbar-brand href="#" class="hirexp-logo">
-              <img src="../assets/logo-light.png" alt="logo-light">
+              <img src="../assets/logo-light.png" alt="logo-light" />
             </b-navbar-brand>
 
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
