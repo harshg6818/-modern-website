@@ -56,6 +56,29 @@
       </div>
     </section>
     <!-- hirexp header end -->
+
+    <!-- hirexp stats start -->
+
+    <section class="hirexp-stats">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 stats">
+            <h1 class="hirexp-stats-num">1 Million+</h1>
+            <div class="hirexp-stats-sub">Applications Processed</div>
+          </div>
+          <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 stats">
+            <h1 class="hirexp-stats-num">95K+</h1>
+            <div class="hirexp-stats-sub">Chats Initiated</div>
+          </div>
+          <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 stats">
+            <h1 class="hirexp-stats-num">27K+</h1>
+            <div class="hirexp-stats-sub">Onboardings Completed</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- hirexp stats end -->
   </div>
 </template>
 

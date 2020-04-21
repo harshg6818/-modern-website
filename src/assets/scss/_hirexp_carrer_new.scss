@@ -8,6 +8,8 @@
                     color: #ffffff;
                     &:hover {
                         border-bottom: 3px solid #ffffff;
+                        transition: 0.5s ease;
+                        margin-bottom: -4px;
                     }
                 }
             }
@@ -35,7 +37,7 @@
 .hirexp-intro {
     margin-top: 65px;
     .intro-container {
-        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        // box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
         min-height: 100%;
         .leftandin {
             width: 100%;
@@ -70,7 +72,6 @@
                     width: 30%
                 }
                 .cta {
-                    background: rgb(213, 113, 24);
                     background: -moz-linear-gradient(90deg, #42276f, #911f42);
                     background: -webkit-linear-gradient(90deg, #42276f, #911f42);
                     background: linear-gradient(90deg, #42276f, #911f42);
@@ -119,7 +120,6 @@
     }
 }
 
-// Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
     .hirexp-intro {
         .intro-container {
@@ -156,7 +156,6 @@
     }
 }
 
-// Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
     .hirexp-intro {
         .intro-container {
@@ -193,7 +192,6 @@
     }
 }
 
-// Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
     .hirexp-intro {
         .intro-container {
@@ -230,7 +228,6 @@
     }
 }
 
-// Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .hirexp-intro {
         .intro-container {
@@ -264,7 +261,65 @@
     }
 }
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {}
-
 // header section end
+// hirexp stats start
+.hirexp-stats {
+    background: linear-gradient(0deg, #fff, #f2faff);
+    box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+    padding: 2rem 0;
+    .stats {
+        padding: 0;
+        margin: 0;
+        .hirexp-stats-num {
+            font-size: 3rem;
+            color: #122e8a;
+            font-weight: 600;
+            line-height: 2rem;
+        }
+        .hirexp-stats-sub {
+            font-size: 1.5rem;
+            color: #122e8a;
+        }
+    }
+}
+
+@media (max-width: 575.98px) {
+    .hirexp-stats {
+        .stats {
+            .hirexp-stats-num {
+                font-size: 1.5rem;
+            }
+            .hirexp-stats-sub {
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .hirexp-stats {
+        .stats {
+            .hirexp-stats-num {
+                font-size: 2rem;
+            }
+            .hirexp-stats-sub {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .hirexp-stats {
+        .stats {
+            .hirexp-stats-num {
+                font-size: 2rem;
+            }
+            .hirexp-stats-sub {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+
+// hirexp stats end
