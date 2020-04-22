@@ -553,6 +553,402 @@
       </div>
     </section>
     <!-- hirexp culture section end -->
+
+    <!-- hirexp team section start -->
+    <section id="team">
+      <b-container class="hirexp-team">
+        <b-row class="p-0 m-0">
+          <b-col>
+            <div class="team-content-wrap">
+              <h2 class="team-heading">Team of HireXP</h2>
+            </div>
+          </b-col>
+        </b-row>
+        <b-row class="p-0 m-0">
+          <b-col class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-one-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-two-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-three-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-four-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-five-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-six-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-seven-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-eight-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-nine-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-ten-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-eleven-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-tweleve-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-thirteen-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-fourteen-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-fifteen-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-sixteen-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-seventeen-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-eighteen-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-nineteen-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front team-twenty-card">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+        </b-row>
+      </b-container>
+    </section>
+    <!-- hirexp team section end -->
   </div>
 </template>
 
