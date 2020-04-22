@@ -368,7 +368,7 @@
         <div
           id="balloon_wrapper_1"
           class="balloon-slider sm-active-balloon animated"
-          style="height: 500px"
+          style="height: 600px"
         >
           <div class="slider-wrapper">
             <div class="balloon-item 1812">
@@ -602,7 +602,7 @@ export default {
   flex-direction: column;
   flex-wrap: wrap;
   width: 100%;
-  height: 500px;
+  height: 600px;
 }
 .balloon-slider.sm-active-balloon > .slider-wrapper {
   animation: transition 35s linear infinite;
@@ -652,8 +652,8 @@ export default {
   min-width: 100vw;
 }
 #balloon_wrapper_1.balloon-slider .balloon-item div div {
-  height: 150px;
-  width: 150px;
+  /* height: 150px; */
+  /* width: 150px; */
 }
 .balloon-slider .balloon-item:nth-child(2n) div div {
   animation: bubbles-second 5s ease-in-out infinite;
