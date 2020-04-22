@@ -17,7 +17,7 @@
                   <b-nav-item href="/">Home</b-nav-item>
                   <b-nav-item href="#about">About Us</b-nav-item>
                   <b-nav-item href="#">Culture & Celebrations</b-nav-item>
-                  <b-nav-item href="#">Tech @ HireXP</b-nav-item>
+                  <b-nav-item href="#tech">Tech @ HireXP</b-nav-item>
                 </b-navbar-nav>
                 <b-button size="sm" class="my-2 my-sm-0">
                   Get Started
@@ -192,7 +192,6 @@
     <!-- hirexp join section end -->
 
     <!-- hirexp values section start -->
-
     <section class="hirexp-core-values">
       <b-container class="hirexp-core-values-container">
         <b-row class="p-0 m-0">
@@ -345,11 +344,318 @@
         </b-row>
       </b-container>
     </section>
-
     <!-- hirexp values section end -->
+
+    <!-- hirexp tech stack section start -->
+    <section id="tech">
+      <div class="tech-stack-wrap">
+        <b-container>
+          <b-row class="p-0 m-0">
+            <b-col>
+              <div class="stack-content-wrap">
+                <div class="stack-icon">
+                  <img src="../assets/stack.png" alt="stack icon" />
+                </div>
+                <h2 class="tech-stach-heading">Tech Stack At HireXP</h2>
+              </div>
+            </b-col>
+          </b-row>
+        </b-container>
+      </div>
+      <div class="tech-stack-icons">
+        <div
+          id="balloon_wrapper_1"
+          class="balloon-slider sm-active-balloon animated"
+          style="height: 500px"
+        >
+          <div class="slider-wrapper">
+            <div class="balloon-item 1812">
+              <div>
+                <div class="balloon-image android"></div>
+              </div>
+            </div>
+            <div class="balloon-item 1813">
+              <div>
+                <div class="balloon-image angular"></div>
+              </div>
+            </div>
+            <div class="balloon-item 1814">
+              <div>
+                <div class="balloon-image aws"></div>
+              </div>
+            </div>
+            <div class="balloon-item 1815">
+              <div>
+                <div class="balloon-image django"></div>
+              </div>
+            </div>
+            <div class="balloon-item 1816">
+              <div>
+                <div class="balloon-image javascript"></div>
+              </div>
+            </div>
+            <div class="balloon-item 1817">
+              <div>
+                <div class="balloon-image mysql"></div>
+              </div>
+            </div>
+            <div class="balloon-item 1818">
+              <div>
+                <div class="balloon-image postgres"></div>
+              </div>
+            </div>
+            <div class="balloon-item 1821">
+              <div>
+                <div class="balloon-image python"></div>
+              </div>
+            </div>
+            <div class="balloon-item 1831">
+              <div>
+                <div class="balloon-image redis"></div>
+              </div>
+            </div>
+            <div class="balloon-item 2937">
+              <div>
+                <div class="balloon-image selenium"></div>
+              </div>
+            </div>
+            <div class="balloon-item 2981">
+              <div>
+                <div class="balloon-image vuejs"></div>
+              </div>
+            </div>
+            <div class="balloon-item 3068">
+              <div>
+                <div class="balloon-image webpack"></div>
+              </div>
+            </div>
+          </div>
+          <div class="slider-wrapper">
+            <div class="balloon-item 1812">
+              <div>
+                <div class="balloon-image android"></div>
+              </div>
+            </div>
+            <div class="balloon-item 1813">
+              <div>
+                <div class="balloon-image angular"></div>
+              </div>
+            </div>
+            <div class="balloon-item 1814">
+              <div>
+                <div class="balloon-image aws"></div>
+              </div>
+            </div>
+            <div class="balloon-item 1815">
+              <div>
+                <div class="balloon-image django"></div>
+              </div>
+            </div>
+            <div class="balloon-item 1816">
+              <div>
+                <div class="balloon-image javascript"></div>
+              </div>
+            </div>
+            <div class="balloon-item 1817">
+              <div>
+                <div class="balloon-image mysql"></div>
+              </div>
+            </div>
+            <div class="balloon-item 1818">
+              <div>
+                <div class="balloon-image postgres"></div>
+              </div>
+            </div>
+            <div class="balloon-item 1821">
+              <div>
+                <div class="balloon-image python"></div>
+              </div>
+            </div>
+            <div class="balloon-item 1831">
+              <div>
+                <div class="balloon-image redis"></div>
+              </div>
+            </div>
+            <div class="balloon-item 2937">
+              <div>
+                <div class="balloon-image selenium"></div>
+              </div>
+            </div>
+            <div class="balloon-item 2981">
+              <div>
+                <div class="balloon-image vuejs"></div>
+              </div>
+            </div>
+            <div class="balloon-item 3068">
+              <div>
+                <div class="balloon-image webpack"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hirexp tech stack section end -->
   </div>
 </template>
 
 <style lang="scss" scoped>
 @import "../assets/scss/_hirexp_carrer_new.scss";
+</style>
+
+<style scoped>
+.balloon-slider {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+}
+.balloon-slider > .slider-wrapper {
+  transform: translateX(0);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 500px;
+}
+.balloon-slider.sm-active-balloon > .slider-wrapper {
+  animation: transition 35s linear infinite;
+}
+.balloon-slider .balloon-item {
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+.balloon-slider .balloon-item .balloon-image {
+  -webkit-background-size: 70%;
+  -moz-background-size: 70%;
+  -o-background-size: 70%;
+  background-size: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@keyframes transition {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.balloon-slider .balloon-item div {
+  transition: all 5.75s ease-in-out;
+}
+.balloon-slider .balloon-item div div {
+  background: #fff;
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #222;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1), 0 3px 10px rgba(0, 0, 0, 0.07);
+  position: relative;
+  margin: auto;
+  transition: all 0.3s ease-in-out;
+  animation: bubbles-first 5s ease-in-out infinite;
+}
+#balloon_wrapper_1 .slider-wrapper {
+  min-width: 50vw;
+}
+#balloon_wrapper_2 .slider-wrapper {
+  min-width: 100vw;
+}
+#balloon_wrapper_1.balloon-slider .balloon-item div div {
+  height: 150px;
+  width: 150px;
+}
+.balloon-slider .balloon-item:nth-child(2n) div div {
+  animation: bubbles-second 5s ease-in-out infinite;
+}
+.balloon-slider .balloon-item:nth-child(3n + 2) div div {
+  animation: bubbles-third 5s ease-in-out infinite;
+}
+.balloon-slider .balloon-item:nth-child(6n + 2) div div {
+  animation: bubbles-fourth 5s ease-in-out infinite;
+}
+.balloon-slider .balloon-item:nth-child(3n + 2) div {
+  transform: translateX(-200px);
+}
+.balloon-slider .balloon-item:nth-child(3n + 3) {
+  top: 368px;
+}
+.balloon-slider .balloon-item:nth-child(3n + 2) {
+  top: 188px;
+}
+.balloon-slider .balloon-item:nth-child(3n + 1) {
+  top: 8px;
+}
+.balloon-slider .balloon-item:nth-child(2n + 1) div {
+  transform: scale(0.8);
+}
+.balloon-slider .balloon-item:nth-child(4n + 2) div,
+.balloon-slider .balloon-item:nth-child(4n + 4) div {
+  transform: scale(0.7);
+}
+.balloon-slider .balloon-item:nth-child(7n) div {
+  transform: scale(0.8);
+}
+.balloon-slider .balloon-item:nth-child(7n + 1) div {
+  transform: scale(0.7);
+}
+.balloon-slider .balloon-item:nth-child(8n + 4) div {
+  transform: scale(0.8);
+}
+.balloon-slider .balloon-item:nth-child(10n) div {
+  transform: scale(0.7);
+}
+@keyframes bubbles-first {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  40% {
+    transform: translate(5px, 8px);
+  }
+  80% {
+    transform: translate(-5px, 4px);
+  }
+}
+@keyframes bubbles-second {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  40% {
+    transform: translate(-5px, -8px);
+  }
+  80% {
+    transform: translate(5px, -4px);
+  }
+}
+@keyframes bubbles-third {
+  0%,
+  100% {
+    transform: translate(145px, 5px);
+  }
+  40% {
+    transform: translate(150px, -4px);
+  }
+  80% {
+    transform: translate(155px, -5px);
+  }
+}
+@keyframes bubbles-fourth {
+  0%,
+  100% {
+    transform: translate(150px, 2px);
+  }
+  40% {
+    transform: translate(145px, -8px);
+  }
+  80% {
+    transform: translate(155px, 3px);
+  }
+}
 </style>
