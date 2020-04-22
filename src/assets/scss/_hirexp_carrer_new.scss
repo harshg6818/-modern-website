@@ -728,7 +728,7 @@
 // hirexp core values end
 // hirexp tech stack icons start
 .tech-stack-wrap {
-    margin: 4rem 0;
+    padding: 2rem 0;
     .stack-content-wrap {
         .stack-icon {
             img {
@@ -738,6 +738,8 @@
         }
         .tech-stach-heading {
             font-size: 42px;
+            padding: 1rem 0;
+            margin: 0;
             font-weight: 700;
             font-style: normal;
             font-stretch: normal;
@@ -746,6 +748,10 @@
             color: #122e8a;
         }
     }
+}
+
+.tech-stack-icons {
+    padding-bottom: 3rem;
 }
 
 .android {
@@ -817,17 +823,5 @@
         }
     }
 }
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767.98px) {}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991.98px) {}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199.98px) {}
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {}
 
 // hirexp tech stack icons end
