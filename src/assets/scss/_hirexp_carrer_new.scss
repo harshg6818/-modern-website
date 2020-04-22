@@ -323,3 +323,30 @@
 }
 
 // hirexp stats end
+// hirexp about us start
+.hirexp-about-wrap {
+    padding: 2rem 0;
+    .hirexp-about-content-wrap {
+        .hirexp-about-heading {
+            margin: 2rem 0;
+            font-size: 42px;
+            font-weight: 700;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #122e8a;
+        }
+        .hirexp-about-head-sub {
+            margin: 1rem 0;
+            font-size: 18px;
+            font-weight: 300;
+            letter-spacing: 0.2px;
+            font-style: normal;
+            font-stretch: normal;
+            color: #4a4a4a;
+        }
+    }
+}
+
+// hirexp about us end

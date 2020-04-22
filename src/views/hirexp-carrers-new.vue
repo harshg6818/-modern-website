@@ -15,7 +15,7 @@
               <b-navbar-nav class="ml-auto">
                 <b-navbar-nav>
                   <b-nav-item href="#">Home</b-nav-item>
-                  <b-nav-item href="#">About Us</b-nav-item>
+                  <b-nav-item href="#about">About Us</b-nav-item>
                   <b-nav-item href="#">Culture & Celebrations</b-nav-item>
                   <b-nav-item href="#">Tech @ HireXP</b-nav-item>
                 </b-navbar-nav>
@@ -58,7 +58,6 @@
     <!-- hirexp header end -->
 
     <!-- hirexp stats start -->
-
     <section class="hirexp-stats">
       <div class="container">
         <div class="row">
@@ -77,8 +76,25 @@
         </div>
       </div>
     </section>
-
     <!-- hirexp stats end -->
+
+    <!-- hirexp about us start -->
+    <section id="about" class="about">
+      <b-container class="hirexp-about-wrap">
+        <b-row>
+          <b-col class="hirexp-about-content-wrap">
+            <h1 class="hirexp-about-heading">About Us</h1>
+            <div class="hirexp-about-head-sub">
+              At hireXP our most valuable resource is people! We have been able
+              to change the landscape of HR technologies, benchmark our products
+              and put customer-first only because of the brilliant ideas by our
+              people and never give-up attitude.
+            </div>
+          </b-col>
+        </b-row>
+      </b-container>
+    </section>
+    <!-- hirexp about us end -->
   </div>
 </template>
 
