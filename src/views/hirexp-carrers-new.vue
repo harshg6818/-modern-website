@@ -60,7 +60,7 @@
     <!-- hirexp stats start -->
     <section class="hirexp-stats">
       <div class="container">
-        <div class="row">
+        <div class="row p-0 m-0">
           <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 stats">
             <h1 class="hirexp-stats-num">1 Million+</h1>
             <div class="hirexp-stats-sub">Applications Processed</div>
@@ -99,7 +99,7 @@
     <!-- hirexp join section start -->
     <section id="join">
       <b-container class="hirexp-join-wrap">
-        <b-row>
+        <b-row class="p-0 m-0">
           <b-col>
             <div class="hirexp-join-content-wrap">
               <div class="hirexp-join-icon">
@@ -115,7 +115,7 @@
             </div>
           </b-col>
         </b-row>
-        <b-row>
+        <b-row class="p-0 m-0">
           <b-col class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 p-0 m-0">
             <div class="content card-one">
               <a class="card" href="#!">
@@ -190,6 +190,163 @@
       </b-container>
     </section>
     <!-- hirexp join section end -->
+
+    <!-- hirexp values section start -->
+
+    <section class="hirexp-core-values">
+      <b-container class="hirexp-core-values-container">
+        <b-row class="p-0 m-0">
+          <b-col>
+            <div class="hirexp-core-values-content-wrap">
+              <div class="core-values-icon">
+                <img src="../assets/values-icon.png" alt="values icon" />
+              </div>
+              <h2 class="core-values-heading">Our values</h2>
+              <div class="core-value-sub">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi,
+                possimus ex. Deserunt est reiciendis necessit atibus harum.
+              </div>
+            </div>
+          </b-col>
+        </b-row>
+        <b-row class="p-0 m-0">
+          <b-col class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div
+                  class="front"
+                  style="background-image: url(https://images.unsplash.com/photo-1584910643800-540e9e31ce32?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=401&ixlib=rb-1.2.1&q=80&w=300);"
+                >
+                  <p>Lorem ipsum dolor sit amet consectetur adipisi.</p>
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div
+                  class="front"
+                  style="background-image: url(https://images.unsplash.com/photo-1584910643800-540e9e31ce32?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=401&ixlib=rb-1.2.1&q=80&w=300);"
+                >
+                  <p>Lorem ipsum dolor sit amet consectetur adipisi.</p>
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div
+                  class="front"
+                  style="background-image: url(https://images.unsplash.com/photo-1584910643800-540e9e31ce32?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=401&ixlib=rb-1.2.1&q=80&w=300);"
+                >
+                  <p>Lorem ipsum dolor sit amet consectetur adipisi.</p>
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div
+                  class="front"
+                  style="background-image: url(https://images.unsplash.com/photo-1584910643800-540e9e31ce32?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=401&ixlib=rb-1.2.1&q=80&w=300);"
+                >
+                  <p>Lorem ipsum dolor sit amet consectetur adipisi.</p>
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div
+                  class="front"
+                  style="background-image: url(https://images.unsplash.com/photo-1584910643800-540e9e31ce32?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=401&ixlib=rb-1.2.1&q=80&w=300);"
+                >
+                  <p>Lorem ipsum dolor sit amet consectetur adipisi.</p>
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+          <b-col class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div
+                  class="front"
+                  style="background-image: url(https://images.unsplash.com/photo-1584910643800-540e9e31ce32?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=401&ixlib=rb-1.2.1&q=80&w=300);"
+                >
+                  <p>Lorem ipsum dolor sit amet consectetur adipisi.</p>
+                </div>
+                <div class="back">
+                  <div>
+                    <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                    <p>
+                      Provident consectetur natus voluptatem quis tenetur sed
+                      beatae eius sint.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </b-col>
+        </b-row>
+      </b-container>
+    </section>
+
+    <!-- hirexp values section end -->
   </div>
 </template>
 
