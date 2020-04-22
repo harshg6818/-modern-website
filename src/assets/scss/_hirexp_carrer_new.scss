@@ -825,3 +825,66 @@
 }
 
 // hirexp tech stack icons end
+// hirexp culture start
+.culture-wrap {
+    padding: 2rem 0;
+    .culture-content-wrap {
+        .culture-heading {
+            font-size: 42px;
+            padding: 1rem 0;
+            margin: 0;
+            font-weight: 700;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #122e8a;
+        }
+    }
+}
+
+@media (max-width: 575.98px) {
+    .culture-slider {
+        .gallery {
+            img {
+                height: 40vh;
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .culture-slider {
+        .gallery {
+            img {
+                height: 65vh;
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .culture-slider {
+        .gallery {
+            img {
+                height: 75vh;
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .culture-slider {
+        .gallery {
+            img {
+                height: 85vh;
+                width: 100%;
+            }
+        }
+    }
+}
+
+// hirexp culture end

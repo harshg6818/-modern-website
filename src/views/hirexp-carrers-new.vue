@@ -16,7 +16,9 @@
                 <b-navbar-nav>
                   <b-nav-item href="/">Home</b-nav-item>
                   <b-nav-item href="#about">About Us</b-nav-item>
-                  <b-nav-item href="#">Culture & Celebrations</b-nav-item>
+                  <b-nav-item href="#culture"
+                    >Culture & Celebrations</b-nav-item
+                  >
                   <b-nav-item href="#tech">Tech @ HireXP</b-nav-item>
                 </b-navbar-nav>
                 <b-button size="sm" class="my-2 my-sm-0">
@@ -496,8 +498,91 @@
       </div>
     </section>
     <!-- hirexp tech stack section end -->
+
+    <!-- hirexp culture section start -->
+    <section id="culture" class="gallery-swiper animated fadeIn">
+      <div class="culture-wrap">
+        <b-container>
+          <b-row class="p-0 m-0">
+            <b-col>
+              <div class="culture-content-wrap">
+                <h2 class="culture-heading">Culture At HireXP</h2>
+              </div>
+            </b-col>
+          </b-row>
+        </b-container>
+      </div>
+      <div class="culture-slider">
+        <swiper class="swiper" :options="swiperOption">
+          <swiper-slide>
+            <p>tag line for slide one</p>
+            <div class="gallery animated fadeInRightBig">
+              <div class="image-one">
+                <img
+                  src="../assets/images/culture/culture-1.png"
+                  alt="culture-1"
+                />
+              </div>
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <p>tag line for slide two</p>
+            <div class="gallery animated fadeInRightBig">
+              <div class="image-two">
+                <img
+                  src="../assets/images/culture/culture-2.png"
+                  alt="culture-2"
+                />
+              </div>
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <p>tag line for slide three</p>
+            <div class="gallery animated fadeInRightBig">
+              <div class="image-three">
+                <img
+                  src="../assets/images/culture/culture-3.png"
+                  alt="culture-3"
+                />
+              </div>
+            </div>
+          </swiper-slide>
+          <div class="swiper-button-prev" slot="button-prev"></div>
+          <div class="swiper-button-next" slot="button-next"></div>
+        </swiper>
+      </div>
+    </section>
+    <!-- hirexp culture section end -->
   </div>
 </template>
+
+<script>
+import { Swiper, SwiperSlide } from "vue-awesome-swiper";
+import "swiper/css/swiper.css";
+
+export default {
+  name: "HirexpCarrers",
+
+  components: {
+    SwiperSlide,
+    Swiper
+  },
+
+  data() {
+    return {
+      swiperOption: {
+        autoplay: {
+          delay: 5000
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev"
+        }
+      }
+    };
+  }
+};
+</script>
 
 <style lang="scss" scoped>
 @import "../assets/scss/_hirexp_carrer_new.scss";
