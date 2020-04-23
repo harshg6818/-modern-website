@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <a href="" target="_blank">
-        <router-link to="/carrer">Carrer Page</router-link>
+        <router-link to="/carrer-new">Carrer Page</router-link>
       </a>
     </div>
     <div class="row">
@@ -35,10 +35,10 @@
         <router-link to="/home-new">Home Page new</router-link>
       </a>
     </div> -->
-    <div class="row">
+    <!-- <div class="row">
       <a href="" target="_blank">
         <router-link to="/carrer-new">Carrer Page new</router-link>
       </a>
-    </div>
+    </div> -->
   </div>
 </template>

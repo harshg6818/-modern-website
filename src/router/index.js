@@ -2,7 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import About from "../views/hirexp-about.vue";
-import Carrer from "../views/hirexp-carrer.vue";
+// import Carrer from "../views/hirexp-carrer.vue";
 import Customers from "../views/hirexp-customers.vue";
 import GetStart from "../views/hirexp-getStart.vue";
 import Roi from "../views/hirexp-roi.vue";
@@ -18,11 +18,11 @@ const routes = [
     name: "Home",
     component: Home
   },
-  {
-    path: "/carrer",
-    name: "Carrer",
-    component: Carrer
-  },
+  // {
+  //   path: "/carrer",
+  //   name: "Carrer",
+  //   component: Carrer
+  // },
   {
     path: "/about",
     name: "About",
