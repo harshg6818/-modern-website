@@ -1415,3 +1415,65 @@
 }
 
 // hirexp media and awards section end
+// get started section start
+.get-started {
+    .cta {
+        // background-image: linear-gradient(0deg, #fff, #f2faff);
+        min-height: 60vh;
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        padding: 4rem 0;
+        .get-started {
+            position: relative;
+            z-index: 2;
+            padding: 4rem 4rem;
+            display: flex;
+            flex-flow: column;
+            flex: 0 0 auto;
+            background: #fff;
+            border-radius: 2rem;
+            box-shadow: 0 3rem 3rem 0 rgba(138, 162, 173, 0.3);
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            color: #131c24;
+            &:before {
+                content: "";
+                height: 1.5rem;
+                background: linear-gradient(90deg, #61245e, #42276f 90%);
+                // background: linear-gradient(270deg, #31bd95, #7dd47a 22%, #7cccfa 42%, #26a0e6 57%, #ca8bdb 78%, #7148bd);
+                width: 100%;
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+            .bold {
+                font-weight: 600;
+                font-size: 3.8rem;
+                line-height: 1.2;
+            }
+            h3 {
+                margin-top: 1rem;
+                font-size: 2rem;
+                font-weight: 500;
+            }
+            .get-started__actions {
+                background: linear-gradient(90deg, #61245e, #42276f 90%);
+                padding: 0.5rem 1.5rem;
+                color: #fff;
+                font-size: 1.5rem;
+                font-weight: 500;
+                border-radius: 50px;
+                margin-top: 1.5rem;
+                a {
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
+
+// get started section end

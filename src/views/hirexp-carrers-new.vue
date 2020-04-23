@@ -1280,6 +1280,25 @@
       </b-container>
     </section>
     <!-- hirexp media and awards section end -->
+
+    <!-- get started section start -->
+    <section class="get-started">
+      <div class="cta cta--default">
+        <div class="container">
+          <div class="get-started">
+            <h1 class="bold">Ready to get <span>started</span>?</h1>
+            <h3>Create a free account in just <strong>2 minutes</strong></h3>
+
+            <div class="get-started__actions">
+              <div class="get-started__action get-started__action--primary">
+                <a class="btn btn--primary btn--large" href="#">Get Started</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- get started section end -->
   </div>
 </template>
 
