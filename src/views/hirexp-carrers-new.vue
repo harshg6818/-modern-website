@@ -1188,11 +1188,6 @@
           </div>
         </div>
       </div>
-      <!-- <div class="container">
-        <div class="row">
-          
-        </div>
-      </div> -->
     </section>
     <!-- hirexp perks and benifts section end -->
 
@@ -1207,7 +1202,7 @@
         </div>
       </b-container>
       <b-container class="hirexp-awards-container">
-        <b-row>
+        <b-row class="p-0 m-0">
           <b-col class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-0 m-0">
             <div class="content">
               <a class="card" href="#!">
