@@ -21,7 +21,11 @@
                   >
                   <b-nav-item href="#tech">Tech @ HireXP</b-nav-item>
                 </b-navbar-nav>
-                <b-button href="#openings" size="sm" class="my-2 my-sm-0">
+                <b-button
+                  href="#openings"
+                  size="sm"
+                  class="my-2 my-sm-0 get-start-button"
+                >
                   Get Started
                 </b-button>
               </b-navbar-nav>
