@@ -962,22 +962,22 @@
           </b-col>
         </b-row>
         <b-row class="p-0 m-0">
-          <b-col class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+          <b-col class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
             <div class="hirexp-location">
               <img src="../assets/svg/banglore.svg" alt="banglore" />
             </div>
           </b-col>
-          <b-col class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+          <b-col class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
             <div class="hirexp-location">
               <img src="../assets/svg/dubai.svg" alt="dubai" />
             </div>
           </b-col>
-          <b-col class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+          <b-col class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
             <div class="hirexp-location">
               <img src="../assets/svg/gurugram.svg" alt="gurugram" />
             </div>
           </b-col>
-          <b-col class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+          <b-col class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
             <div class="hirexp-location">
               <img src="../assets/svg/manila.svg" alt="manila" />
             </div>
@@ -1102,6 +1102,99 @@
       </b-container>
     </section>
     <!-- hirexp job openings section end -->
+
+    <!-- hirexp perks and benifts section start -->
+    <section class="hirexp-perks-section">
+      <div class="container hirexp-perks-head">
+        <div class="hirexp-perks-heading">Perks and Benefits</div>
+        <p class="hirexp-perks-sub">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+          provident commodi enim eveniet accusamus.
+        </p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 perks-card">
+            <div class="perks-card-icon">
+              <i class="fas fa-store-alt"></i>
+            </div>
+            <h4 class="perks-card-heading">Environment</h4>
+            <p class="perks-card-sub">
+              Our modern offices are comfortable, light and thoughtfully
+              designed. Both sites offer creative work spaces, a well-stocked
+              communal kitchen, and good access to transport links and city
+              life.
+            </p>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 perks-card">
+            <div class="perks-card-icon">
+              <i class="fas fa-store-alt"></i>
+            </div>
+            <h4 class="perks-card-heading">Equipment</h4>
+            <p class="perks-card-sub">
+              Our modern offices are comfortable, light and thoughtfully
+              designed. Both sites offer creative work spaces, a well-stocked
+              communal kitchen, and good access to transport links and city
+              life.
+            </p>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 perks-card">
+            <div class="perks-card-icon">
+              <i class="fas fa-store-alt"></i>
+            </div>
+            <h4 class="perks-card-heading">Rewards</h4>
+            <p class="perks-card-sub">
+              Our modern offices are comfortable, light and thoughtfully
+              designed. Both sites offer creative work spaces, a well-stocked
+              communal kitchen, and good access to transport links and city
+              life.
+            </p>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 perks-card">
+            <div class="perks-card-icon">
+              <i class="fas fa-store-alt"></i>
+            </div>
+            <h4 class="perks-card-heading">Environment</h4>
+            <p class="perks-card-sub">
+              Our modern offices are comfortable, light and thoughtfully
+              designed. Both sites offer creative work spaces, a well-stocked
+              communal kitchen, and good access to transport links and city
+              life.
+            </p>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 perks-card">
+            <div class="perks-card-icon">
+              <i class="fas fa-store-alt"></i>
+            </div>
+            <h4 class="perks-card-heading">Equipment</h4>
+            <p class="perks-card-sub">
+              Our modern offices are comfortable, light and thoughtfully
+              designed. Both sites offer creative work spaces, a well-stocked
+              communal kitchen, and good access to transport links and city
+              life.
+            </p>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 perks-card">
+            <div class="perks-card-icon">
+              <i class="fas fa-store-alt"></i>
+            </div>
+            <h4 class="perks-card-heading">Rewards</h4>
+            <p class="perks-card-sub">
+              Our modern offices are comfortable, light and thoughtfully
+              designed. Both sites offer creative work spaces, a well-stocked
+              communal kitchen, and good access to transport links and city
+              life.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="container">
+        <div class="row">
+          
+        </div>
+      </div> -->
+    </section>
+    <!-- hirexp perks and benifts section end -->
   </div>
 </template>
 

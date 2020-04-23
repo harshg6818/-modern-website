@@ -1215,3 +1215,40 @@
 }
 
 // hirexp job openings section end
+// hirexp perks and benifts section start
+.hirexp-perks-section {
+    // background-color: #e3e8eb;
+    .hirexp-perks-head {
+        padding: 2em 0;
+        .hirexp-perks-heading {
+            font-size: 2.8rem;
+            font-weight: 700;
+            color: #342b7e;
+        }
+        .hirexp-perks-sub {
+            font-size: 1rem;
+            line-height: 2.2rem;
+        }
+    }
+    .perks-card {
+        .perks-card-icon {
+            text-align: left;
+            font-size: 1.5rem;
+            padding-bottom: 0.5rem;
+            color: #342b7e;
+        }
+        .perks-card-heading {
+            text-align: left;
+            font-weight: 700;
+        }
+        .perks-card-sub {
+            text-align: left;
+            font-size: 1rem;
+            line-height: 2.2rem;
+            font-weight: 400;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+// hirexp perks and benifts section end
