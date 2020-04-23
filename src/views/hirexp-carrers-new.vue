@@ -21,7 +21,7 @@
                   >
                   <b-nav-item href="#tech">Tech @ HireXP</b-nav-item>
                 </b-navbar-nav>
-                <b-button size="sm" class="my-2 my-sm-0">
+                <b-button href="#openings" size="sm" class="my-2 my-sm-0">
                   Get Started
                 </b-button>
               </b-navbar-nav>
@@ -46,7 +46,7 @@
               <p class="description animated fadeInDown delay-06s">
                 Come build with us.
               </p>
-              <a class="fadeIn">
+              <a class="fadeIn" href="#openings">
                 <button class="cta animated pulse">
                   <p class="animated fadeIn delay-06s">View Openings</p>
                 </button>
@@ -949,6 +949,159 @@
       </b-container>
     </section>
     <!-- hirexp team section end -->
+
+    <!-- hirexp job openings section start -->
+    <section id="openings">
+      <b-container class="hirexp-openings-section">
+        <b-row class="p-0 m-0">
+          <b-col>
+            <div class="hirexp-opening-icon">
+              <i class="fas fa-briefcase"></i>
+            </div>
+            <h2 class="hirexp-openings-heading">Job openings</h2>
+          </b-col>
+        </b-row>
+        <b-row class="p-0 m-0">
+          <b-col class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+            <div class="hirexp-location">
+              <img src="../assets/svg/banglore.svg" alt="banglore" />
+            </div>
+          </b-col>
+          <b-col class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+            <div class="hirexp-location">
+              <img src="../assets/svg/dubai.svg" alt="dubai" />
+            </div>
+          </b-col>
+          <b-col class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+            <div class="hirexp-location">
+              <img src="../assets/svg/gurugram.svg" alt="gurugram" />
+            </div>
+          </b-col>
+          <b-col class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+            <div class="hirexp-location">
+              <img src="../assets/svg/manila.svg" alt="manila" />
+            </div>
+          </b-col>
+        </b-row>
+      </b-container>
+      <b-container class="hirexp-jobs">
+        <b-row>
+          <b-col class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+            <a class="job-card-wrap" href="/">
+              <div class="job-card-container">
+                <div class="job-card">
+                  <div class="job-card-title">
+                    <h2>Product Manager</h2>
+                  </div>
+                  <div class="job-card-details">
+                    <p class="job-card-location">
+                      <i class="fas fa-map-marker-alt"></i>
+                      Gurgaon
+                    </p>
+                    <p class="job-card-stack">
+                      <i class="fas fa-users"></i>
+                      Tech
+                    </p>
+                    <p class="job-card-exp">
+                      <i class="fas fa-briefcase"></i>
+                      3 years
+                    </p>
+                  </div>
+                  <div class="job-card-button">
+                    <span>View job</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </b-col>
+          <b-col class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+            <a class="job-card-wrap" href="/">
+              <div class="job-card-container">
+                <div class="job-card">
+                  <div class="job-card-title">
+                    <h2>Product Manager</h2>
+                  </div>
+                  <div class="job-card-details">
+                    <p class="job-card-location">
+                      <i class="fas fa-map-marker-alt"></i>
+                      Gurgaon
+                    </p>
+                    <p class="job-card-stack">
+                      <i class="fas fa-users"></i>
+                      Tech
+                    </p>
+                    <p class="job-card-exp">
+                      <i class="fas fa-briefcase"></i>
+                      3 years
+                    </p>
+                  </div>
+                  <div class="job-card-button">
+                    <span>View job</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </b-col>
+          <b-col class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+            <a class="job-card-wrap" href="/">
+              <div class="job-card-container">
+                <div class="job-card">
+                  <div class="job-card-title">
+                    <h2>Product Manager</h2>
+                  </div>
+                  <div class="job-card-details">
+                    <p class="job-card-location">
+                      <i class="fas fa-map-marker-alt"></i>
+                      Gurgaon
+                    </p>
+                    <p class="job-card-stack">
+                      <i class="fas fa-users"></i>
+                      Tech
+                    </p>
+                    <p class="job-card-exp">
+                      <i class="fas fa-briefcase"></i>
+                      3 years
+                    </p>
+                  </div>
+                  <div class="job-card-button">
+                    <span>View job</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </b-col>
+          <b-col class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+            <a class="job-card-wrap" href="/">
+              <div class="job-card-container">
+                <div class="job-card">
+                  <div class="job-card-title">
+                    <h2>Product Manager</h2>
+                  </div>
+                  <div class="job-card-details">
+                    <p class="job-card-location">
+                      <i class="fas fa-map-marker-alt"></i>
+                      Gurgaon
+                    </p>
+                    <p class="job-card-stack">
+                      <i class="fas fa-users"></i>
+                      Tech
+                    </p>
+                    <p class="job-card-exp">
+                      <i class="fas fa-briefcase"></i>
+                      3 years
+                    </p>
+                  </div>
+                  <div class="job-card-button">
+                    <span>View job</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </b-col>
+        </b-row>
+      </b-container>
+    </section>
+    <!-- hirexp job openings section end -->
   </div>
 </template>
 
@@ -985,6 +1138,7 @@ export default {
 </style>
 
 <style scoped>
+@import url("https://use.fontawesome.com/releases/v5.0.13/css/all.css");
 .balloon-slider {
   display: flex;
   overflow: hidden;
