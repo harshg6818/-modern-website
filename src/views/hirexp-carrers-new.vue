@@ -1303,6 +1303,177 @@
       </div>
     </section>
     <!-- get started section end -->
+
+    <!-- hirexp footer section start -->
+    <footer class="page-footer font-small pt-4">
+      <div class="footer-social-wrap">
+        <div class="container">
+          <div class="row py-4 d-flex align-items-center">
+            <div
+              class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0"
+            >
+              <h6 class="mb-0 text">
+                Get connected with us on social networks!
+              </h6>
+            </div>
+            <div class="col-md-6 col-lg-7 text-center text-md-right">
+              <!-- Facebook -->
+              <a class="fb-ic">
+                <i class="fab fa-facebook-f text-icon white-text mr-4"> </i>
+              </a>
+              <!-- Twitter -->
+              <a class="tw-ic">
+                <i class="fab fa-twitter white-text text-icon mr-4"> </i>
+              </a>
+              <!--Linkedin -->
+              <a class="li-ic">
+                <i class="fab fa-linkedin-in white-text text-icon mr-4"> </i>
+              </a>
+              <!--Instagram-->
+              <a class="ins-ic">
+                <i class="fab fa-instagram white-text text-icon"> </i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer Links -->
+      <div class="container text-center text-md-left">
+        <!-- Footer links -->
+        <div class="row text-center text-md-left mt-3 pb-3 main-footer">
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+            <p>
+              <a href="#!">Recruitment Software</a>
+            </p>
+            <p>
+              <a href="#!">Candidate Experience</a>
+            </p>
+            <p>
+              <a href="#!">Onboarding Software</a>
+            </p>
+            <p>
+              <a href="#!">Keep WARM</a>
+            </p>
+            <p>
+              <a href="#!">Amara</a>
+            </p>
+            <p>
+              <a href="#!">Marketplace</a>
+            </p>
+          </div>
+          <hr class="w-100 clearfix d-md-none" />
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">RESOURCES</h6>
+            <p>
+              <a href="#!">Blogs</a>
+            </p>
+            <p>
+              <a href="#!">Webinar & Events</a>
+            </p>
+            <p>
+              <a href="#!">Customers</a>
+            </p>
+            <p>
+              <a href="#!">ROI</a>
+            </p>
+            <p>
+              <a href="#!">HR Tool Kit</a>
+            </p>
+            <p>
+              <a href="#!">Amara Guide</a>
+            </p>
+            <p>
+              <a href="#!">Job Descriptions</a>
+            </p>
+            <p>
+              <a href="#!">Templates</a>
+            </p>
+            <p>
+              <a href="#!">Submit Feedback</a>
+            </p>
+          </div>
+          <hr class="w-100 clearfix d-md-none" />
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">COMPANY</h6>
+            <p>
+              <a href="#!">About Us</a>
+            </p>
+            <p>
+              <a href="#!">News Room</a>
+            </p>
+            <p>
+              <a href="#!">Carrers</a>
+            </p>
+            <p>
+              <a href="#!">Partnerships</a>
+            </p>
+            <p>
+              <a href="#!">Legal Stuff</a>
+            </p>
+            <p>
+              <a href="#!">Contact Us</a>
+            </p>
+          </div>
+          <hr class="w-100 clearfix d-md-none" />
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">SUPPORT</h6>
+            <p>
+              <a href="#!">Services</a>
+            </p>
+            <p>
+              <a href="#!">Help Center</a>
+            </p>
+            <p>
+              <a href="#!">Get Started</a>
+            </p>
+            <p>
+              <a href="#!">Log In</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Footer links -->
+        <hr />
+        <div class="row d-flex align-items-center">
+          <div class="col-md-5">
+            <!--Copyright-->
+            <p class="text-center text-md-left">
+              © 2020 Copyright:
+              <a href="https://hirexp.com">
+                <strong>Squadgain Techlabs Pvt. Ltd.</strong>
+              </a>
+            </p>
+          </div>
+          <div class="col-md-7">
+            <div class="text-center text-md-right">
+              <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                  <a>
+                    Terms & Conditions
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a>
+                    Privacy Policy
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a>
+                    Personal information
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a>
+                    HireXp Status
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
 </template>
 
@@ -1339,7 +1510,7 @@ export default {
 </style>
 
 <style scoped>
-@import url("https://use.fontawesome.com/releases/v5.0.13/css/all.css");
+/* @import url("https://use.fontawesome.com/releases/v5.0.13/css/all.css"); */
 .balloon-slider {
   display: flex;
   overflow: hidden;

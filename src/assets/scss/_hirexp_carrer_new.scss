@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: proxima-nova, helvetica, arial, sans-serif;
+    // font-family: proxima-nova, helvetica, arial, sans-serif;
     scroll-margin: 4rem;
 }
 
@@ -1488,3 +1488,37 @@
 }
 
 // get started section end
+// hirexp footer start
+.page-footer {
+    // background: linear-gradient(90deg, #61245e, #42276f 90%);
+    .footer-social-wrap {
+        background: linear-gradient(90deg, #61245e, #42276f 90%);
+        .text {
+            color: #ffffff;
+        }
+        .text-icon {
+            color: #ffffff;
+            padding: 12px;
+            height: 40px;
+            width: 40px;
+            transition: ease;
+            &:hover {
+                background-color: #ffffff;
+                color: #122e8a;
+                border-radius: 50%;
+                transition: 0.5s ease;
+            }
+        }
+    }
+    .main-footer {
+        // background: linear-gradient(0deg, #fff, #f2faff);
+        a {
+            color: #122e8a;
+            font-weight: 500;
+            &:hover {
+                text-decoration: underline;
+                text-decoration-color: #122e8a;
+            }
+        }
+    }
+}
