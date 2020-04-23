@@ -1195,6 +1195,96 @@
       </div> -->
     </section>
     <!-- hirexp perks and benifts section end -->
+
+    <!-- hirexp media and awards section start -->
+    <section class="hirexp-awards">
+      <b-container class="hirexp-awards-content">
+        <div class="hirexp-awards-icon">
+          <i class="fas fa-trophy"></i>
+        </div>
+        <div class="hirexp-awards-heading">
+          Media and Awards
+        </div>
+      </b-container>
+      <b-container class="hirexp-awards-container">
+        <b-row>
+          <b-col class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front awards-one"></div>
+                <div class="back">
+                  <div>
+                    <p>
+                      hireXP: Rendering quality HR Services through
+                      state-of-the-art technology.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <p>
+              hireXP: Rendering quality HR Services through state-of-the-art
+              technology.
+            </p>
+          </b-col>
+          <b-col class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front awards-two"></div>
+                <div class="back">
+                  <div>
+                    <p>
+                      20 most promising recruitment technology solution
+                      providers.
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <p>20 most promising recruitment technology solution providers.</p>
+          </b-col>
+          <b-col class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front awards-three"></div>
+                <div class="back">
+                  <div>
+                    <p>
+                      Knowlarity CEO invests in recruitment startup HireXP
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <p>Knowlarity CEO invests in recruitment startup HireXP</p>
+          </b-col>
+          <b-col class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-0 m-0">
+            <div class="content">
+              <a class="card" href="#!">
+                <div class="front awards-four"></div>
+                <div class="back">
+                  <div>
+                    <p>
+                      India Dealbook: HireXP, Magicpin raise funds; Marico exits
+                      Bellezimo
+                    </p>
+                    <button class="button">Click Here</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <p>
+              India Dealbook: HireXP, Magicpin raise funds; Marico exits
+              Bellezimo
+            </p>
+          </b-col>
+        </b-row>
+      </b-container>
+    </section>
+    <!-- hirexp media and awards section end -->
   </div>
 </template>
 

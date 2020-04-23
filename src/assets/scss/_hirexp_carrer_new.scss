@@ -1252,3 +1252,167 @@
 }
 
 // hirexp perks and benifts section end
+// hirexp media and awards section start
+.hirexp-awards {
+    margin-top: 2rem;
+    .hirexp-awards-content {
+        .hirexp-awards-icon {
+            font-size: 3rem;
+            color: #342b7e;
+        }
+        .hirexp-awards-heading {
+            font-size: 2.8rem;
+            font-weight: 700;
+            color: #342b7e;
+            // padding-bottom: 2rem;
+        }
+    }
+    .hirexp-awards-container {
+        margin: 2rem 0;
+        .content {
+            display: flex;
+            margin: 0 auto;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            max-width: 1000px;
+            .card {
+                color: inherit;
+                cursor: pointer;
+                width: 100%;
+                height: 170px;
+                min-height: 100%;
+                perspective: 1000px;
+                margin: 1rem;
+                position: relative;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                &:hover .front {
+                    transform: rotateY(180deg);
+                }
+                &:hover .back {
+                    transform: rotateY(0deg);
+                }
+                &:nth-child(even) .back .button {
+                    background: linear-gradient(135deg, #e61a80, #e61a3c);
+                }
+                &:nth-child(even) .back .button:before {
+                    box-shadow: 0 0 10px 10px rgba(230, 26, 60, 0.25);
+                    background-color: rgba(230, 26, 60, 0.25);
+                }
+                .front,
+                .back {
+                    display: flex;
+                    border-radius: 6px;
+                    background-position: center;
+                    background-size: cover;
+                    text-align: center;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    -webkit-backface-visibility: hidden;
+                    backface-visibility: hidden;
+                    transform-style: preserve-3d;
+                    transition: ease-in-out 600ms;
+                }
+                .front {
+                    background-size: cover;
+                    padding: 2rem;
+                    font-size: 1.618rem;
+                    font-weight: 600;
+                    color: #fff;
+                    overflow: hidden;
+                    &:before {
+                        position: absolute;
+                        display: block;
+                        content: "";
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        // background: linear-gradient(135deg, #1a9be6, #1a57e6);
+                        opacity: 0.25;
+                        z-index: -1;
+                    }
+                    &.awards-one {
+                        background: url("~@/assets/images/awards/1.jpg");
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+                    &.awards-two {
+                        background: url("~@/assets/images/awards/2.jpg");
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+                    &.awards-three {
+                        background: url("~@/assets/images/awards/3.jpg");
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+                    &.awards-four {
+                        background: url("~@/assets/images/awards/4.jpg");
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+                }
+                .back {
+                    background: #ffffff;
+                    color: #333;
+                    transform: rotateY(-180deg);
+                    padding: 0 2em;
+                    .button {
+                        transform: translateZ(40px);
+                        cursor: pointer;
+                        -webkit-backface-visibility: hidden;
+                        backface-visibility: hidden;
+                        font-weight: bold;
+                        color: #fff;
+                        padding: 0.5em 1em;
+                        border-radius: 100px;
+                        border: none;
+                        position: relative;
+                        transform-style: preserve-3d;
+                        transition: 300ms ease;
+                        background: linear-gradient(135deg, #1a9be6, #1a57e6);
+                        &:before {
+                            transition: 300ms ease;
+                            position: absolute;
+                            display: block;
+                            content: "";
+                            transform: translateZ(-40px);
+                            -webkit-backface-visibility: hidden;
+                            backface-visibility: hidden;
+                            height: calc(100% - 20px);
+                            width: calc(100% - 20px);
+                            border-radius: 100px;
+                            left: 10px;
+                            top: 16px;
+                            box-shadow: 0 0 10px 10px rgba(26, 87, 230, 0.25);
+                            background-color: rgba(26, 87, 230, 0.25);
+                        }
+                        &:hover {
+                            transform: translateZ(55px);
+                        }
+                        &:hover:before {
+                            transform: translateZ(-55px);
+                        }
+                        &:active {
+                            transform: translateZ(20px);
+                        }
+                        &:active:before {
+                            transform: translateZ(-20px);
+                            top: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// hirexp media and awards section end
